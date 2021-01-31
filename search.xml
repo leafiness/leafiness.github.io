@@ -121,7 +121,12 @@
   <entry>
     <title>Sunrise</title>
     <url>/archives/54959.html</url>
-    <content><![CDATA[<p><img src="/image/00.gif"><br>欢迎来到我的博客<br>这是我的第一条博客！</p>
+    <content><![CDATA[<p><img src="/image/00.gif">  </p>
+<blockquote class="blockquote-center">
+<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
+
+</blockquote>
+
 ]]></content>
   </entry>
   <entry>
