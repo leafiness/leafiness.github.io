@@ -32,15 +32,15 @@
 <meta property="og:site_name" content="MrLee&#39;s Blog">
 <meta property="og:description" content="一、什么是动态规划（Dynamic Programming，DP）  * 1.动态规划是通过组合子问题的解来解决原问题  * 2.动态规划应用于子问题重叠的情况，即不同的子问题具有公共的子子问题  * 3.动态规划算法对每个子子问题只求解一次  * 4.动态规划通常用来求解最优化问题    注：每个子问题必须是离散的，没有依赖关系，比如要解决子问题1 必须通过解决子问题2 才可以解决。  二、背包">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://ljone.top/archives/%5Cimage%5C2020-3-27%5Cimage-0.png">
+<meta property="og:image" content="https://ljone.top/image%5C2020-3-27%5Cimage-0.png">
 <meta property="article:published_time" content="2020-03-27T11:37:00.000Z">
-<meta property="article:modified_time" content="2021-01-31T14:21:18.913Z">
-<meta property="article:author" content="Aris Lee">
+<meta property="article:modified_time" content="2021-02-01T06:01:54.708Z">
+<meta property="article:author" content="LJONE">
 <meta property="article:tag" content="Python">
 <meta property="article:tag" content="Dynamic Programming">
 <meta property="article:tag" content="Data Structure">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://ljone.top/archives/%5Cimage%5C2020-3-27%5Cimage-0.png">
+<meta name="twitter:image" content="https://ljone.top/image%5C2020-3-27%5Cimage-0.png">
 
 
 <link rel="canonical" href="https://ljone.top/archives/64316.html">
@@ -202,10 +202,10 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <a href="/">
-      <img class="site-author-image" itemprop="image" alt="Aris Lee"
+      <img class="site-author-image" itemprop="image" alt="LJONE"
         src="/image/site/avatar.jpg">
   </a>
-  <p class="site-author-name" itemprop="name">Aris Lee</p>
+  <p class="site-author-name" itemprop="name">LJONE</p>
   <div class="site-description" itemprop="description">There is no royal road to learning.</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
@@ -580,7 +580,7 @@ if(canvas.getContext){
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/image/site/avatar.jpg">
-      <meta itemprop="name" content="Aris Lee">
+      <meta itemprop="name" content="LJONE">
       <meta itemprop="description" content="There is no royal road to learning.">
     </span>
 
@@ -680,7 +680,7 @@ if(canvas.getContext){
 </tr>
 </tbody></table>
 <h4 id="三、DP算法思路"><a href="#三、DP算法思路" class="headerlink" title="三、DP算法思路"></a>三、DP算法思路</h4><h5 id="1、传统思路"><a href="#1、传统思路" class="headerlink" title="1、传统思路"></a>1、传统思路</h5><p>&emsp;&emsp;传统思路是将不同物品进行排列组合放入背包，通过比较全部的组合形式以获得最优解，而这种算法是时间复杂度是指数级别，后果就是当子问题越多时计算量将会急剧增长。</p>
-<h5 id="2、DP算法思路"><a href="#2、DP算法思路" class="headerlink" title="2、DP算法思路"></a>2、DP算法思路</h5><p>&emsp;&emsp;DP算法是将主问题分解成若干小问题，自下而上求解子问题。<br>在这里通过将背包容量分割以及不同物品组成网格，每一行物品将对应的网格填充并比较上一行的价值大小。如下：<br><img src="%5Cimage%5C2020-3-27%5Cimage-0.png"><br>具体思路看参考链接。</p>
+<h5 id="2、DP算法思路"><a href="#2、DP算法思路" class="headerlink" title="2、DP算法思路"></a>2、DP算法思路</h5><p>&emsp;&emsp;DP算法是将主问题分解成若干小问题，自下而上求解子问题。<br>在这里通过将背包容量分割以及不同物品组成网格，每一行物品将对应的网格填充并比较上一行的价值大小。如下：<br><img src="/image%5C2020-3-27%5Cimage-0.png"><br>具体思路看参考链接。</p>
 <h4 id="四、代码例程"><a href="#四、代码例程" class="headerlink" title="四、代码例程"></a>四、代码例程</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 这里使用了图解中的吉他，音箱，电脑，手机做的测试，数据保持一致</span></span><br><span class="line">w = [0, 1, 4, 3, 1]   <span class="comment">#n个物体的重量(w[0]无用)</span></span><br><span class="line">p = [0, 1500, 3000, 2000, 2000]   <span class="comment">#n个物体的价值(p[0]无用)</span></span><br><span class="line">n = len(w) - 1   <span class="comment">#计算n的个数</span></span><br><span class="line">m = 4   <span class="comment">#背包的载重量</span></span><br><span class="line"></span><br><span class="line">x = []   <span class="comment">#装入背包的物体，元素为True时，对应物体被装入(x[0]无用)</span></span><br><span class="line">v = 0</span><br><span class="line"><span class="comment">#optp[i][j]表示在前i个物体中，能够装入载重量为j的背包中的物体的最大价值</span></span><br><span class="line">optp = [[0 <span class="keyword">for</span> col <span class="keyword">in</span> range(m + 1)] <span class="keyword">for</span> raw <span class="keyword">in</span> range(n + 1)]</span><br><span class="line"><span class="comment">#optp 相当于做了一个n*m的全零矩阵的赶脚，n行为物件，m列为自背包载重量</span></span><br><span class="line"></span><br><span class="line">def knapsack_dynamic(w, p, n, m, x):</span><br><span class="line">    <span class="comment">#计算optp[i][j]</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(1, n + 1):       <span class="comment"># 物品一件件来</span></span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> range(1, m + 1):   <span class="comment"># j为子背包的载重量，寻找能够承载物品的子背包</span></span><br><span class="line">            <span class="keyword">if</span> (j &gt;= w[i]):         <span class="comment"># 当物品的重量小于背包能够承受的载重量的时候，才考虑能不能放进去</span></span><br><span class="line">                optp[i][j] = max(optp[i - 1][j], optp[i - 1][j - w[i]] + p[i])    <span class="comment"># optp[i - 1][j]是上一个单元的值， optp[i - 1][j - w[i]]为剩余空间的价值</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                optp[i][j] = optp[i - 1][j]</span><br><span class="line">    </span><br><span class="line">    <span class="comment">#递推装入背包的物体,寻找跳变的地方，从最后结果开始逆推</span></span><br><span class="line">    j = m</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(n, 0, -1):</span><br><span class="line">        <span class="keyword">if</span> optp[i][j] &gt; optp[i - 1][j]:</span><br><span class="line">            x.append(i)</span><br><span class="line">            j = j - w[i]  </span><br><span class="line">    </span><br><span class="line">    <span class="comment">#返回最大价值，即表格中最后一行最后一列的值</span></span><br><span class="line">    v = optp[n][m]</span><br><span class="line">    <span class="built_in">return</span> v</span><br><span class="line"> </span><br><span class="line"><span class="built_in">print</span> <span class="string">&#x27;最大值为：&#x27;</span> + str(knapsack_dynamic(w, p, n, m, x))</span><br><span class="line"><span class="built_in">print</span> <span class="string">&#x27;物品的索引：&#x27;</span>,x</span><br><span class="line"></span><br><span class="line"><span class="comment">#最大值为：4000</span></span><br><span class="line"><span class="comment">#物品的索引： [4, 3]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/MrLevo520/article/details/75676160">动态规划(DP)的整理-Python描述</a></p>
 
@@ -763,7 +763,7 @@ if(canvas.getContext){
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Aris Lee</span>
+  <span class="author" itemprop="copyrightHolder">LJONE</span>
 </div>
 <div class="wordcount">
   <span class="post-meta-item">
@@ -779,8 +779,6 @@ if(canvas.getContext){
     <span title="站点阅读时长">29 分钟</span>
   </span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
-  </div>
 
   <script>
     var OriginTitle = document.title;
