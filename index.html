@@ -129,10 +129,11 @@
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
         <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">7</span></a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">21</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">22</span></a></li>
         <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">22</span></a></li>
         <li class="menu-item menu-item-notes"><a href="/notes/" rel="section"><i class="fa fa-user fa-fw"></i>随记</a></li>
         <li class="menu-item menu-item-more"><a href="/more/" rel="section"><i class="fa fa-list-ul fa-fw"></i>更多</a></li>
+        <li class="menu-item menu-item-stars"><a href="/stars/" rel="section"><i class="fas fa-star fa-fw"></i>收藏</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -219,7 +220,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">21</span>
+        <span class="site-state-item-count">22</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -239,7 +240,7 @@
       <div class="links-of-blogroll-title" style="font-size:15px">
         <!-- modify icon to fire by szw -->
         <i class="fa fa-history fa-" aria-hidden="true"></i>
-        近期文章
+        最新文章
       </div>
       <ul class="links-of-blogroll-list">
         
@@ -417,7 +418,7 @@ var canvas = document.getElementById('canvas');
 if(canvas.getContext){
     var cxt = canvas.getContext('2d');
     //声明canvas的宽高
-    var H = 200,W = 1400;
+    var H = 100,W = 700;
     canvas.height = H;
     canvas.width = W;
     cxt.fillStyle = '#f00';
@@ -506,7 +507,7 @@ if(canvas.getContext){
     /*渲染*/
     function render(){
         //重置画布宽度，达到清空画布的效果
-        canvas.height = 200;
+        canvas.height = 100;
         //渲染时钟
         for(var i = 0; i < data.length; i++){
             renderDigit(i,data[i]);
@@ -630,6 +631,97 @@ if(canvas.getContext){
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/54959.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/12215.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/image/site/avatar.jpg">
+      <meta itemprop="name" content="LJONE">
+      <meta itemprop="description" content="There is no royal road to learning.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="MrLee's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/archives/12215.html" class="post-title-link" itemprop="url">MyTest</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2018-05-18 16:35:00" itemprop="dateCreated datePublished" datetime="2018-05-18T16:35:00+08:00">2018-05-18</time>
+    </span>
+
+  
+    <i class="fa fa-thumb-tack" style="color: #EB6D39"></i>
+    <font color=EB6D39>置顶</font>
+    <span class="post-meta-divider">|</span>
+  
+
+
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>234</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          测试用！！！
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/archives/12215.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -847,7 +939,7 @@ Y轴镜像：Y；
     <div class="post-body" itemprop="articleBody">
           行内与独行
  1. 行内公式：将公式插入到本行内，符号：$公式内容$，如：$xyz$
- 2. 独行公式：将公式插入到新的一行内，并且居中，符号：$$公式内容 $$，如：$$xyz$$
+ 2. 独行公式：将公式插入到新的一行内，并且居中，符号：$$公式内容$$，如：$$xyz$$
 
 上标、下标与组合
  1. 上标符号，符号：^，如：$x^4$
@@ -857,7 +949,7 @@ Y轴镜像：Y；
 汉字、字体与格式
  1. 汉字形式，符号：\mbox{}，如：$V_{\mbox{初始}}$
  2. 字体控制，符号：\displaystyle，如：$\displaystyle \frac{x+y}{y+z}$
- 3. 下划线符号，符
+ 3. 下划线符号，符号
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/44899.html#more" rel="contents">
@@ -1151,14 +1243,14 @@ Y轴镜像：Y；
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>187</span>
+      <span>13k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>11 分钟</span>
     </span>
 </div>
 
@@ -1173,15 +1265,40 @@ Y轴镜像：Y；
 
 
 
-Next官方文档
-Next主题仓库
+1、文章永久链接
+我们可以发现 hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。
 
-1、Next 主题美化
-2、Hexo 搭建个人博客文章汇总（next 8.0）
-3、Hexo框架(十三)：关于博客主题持续更新的问题和我的新配置方式（next 8.0）
-4、Hexo+NexT搭建博客笔记（较全)
-5、hexo的next主题个性化教程:打造炫酷网站
-6、为 Hexo 的 Next 主题添加 Gitalk 评论
+这种链接对搜索爬虫是很不友好的，第一它的 url 结构超过了三层，太深了。
+下面我推荐一种方式：安装 hexo-abbrlink
+
+1
+
+
+npm install hexo-abbrlink --save
+
+
+ 然后配置’站点配置文件_config.yml’：
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+
+
+# URL
+url: https://blog.juanertu.com
+root: /
+#修改
+permal
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/21360.html#more" rel="contents">
@@ -1616,117 +1733,6 @@ where 栏位名 > xxx
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/13739.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/image/site/avatar.jpg">
-      <meta itemprop="name" content="LJONE">
-      <meta itemprop="description" content="There is no royal road to learning.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="MrLee's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/archives/13739.html" class="post-title-link" itemprop="url">东软冬训营 Java篇</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2019-01-12 18:12:48" itemprop="dateCreated datePublished" datetime="2019-01-12T18:12:48+08:00">2019-01-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
-        </span>
-    </span>
-
-  
-
-
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>1.2k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          1.整数与小数
-小数 除以 0 = 无穷 (小数中没有绝对的零)
-整数 除以 0 无意义
-2.字符串
-a)获取字符串长度
-String str = “123456789”;
-int size = str.length();
-b)字符串截取
-//截取从a位置到b位置的字符串，a，b为字符串位置下标
-String str1 = str.substring(a,b+1); //前包含，后不包含
-c)判断字符串是否相等
-str1.equals(str2);
-d)获取字符串 下标对应的字符
-str1.charAt(下标)；
-3.强制类型转换
-Integer.parseInt(str); //字符串型强制
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/archives/13739.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
@@ -1773,13 +1779,13 @@ Integer.parseInt(str); //字符串型强制
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">32k</span>
+    <span title="站点总字数">45k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">29 分钟</span>
+    <span title="站点阅读时长">41 分钟</span>
   </span>
 </div>
 
@@ -1925,5 +1931,5 @@ show_date_time();
 
 
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
 </html>

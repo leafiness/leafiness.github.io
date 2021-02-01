@@ -131,10 +131,11 @@
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
         <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">7</span></a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">21</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">22</span></a></li>
         <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">22</span></a></li>
         <li class="menu-item menu-item-notes"><a href="/notes/" rel="section"><i class="fa fa-user fa-fw"></i>随记</a></li>
         <li class="menu-item menu-item-more"><a href="/more/" rel="section"><i class="fa fa-list-ul fa-fw"></i>更多</a></li>
+        <li class="menu-item menu-item-stars"><a href="/stars/" rel="section"><i class="fas fa-star fa-fw"></i>收藏</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -221,7 +222,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">21</span>
+        <span class="site-state-item-count">22</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -241,7 +242,7 @@
       <div class="links-of-blogroll-title" style="font-size:15px">
         <!-- modify icon to fire by szw -->
         <i class="fa fa-history fa-" aria-hidden="true"></i>
-        近期文章
+        最新文章
       </div>
       <ul class="links-of-blogroll-list">
         
@@ -419,7 +420,7 @@ var canvas = document.getElementById('canvas');
 if(canvas.getContext){
     var cxt = canvas.getContext('2d');
     //声明canvas的宽高
-    var H = 200,W = 1400;
+    var H = 100,W = 700;
     canvas.height = H;
     canvas.width = W;
     cxt.fillStyle = '#f00';
@@ -508,7 +509,7 @@ if(canvas.getContext){
     /*渲染*/
     function render(){
         //重置画布宽度，达到清空画布的效果
-        canvas.height = 200;
+        canvas.height = 100;
         //渲染时钟
         for(var i = 0; i < data.length; i++){
             renderDigit(i,data[i]);
@@ -723,13 +724,13 @@ if(canvas.getContext){
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">32k</span>
+    <span title="站点总字数">45k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">29 分钟</span>
+    <span title="站点阅读时长">41 分钟</span>
   </span>
 </div>
 
@@ -875,5 +876,5 @@ show_date_time();
 
 
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
 </html>
