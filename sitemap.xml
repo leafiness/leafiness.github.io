@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ljone.top/stars/allStars.json</loc>
+    
+    <lastmod>2021-02-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://ljone.top/stars/index.html</loc>
     
     <lastmod>2021-02-01</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>https://ljone.top/archives/21360.html</loc>
-    
-    <lastmod>2021-02-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/stars/allStars.json</loc>
     
     <lastmod>2021-02-01</lastmod>
     
@@ -242,20 +242,6 @@
 
   
   <url>
-    <loc>https://ljone.top/tags/Altium-Designer/</loc>
-    <lastmod>2021-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/PCB/</loc>
-    <lastmod>2021-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ljone.top/tags/%E7%A4%BA%E4%BE%8B/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
@@ -284,14 +270,14 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/Markdown/</loc>
+    <loc>https://ljone.top/tags/Altium-Designer/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/test/</loc>
+    <loc>https://ljone.top/tags/PCB/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -312,6 +298,13 @@
   </url>
   
   <url>
+    <loc>https://ljone.top/tags/Markdown/</loc>
+    <lastmod>2021-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ljone.top/tags/%E5%AF%84%E5%AD%98%E5%99%A8/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
@@ -320,34 +313,6 @@
   
   <url>
     <loc>https://ljone.top/tags/Ubuntu/</loc>
-    <lastmod>2021-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/Java/</loc>
-    <lastmod>2021-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/Dynamic-Programming/</loc>
-    <lastmod>2021-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/Data-Structure/</loc>
-    <lastmod>2021-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/HTML/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -368,14 +333,28 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/hexo-admin/</loc>
+    <loc>https://ljone.top/tags/Dynamic-Programming/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/mysql/</loc>
+    <loc>https://ljone.top/tags/Data-Structure/</loc>
+    <lastmod>2021-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/tags/test/</loc>
+    <lastmod>2021-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/tags/hexo-admin/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -389,20 +368,34 @@
   </url>
   
   <url>
+    <loc>https://ljone.top/tags/Java/</loc>
+    <lastmod>2021-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/tags/HTML/</loc>
+    <lastmod>2021-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ljone.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://ljone.top/categories/Altium-Designer/</loc>
+    <loc>https://ljone.top/tags/mysql/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
+  
+
   
   <url>
     <loc>https://ljone.top/categories/%E7%A4%BA%E4%BE%8B/</loc>
@@ -419,7 +412,7 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/categories/Markdown/</loc>
+    <loc>https://ljone.top/categories/Altium-Designer/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -427,6 +420,13 @@
   
   <url>
     <loc>https://ljone.top/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2021-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/categories/Markdown/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
