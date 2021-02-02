@@ -2,21 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ljone.top/stars/allStars.json</loc>
+    <loc>https://ljone.top/more/index.html</loc>
     
-    <lastmod>2021-02-01</lastmod>
+    <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>https://ljone.top/stars/index.html</loc>
+    <loc>https://ljone.top/archives/cd4d50e8.html</loc>
     
-    <lastmod>2021-02-01</lastmod>
+    <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
     <loc>https://ljone.top/archives/21360.html</loc>
+    
+    <lastmod>2021-02-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/archives/12215.html</loc>
+    
+    <lastmod>2021-02-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/stars/allStars.json</loc>
+    
+    <lastmod>2021-02-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/stars/index.html</loc>
     
     <lastmod>2021-02-01</lastmod>
     
@@ -45,13 +66,6 @@
   
   <url>
     <loc>https://ljone.top/archives/44899.html</loc>
-    
-    <lastmod>2021-02-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/archives/12215.html</loc>
     
     <lastmod>2021-02-01</lastmod>
     
@@ -177,20 +191,6 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/more/index.html</loc>
-    
-    <lastmod>2020-08-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/about/index.html</loc>
-    
-    <lastmod>2020-03-25</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://ljone.top/games/index.html</loc>
     
     <lastmod>2020-03-25</lastmod>
@@ -242,7 +242,14 @@
 
   
   <url>
-    <loc>https://ljone.top/tags/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://ljone.top/tags/Altium-Designer/</loc>
+    <lastmod>2021-02-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/tags/PCB/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -270,14 +277,21 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/Altium-Designer/</loc>
+    <loc>https://ljone.top/tags/%E7%A4%BA%E4%BE%8B/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/PCB/</loc>
+    <loc>https://ljone.top/tags/Markdown/</loc>
+    <lastmod>2021-02-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/tags/Blog/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -298,7 +312,7 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/Markdown/</loc>
+    <loc>https://ljone.top/tags/test/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -319,20 +333,6 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/Hexo/</loc>
-    <lastmod>2021-02-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/Blog/</loc>
-    <lastmod>2021-02-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ljone.top/tags/Dynamic-Programming/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
@@ -347,7 +347,7 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/test/</loc>
+    <loc>https://ljone.top/tags/Hexo/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -398,7 +398,7 @@
 
   
   <url>
-    <loc>https://ljone.top/categories/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://ljone.top/categories/Altium-Designer/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -412,14 +412,7 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/categories/Altium-Designer/</loc>
-    <lastmod>2021-02-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://ljone.top/categories/%E7%A4%BA%E4%BE%8B/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -433,14 +426,21 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://ljone.top/categories/Hexo/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://ljone.top/categories/Hexo/</loc>
+    <loc>https://ljone.top/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2021-02-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

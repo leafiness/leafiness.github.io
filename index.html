@@ -142,7 +142,7 @@
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
         <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">7</span></a></li>
         <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">22</span></a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">22</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">23</span></a></li>
         <li class="menu-item menu-item-notes"><a href="/notes/" rel="section"><i class="fa fa-user fa-fw"></i>随记</a></li>
         <li class="menu-item menu-item-more"><a href="/more/" rel="section"><i class="fa fa-list-ul fa-fw"></i>更多</a></li>
         <li class="menu-item menu-item-stars"><a href="/stars/" rel="section"><i class="fas fa-star fa-fw"></i>收藏</a></li>
@@ -219,7 +219,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">23</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -249,13 +249,17 @@
 
 
     <div class="links-of-blogroll motion-element links-of-blogroll-block">
-      <div class="links-of-blogroll-title" style="font-size:15px">
+      <div class="links-of-blogroll-title" style="font-size:16px">
         <!-- modify icon to fire by szw -->
         <i class="fa fa-history fa-" aria-hidden="true"></i>
         最新文章
       </div>
-      <ul class="links-of-blogroll-list">
+      <ul class="links-of-blogroll-list" style="font-size:14px">
         
+        
+          <li>
+            <a href="/archives/cd4d50e8.html" title="Markdown使用记录" target="_blank">Markdown使用记录</a>
+          </li>
         
           <li>
             <a href="/archives/29590.html" title="AD快捷键" target="_blank">AD快捷键</a>
@@ -271,10 +275,6 @@
         
           <li>
             <a href="/archives/64316.html" title="动态规划—背包问题（Python）" target="_blank">动态规划—背包问题（Python）</a>
-          </li>
-        
-          <li>
-            <a href="/archives/21360.html" title="Next主题美化" target="_blank">Next主题美化</a>
           </li>
         
       </ul>
@@ -734,6 +734,168 @@ if(canvas.getContext){
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/12215.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/cd4d50e8.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/image/site/avatar.jpg">
+      <meta itemprop="name" content="LJONE">
+      <meta itemprop="description" content="There is no royal road to learning.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="西瓜丢了芝麻">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/archives/cd4d50e8.html" class="post-title-link" itemprop="url">Markdown使用记录</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-02-02 19:33:00" itemprop="dateCreated datePublished" datetime="2021-02-02T19:33:00+08:00">2021-02-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a>
+        </span>
+    </span>
+
+  
+
+
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>651</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          1、代码增减标识
+代码块中有代码增减替换时，着色标识，格式如下：
+
+1
+2
+3
+4
+
+
+```diff
++ 增加
+- 删减
+``'
+
+
+效果如下：
+
+1
+2
+
+
++ 增加
+- 删减
+
+
+2、引用居中显示（适用于Next主题）
+格式：
+
+1
+2
+3
+
+
+{% cq %} 
+引用内容
+{% endcq %}
+
+
+效果：
+
+故乡啊，挨着碰着，都是带刺的花。
+——小林一茶
+
+3、区块
+效果：
+
+区块引用
+菜鸟教程
+学的不仅是技术更是梦想
+
+参考：Markdown区块语法
+
+
+
+
+4、字体大小、颜色、居中
+格式：
+
+1
+2
+3
+4
+5
+
+
+<font face="黑体">我是黑体</font>
+<fon
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/archives/cd4d50e8.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1255,14 +1417,14 @@ Y轴镜像：Y；
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>13k</span>
+      <span>14k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>11 分钟</span>
+      <span>13 分钟</span>
     </span>
 </div>
 
@@ -1624,127 +1786,6 @@ hexo s
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/18771.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/image/site/avatar.jpg">
-      <meta itemprop="name" content="LJONE">
-      <meta itemprop="description" content="There is no royal road to learning.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="西瓜丢了芝麻">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/archives/18771.html" class="post-title-link" itemprop="url">东软冬训营 SQL篇</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2019-01-16 08:12:48" itemprop="dateCreated datePublished" datetime="2019-01-16T08:12:48+08:00">2019-01-16</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
-        </span>
-    </span>
-
-  
-
-
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>2.9k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          (1.16)
-
-
-1.常见数据库
-oracle：免费，服务收费
-DB2 ：金融，证券，稳定性强
-mysql ：
-2.数据类型
-varchar()： 可变长度，占用设定长度内的最小值
-char() : 固定长度，数据占用长度固定不变
-decimal(,): 小数，需指定长度和小数位数
-3.常用 SQL 命令
-a)添加数据
-insert into 表名(栏位,…)
-values(值,…)
-注意：
-i) 个数对应
-ii) 类型对应
-iii)非空列必须给值
-b)查询
-select * from 表名 //全部
-select *from 表名
-where 栏位名 > xxx
-
-    //包含元素查询
-
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/archives/18771.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
@@ -1791,13 +1832,13 @@ where 栏位名 > xxx
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">45k</span>
+    <span title="站点总字数">47k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">41 分钟</span>
+    <span title="站点阅读时长">43 分钟</span>
   </span>
 </div>
 
@@ -1943,5 +1984,5 @@ show_date_time();
 
 
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"live2d-widget-model-hijiki"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
 </html>
