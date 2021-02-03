@@ -31,6 +31,20 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题</title>
+    <url>/archives/6c5790f9.html</url>
+    <content><![CDATA[<p>占坑位</p>
+<hr>
+<p>参考：<br>1、<a href="http://hongwan.xyz/netlify%E5%92%8Ccloudflare%E4%B8%8Ezeit%E6%90%AD%E9%85%8Djsdelivr%E7%BB%99Hexo%E5%8D%9A%E5%AE%A2cdn%E5%8A%A0%E9%80%9F%E5%AF%B9%E6%AF%94.html">netlify和cloudflare与zeit搭配jsdelivr给Hexo博客cdn加速对比</a><br>2、<a href="https://zpjiang.me/2020/01/15/let-baidu-index-github-page">解决百度爬虫无法爬取 Github Pages 个人博客的问题</a><br>3、<a href="https://snow.js.org/hexo-vercel/">#Hexo：将你的博客部署到 Vercel</a>（主题不错）</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown使用记录</title>
     <url>/archives/cd4d50e8.html</url>
     <content><![CDATA[<h2 id="1、代码增减标识"><a href="#1、代码增减标识" class="headerlink" title="1、代码增减标识"></a>1、代码增减标识</h2><p>代码块中有代码增减替换时，着色标识，格式如下：</p>
@@ -66,8 +80,8 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Markdown</tag>
         <tag>Blog</tag>
+        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -487,8 +501,8 @@
     <url>/archives/21360.html</url>
     <content><![CDATA[<p>Next主题设置及美化，打造自己的个性化主题。</p>
 <p><img src="/image/2020-3-21/image-1.png"></p>
-<h2 id="1、文章永久链接"><a href="#1、文章永久链接" class="headerlink" title="1、文章永久链接"></a>1、文章永久链接</h2><p>我们可以发现 hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。</p>
-<p>这种链接对搜索爬虫是很不友好的，第一它的 url 结构超过了三层，太深了。<br>下面我推荐一种方式：安装 hexo-abbrlink</p>
+<h2 id="1、文章永久链接"><a href="#1、文章永久链接" class="headerlink" title="1、文章永久链接"></a>1、文章永久链接</h2><p>Hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。</p>
+<p>这种链接对搜索爬虫很不友好，它的 url 结构超过三层，太深。<br>安装 hexo-abbrlink</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
 <p> 然后配置’站点配置文件_config.yml’：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://blog.juanertu.com</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"><span class="comment">#修改</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:categories/:abbrlink.html</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment">#添加</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span> <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span> <span class="comment"># 进制：dec(default) and hex</span></span><br></pre></td></tr></table></figure>
