@@ -45,8 +45,9 @@
 <meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-6.png">
 <meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-7.png">
 <meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-8.png">
+<meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-9.png">
 <meta property="article:published_time" content="2021-02-03T15:20:00.000Z">
-<meta property="article:modified_time" content="2021-02-04T13:55:50.176Z">
+<meta property="article:modified_time" content="2021-02-04T15:44:15.060Z">
 <meta property="article:author" content="LJONE">
 <meta property="article:tag" content="Blog">
 <meta name="twitter:card" content="summary">
@@ -643,13 +644,6 @@ if(canvas.getContext){
     </span>
 
   
-    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">阅读次数：</span>
-      <span id="busuanzi_value_page_pv"></span>
-    </span>
 
     <span class="post-meta-item" title="本文字数">
       <span class="post-meta-item-icon">
@@ -677,7 +671,7 @@ if(canvas.getContext){
         <p>近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。同时，由于 Coding 部署利用了腾讯的 OSS 和 CDN 资源需要收费，而我作为新版 Coding 的新用户不能向老用户一样白嫖，这显然不符合我白嫖走天下的理念。经过一番寻找最终找到了部署至 Vercel 的方案。</p>
 <div class="note info"><h2 id="Vercel"><a href="#Vercel" class="headerlink" title="Vercel"></a>Vercel</h2><p>原名 Zeit，服务器在美国，在港台有 CDN 节点，提供自定义 xxx.now.sh 和 xxx.vercel.app 域名，且支持免费绑定个人域名，同时可以解决百度爬虫问题。最大的好处就是可以绑定 GitHub 账号，由 GitHub 托管Hexo博客源码，Vercel 导入博客源码，当检测到仓库改动后自动进行部署。</p>
 </div>
-<p>下面进行Vercel部署的介绍。</p>
+<p>下面进行 Vercel 部署的介绍。</p>
 <h2 id="仓库导入与部署"><a href="#仓库导入与部署" class="headerlink" title="仓库导入与部署"></a>仓库导入与部署</h2><div class="note warning"><p>在开始之前，请准备</p>
 <ul>
 <li>一个 GitHub 账号（注意不能绑有 QQ 邮箱）</li>
@@ -686,16 +680,30 @@ if(canvas.getContext){
 </div>
 
 <p>进入 <a target="_blank" rel="noopener" href="https://vercel.com/">Vercel</a> 官网，注册账号，点击 <code>Continue with GitHub</code>。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-0.png"><br>过程中会弹出如下对话框,此图截取自参考链接 3 的博主文章，他给的建议是<code>All repo</code>,但我选择的<code>Only</code>,只不过再导入 GitHub 其他项目时需要重新走一遍流程，可自己根据情况选择。<br><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-4.png"><br>授权完成后，选择 <code>Import Git Repository</code> ，点击 <code>Continue</code>，进入如下界面。输入你的仓库 url（https）。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-1.png"><br>填写仓库名，点击 <code>Continue</code>,创建Vercel仓库用于存储导入的文件。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-2.png"><br>填写项目名称选择框架，默认即可，点击<code>Deploy</code>。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-3.png"><br>等待 Vercel 部署完成，点击 <code>Visit</code>即可浏览。<br><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-5.png" alt=" "><br>在首页可以看到 Vercel 提供的两个域名，如果没有自定义域名需求的话到这里就可以结束了。<br><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-6.png" alt=" "></p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-0.png"></p>
+<p>过程中会弹出如下对话框,此图截取自参考链接 3 的博主文章，他给的建议是<code>All repo</code>,但我选择的<code>Only</code>,只不过再导入 GitHub 其他项目时需要重新走一遍流程，可自己根据情况选择。</p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-4.png"></p>
+<p>授权完成后，选择 <code>Import Git Repository</code> ，点击 <code>Continue</code>，进入如下界面。输入你的仓库 url（https）。</p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-1.png"></p>
+<p>填写仓库名，点击 <code>Continue</code>,创建Vercel仓库用于存储导入的文件。</p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-2.png"></p>
+<p>填写项目名称选择框架，默认即可，点击<code>Deploy</code>。</p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-3.png"></p>
+<p>等待 Vercel 部署完成，点击 <code>Visit</code>即可浏览。</p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-5.png" alt=" "></p>
+<p>在首页可以看到 Vercel 提供的两个域名，如果没有自定义域名需求的话到这里就可以结束了。</p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-6.png" alt=" "></p>
 <h2 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h2><p>进入项目设置，找到 <code>Domains</code>，在 <code>Add</code> 前面的输入框内输入要自定义的域名地址，再点击 <code>Add</code> 即可。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-7.png" alt=" "><br>在下方会显示 <code>Invalid Configuration</code> 提示，并给出两种验证方式。<br><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-8.png"><br>此时，可以选择添加 DNS 解析记录</p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-7.png" alt=" "></p>
+<p>在下方会显示 <code>Invalid Configuration</code> 提示，并给出两种验证方式。</p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-8.png"></p>
+<p>此时，可以选择添加 DNS 解析记录</p>
 <blockquote>
 <p>添加 A 类型，主机记录 <code>@ </code>，记录值为 <code>76.76.21.21</code>。<br>添加 CNAME 类型，主机记录 <code>@ </code>，记录值为 <code>cname.vercel-dns.com</code>。</p>
 </blockquote>
-<p>添加完成后，稍等片刻便会在自定义域名下方显示通过的提示，有时解析正常 仍然显示 <code>Invalid Configuration</code>，只要可以通过自定义域名访问博客便可忽略。<br>到这里，整个部署过程就结束了，通过此方式百度便可进行爬虫，接下来就该去到百度提交站点地图等待收录了。</p>
+<p>添加完成后，稍等片刻便会在自定义域名下方显示通过的提示，有时解析正常 仍然显示 <code>Invalid Configuration</code>，只要可以通过自定义域名访问博客便可忽略。</p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-9.png" alt="upload successful"></p>
+<p>到这里，整个部署过程就结束了，通过此方式百度便可进行爬虫，接下来就该去到百度提交站点地图等待收录了。</p>
 <hr>
 <p>参考：<br>1、<a target="_blank" rel="noopener" href="http://hongwan.xyz/netlify%E5%92%8Ccloudflare%E4%B8%8Ezeit%E6%90%AD%E9%85%8Djsdelivr%E7%BB%99Hexo%E5%8D%9A%E5%AE%A2cdn%E5%8A%A0%E9%80%9F%E5%AF%B9%E6%AF%94.html">netlify和cloudflare与zeit搭配jsdelivr给Hexo博客cdn加速对比</a><br>2、<a target="_blank" rel="noopener" href="https://zpjiang.me/2020/01/15/let-baidu-index-github-page">解决百度爬虫无法爬取 Github Pages 个人博客的问题</a><br>3、<a target="_blank" rel="noopener" href="https://snow.js.org/hexo-vercel/">Hexo：将你的博客部署到 Vercel</a>（主题不错）</p>
 
