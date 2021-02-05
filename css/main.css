@@ -3112,27 +3112,28 @@ span#inline-purple {
   border-radius: 0;
   background-color: #9954bb;
 }
+/*
+// 背景
 body {
-  background-image: url("http://ww1.sinaimg.cn/large/006aAI48ly1gnd01au8sej31c40w2tja.jpg");
-  height: 100%;
-  width: 100%;
-  background-repeat: repeat-x;
+  background-image:url('http://ww1.sinaimg.cn/large/006aAI48ly1gnd01au8sej31c40w2tja.jpg');
+  height:100%;
+  width:100%;
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  background-size:cover;
+}
+*/
+body {
+  background-image: url("/image/site/bg.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-/*
-// 背景图片
-body {
-  background-image: url(/image/site/bg.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  // background-position: center;
-  background-size: cover;
-  +mobile() {
+@media (max-width: 767px) {
+  body {
     background-size: auto auto;
   }
 }
-*/
 .main-inner {
   opacity: 0.95;
 }
