@@ -3124,7 +3124,7 @@ body {
 }
 */
 body {
-  background-image: url("/image/site/bg.jpg");
+  background-image: url("http://ww1.sinaimg.cn/large/006aAI48ly1gnczraun0ej31c40w2tja.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

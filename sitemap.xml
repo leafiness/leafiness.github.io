@@ -263,6 +263,20 @@
   </url>
   
   <url>
+    <loc>https://ljone.top/tags/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/tags/Blog/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ljone.top/tags/Linux/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
@@ -291,27 +305,6 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/%E7%A4%BA%E4%BE%8B/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/Blog/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/test/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ljone.top/tags/NIOS-II/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
@@ -320,6 +313,13 @@
   
   <url>
     <loc>https://ljone.top/tags/%E5%AE%9A%E6%97%B6%E5%99%A8/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/tags/test/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -354,21 +354,14 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/Hexo/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/hexo-admin/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ljone.top/tags/Java/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/tags/mysql/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -382,7 +375,14 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/mysql/</loc>
+    <loc>https://ljone.top/tags/Hexo/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/tags/hexo-admin/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -412,20 +412,6 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/categories/Deepin/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/categories/Markdown/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ljone.top/categories/%E7%A4%BA%E4%BE%8B/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
@@ -434,6 +420,20 @@
   
   <url>
     <loc>https://ljone.top/categories/Hexo/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/categories/Deepin/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ljone.top/categories/Markdown/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
