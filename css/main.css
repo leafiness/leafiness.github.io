@@ -3112,8 +3112,19 @@ span#inline-purple {
   border-radius: 0;
   background-color: #9954bb;
 }
+/*
+// 背景
 body {
-  background-image: url("https://image-1253491707.file.myqcloud.com/bg.webp/none");
+  background-image:url(/image/site/bg.jpg);
+  height:100%;
+  width:100%;
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  background-size:cover;
+}
+*/
+body {
+  background-image: url("/image/site/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -3122,6 +3133,18 @@ body {
   body {
     background-size: auto auto;
   }
+}
+.main-inner {
+  opacity: 0.95;
+}
+.sidebar {
+  opacity: 0.95;
+}
+.header-inner {
+  background: rgba(255,255,255,0.95);
+}
+.popup {
+  opacity: 0.95;
 }
 .headband {
   display: none;
@@ -3172,3 +3195,17 @@ body {
   }
 }
 */
+.brand {
+  color: #fff !important;
+}
+a {
+  color: #000 !important;
+}
+.sidebar p,
+.sidebar span,
+.sidebar a {
+  color: #000;
+}
+.footer-inner {
+  color: #fff;
+}

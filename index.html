@@ -630,7 +630,7 @@ if(canvas.getContext){
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>234</span>
+      <span>6</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -1422,14 +1422,14 @@ Y轴镜像：Y；
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>15k</span>
+      <span>16k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>14 分钟</span>
+      <span>15 分钟</span>
     </span>
 </div>
 
@@ -1444,40 +1444,27 @@ Y轴镜像：Y；
 
 
 
-1、文章永久链接
-Hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。
-
-这种链接对搜索爬虫很不友好，它的 url 结构超过三层，太深。
-安装 hexo-abbrlink
-
-1
-
-
-npm install hexo-abbrlink --save
-
-
- 然后配置’站点配置文件_config.yml’：
+1、代码块折叠
+当文章中添加代码过长时，会对文章的阅读和显示造成不好的体验，折叠代码块是一种很好的解决方式
+书写格式：
 
 1
 2
 3
 4
-5
-6
-7
-8
-9
-10
-11
-12
-13
 
 
-# URL
-url: https://blog.juanertu.com
-root: /
-#修改
-permalink: :categories/:abbrl
+<details>
+  <summary>标题</summary>
+	详细内容
+</details>
+
+
+原理：采用 HTML5 中的新标签，因此这不能算是对 Next 主题的美化。
+summary 标签作为 details 元素的标题，details 元素用于描述有关文档或文档片段的详细信息。
+与 details 一起使用,标题是可见的，当用户点击标题时会显示出详细信息。
+
+缺点：兼容性不好，只有 
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/21360.html#more" rel="contents">
@@ -1888,33 +1875,12 @@ show_date_time();
   </footer>
 
   
-  <script size="750" alpha="0.7" zIndex="-1" src="https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
-  <script>
-  if (CONFIG.page.isPost) {
-    wpac_init = window.wpac_init || [];
-    wpac_init.push({
-      widget: 'Rating',
-      id    : 29199,
-      el    : 'wpac-rating',
-      color : '#fc6423'
-    });
-    (function() {
-      if ('WIDGETPACK_LOADED' in window) return;
-      WIDGETPACK_LOADED = true;
-      var mc = document.createElement('script');
-      mc.type = 'text/javascript';
-      mc.async = true;
-      mc.src = '//embed.widgetpack.com/widget.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
-    })();
-  }
-  </script>
 <script src="/js/local-search.js"></script>
 
 
