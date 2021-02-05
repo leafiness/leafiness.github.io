@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Deepin + Python编译环境搭建</title>
-    <url>/archives/23569.html</url>
-    <content><![CDATA[<h5 id="一、Linux使用"><a href="#一、Linux使用" class="headerlink" title="一、Linux使用"></a>一、Linux使用</h5><p>1、安装软件：sudo apt-get install 软件名  <br>2、卸载软件：sudo apt autoremove 软件名        同时删除无用依赖<br>3、启动器重启：sudo service lightdm restart<br>4、dpkg：<br> &emsp;&emsp;&emsp;&emsp;-i：安装软件包；  <br> &emsp;&emsp;&emsp;&emsp;-r：删除软件包；<br> &emsp;&emsp;&emsp;&emsp;-P：删除软件包的同时删除其配置文件；<br> &emsp;&emsp;&emsp;&emsp;-L：显示于软件包关联的文件；<br> &emsp;&emsp;&emsp;&emsp;-l：显示已安装软件包列表；<br> &emsp;&emsp;&emsp;&emsp;–unpack：解开软件包；<br> &emsp;&emsp;&emsp;&emsp;-c：显示软件包内文件列表；<br> &emsp;&emsp;&emsp;&emsp;–confiugre：配置软件包。<br>5、sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade -y<br>6、<a href="https://www.cnblogs.com/xuxinstyle/p/9609551.html">linux常用命令（50个）</a><br>7、<a href="https://qv2ray.github.io/">VPN工具：Qv2ray</a></p>
-<h5 id="二、Python开发环境搭建"><a href="#二、Python开发环境搭建" class="headerlink" title="二、Python开发环境搭建"></a>二、Python开发环境搭建</h5><p>1、<a href="https://jingyan.baidu.com/article/ff42efa97dc89c809f22023f.html">Deepin V20 升级python版本</a><br>2、<a href="https://blog.csdn.net/zhangziju/article/details/80398908">Deepin之anaconda和pycharm的安装</a><br>3、<a href="https://blog.csdn.net/wanttifa/article/details/83995460">Deepin(linux)下安装anaconda3</a><br>4、<a href="https://blog.csdn.net/Just_youHG/article/details/104686642">解决激活anaconda Linux终端出现”(base)”问题</a></p>
-]]></content>
-      <categories>
-        <category>Deepin</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Python</tag>
-        <tag>Deepin</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AD快捷键</title>
     <url>/archives/29590.html</url>
     <content><![CDATA[<p>走线状态，+tab，改变线宽；<br>2d线状态，+shift+tab ，切换倒角方式；<br>crtl+左键 ：高亮选中网络；</p>
@@ -131,6 +116,21 @@
       </categories>
       <tags>
         <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Deepin + Python编译环境搭建</title>
+    <url>/archives/23569.html</url>
+    <content><![CDATA[<h5 id="一、Linux使用"><a href="#一、Linux使用" class="headerlink" title="一、Linux使用"></a>一、Linux使用</h5><p>1、安装软件：sudo apt-get install 软件名  <br>2、卸载软件：sudo apt autoremove 软件名        同时删除无用依赖<br>3、启动器重启：sudo service lightdm restart<br>4、dpkg：<br> &emsp;&emsp;&emsp;&emsp;-i：安装软件包；  <br> &emsp;&emsp;&emsp;&emsp;-r：删除软件包；<br> &emsp;&emsp;&emsp;&emsp;-P：删除软件包的同时删除其配置文件；<br> &emsp;&emsp;&emsp;&emsp;-L：显示于软件包关联的文件；<br> &emsp;&emsp;&emsp;&emsp;-l：显示已安装软件包列表；<br> &emsp;&emsp;&emsp;&emsp;–unpack：解开软件包；<br> &emsp;&emsp;&emsp;&emsp;-c：显示软件包内文件列表；<br> &emsp;&emsp;&emsp;&emsp;–confiugre：配置软件包。<br>5、sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade -y<br>6、<a href="https://www.cnblogs.com/xuxinstyle/p/9609551.html">linux常用命令（50个）</a><br>7、<a href="https://qv2ray.github.io/">VPN工具：Qv2ray</a></p>
+<h5 id="二、Python开发环境搭建"><a href="#二、Python开发环境搭建" class="headerlink" title="二、Python开发环境搭建"></a>二、Python开发环境搭建</h5><p>1、<a href="https://jingyan.baidu.com/article/ff42efa97dc89c809f22023f.html">Deepin V20 升级python版本</a><br>2、<a href="https://blog.csdn.net/zhangziju/article/details/80398908">Deepin之anaconda和pycharm的安装</a><br>3、<a href="https://blog.csdn.net/wanttifa/article/details/83995460">Deepin(linux)下安装anaconda3</a><br>4、<a href="https://blog.csdn.net/Just_youHG/article/details/104686642">解决激活anaconda Linux终端出现”(base)”问题</a></p>
+]]></content>
+      <categories>
+        <category>Deepin</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Python</tag>
+        <tag>Deepin</tag>
       </tags>
   </entry>
   <entry>
@@ -495,17 +495,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Sunrise</title>
-    <url>/archives/54959.html</url>
-    <content><![CDATA[<p><img src="/image/00.gif">  </p>
-<blockquote class="blockquote-center">
-<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
-
-</blockquote>
-
-]]></content>
-  </entry>
-  <entry>
     <title>MyTest</title>
     <url>/archives/12215.html</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -522,51 +511,6 @@
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Win10+Ubuntu 双系统安装教程</title>
-    <url>/archives/45577.html</url>
-    <content><![CDATA[<p>最近上课要用Linux，准备从头记录一次Ubuntu的安装过程。如果有刚学的可以看看..同时接受大佬建议和指出错误…</p>
-<h3 id="一-安装ubuntu之前"><a href="#一-安装ubuntu之前" class="headerlink" title="一.安装ubuntu之前"></a>一.安装ubuntu之前</h3><p>1.你需要下载UtralISO<br><img src="/image/2018-5-20/01.jpg"><br>下载试用版即可<br>2.下载Ubuntu桌面版，推荐下载此18.04LTS版本，能从新的上手就尽量从新的上手使用。<br><img src="/image/2018-5-20/02.jpg"><br>下载ubuntu-18.04-desktop-amd64.iso版本。<br>下面的ubuntu-18.04-live-server-amd64.iso是服务器版本的。<br>等待下载完成之后，你会看到如下一个文件。<br><img src="/image/2018-5-20/03.jpg"></p>
-<h3 id="二．通过UtralISO制作启动盘"><a href="#二．通过UtralISO制作启动盘" class="headerlink" title="二．通过UtralISO制作启动盘"></a>二．通过UtralISO制作启动盘</h3><p>1.打开UtralISO点击试用即可。<br>在UtralISO主界面中点击文件—打开—选择你之前下载的ubuntu镜像文件。选中红框区域。<br><img src="/image/2018-5-20/04.jpg"><br>点击启动—写入硬盘映像<br>默认即可，无需设置<br><img src="/image/2018-5-20/05.jpg"><br>点击写入，等待写入完成。</p>
-<h3 id="三．分区"><a href="#三．分区" class="headerlink" title="三．分区"></a>三．分区</h3><p>假设你的电脑和我一样是windows10那么可以打开磁盘管理<br><img src="/image/2018-5-20/06.jpg"><br>从你的机械硬盘或者固态硬盘中分配一块区域（最好大于40G）出来。让这块区域显示为未分配状态即可。具体ubuntu系统分区会在安装ubuntu系统的时候在这块windows10未分配区域操作。所以你在windows里面是无法访问你的ubuntu系统磁盘的。</p>
-<h3 id="四．安装Ubuntu"><a href="#四．安装Ubuntu" class="headerlink" title="四．安装Ubuntu"></a>四．安装Ubuntu</h3><p>1.重启电脑进入BIOS我的电脑是F2进入<br>2.把你的U盘设置成第一启动盘<br>3.移动到sava and restar回车点击YES<br>4.等待自动重启<br>5.在选项里面选择Install Ubuntu<br>6.进入安装引导界面：<br><img src="/image/2018-5-20/07.jpg"><br>选择中文吧，虽然选择英文比较好,但是初期使用还是使用中文吧…<br>2.选择安装方式：<br><img src="/image/2018-5-20/08.jpg"><br>这个应该很好看懂…装双系统的话就选择其他选项<br>3.分区（最重要的一步）在ubuntu安装界面中，有一个磁盘管理的界面<br>选择你之前在windows下未分配的磁盘分区<br>点击左下角的+号<br>先创建主分区 /分区<br>我的是创建20G 主分区 空间起始位置 Ext4日志文件系统 /<br><img src="/image/2018-5-20/09.jpg"><br>创建swap分区 8000M 主分区 空间起始位置 用于交换空间 ok<br>创建boot分区 2048M 逻辑分区 空间起始位置 Ext4日志文件 系统挂载点 /boot<br>创建home分区 未分配的区域全部分区至home分区 逻辑分区 空间起始位置 Ext4日志文件 系统挂载点 /home<br>接下来就简单了，安装即可 设置用户名密码登陆系统<br><img src="/image/2018-5-20/10.jpg"></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo-Admin后台管理</title>
-    <url>/archives/23176.html</url>
-    <content><![CDATA[<h4 id="1-安装-hexo-admin-插件"><a href="#1-安装-hexo-admin-插件" class="headerlink" title="1. 安装 hexo-admin 插件"></a>1. 安装 hexo-admin 插件</h4><p>首先，在创建Blog的根目录下安装插件，打开Git Bash输入如下命令。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>安装过程中可能会有许多错误提示，绝大多数情况下没有影响可以忽略。<br>输入命令，启动服务器。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>在浏览器中打开localhost:4000/admin/即可编辑文章内容,界面如下。<br><img src="/image/2020-3-20/image-1.png"></p>
-<h4 id="2-安全与配置"><a href="#2-安全与配置" class="headerlink" title="2. 安全与配置"></a>2. 安全与配置</h4><p>此时，访问后台不需要账号密码即可进入，为安全起见设置账号密码。<br>在主页面上方选在 “ Setting ”，然后点击“ Setup authentification here ”。<br><img src="/image/2020-3-20/image-2.png"><br>填写username,password,seret等信息，获得password_hash。</p>
-<p><img src="/image/2020-3-20/image-3.png"><br>将页面下方获取的内容复制。<br><img src="/image/2020-3-20/image-4.png"><br>粘贴到 _config.yml 文件中。注意此文件非主题中的配置文件，目录结构如下。</p>
-<p><img src="/image/2020-3-20/image-5.png"></p>
-<h4 id="3-文章编写"><a href="#3-文章编写" class="headerlink" title="3. 文章编写"></a>3. 文章编写</h4><p>在 admin 主页面 “Posts” 下方点击 New Post 输入文章名称即可进入编辑界面。<br><img src="/image/2020-3-20/image-12.png"><br><img src="/image/2020-3-20/image-13.png"><br>点击右上角的 齿轮 标识可以设置文章的 Date、Author、Tags、Categories等信息。<br><img src="/image/2020-3-20/image-14.png"><br>此插件支持图片的直接粘贴，并可以将图片保存到指定位置。<br>在 Setting 中最下方有 “Image Pasting Settings” 设置项。<br><img src="/image/2020-3-20/image-15.png"><br><strong>Image directory</strong>： 图片存放位置<br><strong>Image filename prefix</strong>：图片保存名称格式<br>将复制的图片粘贴在文档中即可，可以看到插件已自动按照MD语法将图片添加到文章中，并按照设置好的路径和命名方式保存。<br><img src="/image/2020-3-20/image-16.png"><br><img src="/image/2020-3-20/image-17.png"><br>编辑时，文章作为草稿保存在 _drafts 文件夹中。<br><img src="/image/2020-3-20/image-18.png"><br>文章编写完成后，点击右上角  ‘Publish’ ，文章会被转存到 _posts 文件夹中。<br>此后进行下一步操作。</p>
-<h4 id="4-文章-Deploy"><a href="#4-文章-Deploy" class="headerlink" title="4. 文章 Deploy"></a>4. 文章 Deploy</h4><p>如要 Deploy ，需要在标题 2 中的 _config.yml 文件同级目录下编写一个脚本。<br>脚本名为“ hexo-deploy，文件内容如下：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
-<p>配置 _config.yml 文件，在 admin 处添加</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deployCommand:<span class="string">&#x27;hexo-deploy.bat&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>操作完成后点击Deploy，即可将文章部署到 GitHub 上。</p>
-<hr>
-<h5 id="Hexo-Admin地址"><a href="#Hexo-Admin地址" class="headerlink" title="Hexo-Admin地址"></a><a href="https://github.com/jaredly/hexo-admin">Hexo-Admin地址</a></h5>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-        <tag>Hexo</tag>
-        <tag>hexo-admin</tag>
       </tags>
   </entry>
   <entry>
@@ -589,6 +533,33 @@
         <tag>NIOS-II</tag>
         <tag>寄存器</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Win10+Ubuntu 双系统安装教程</title>
+    <url>/archives/45577.html</url>
+    <content><![CDATA[<p>最近上课要用Linux，准备从头记录一次Ubuntu的安装过程。如果有刚学的可以看看..同时接受大佬建议和指出错误…</p>
+<h3 id="一-安装ubuntu之前"><a href="#一-安装ubuntu之前" class="headerlink" title="一.安装ubuntu之前"></a>一.安装ubuntu之前</h3><p>1.你需要下载UtralISO<br><img src="/image/2018-5-20/01.jpg"><br>下载试用版即可<br>2.下载Ubuntu桌面版，推荐下载此18.04LTS版本，能从新的上手就尽量从新的上手使用。<br><img src="/image/2018-5-20/02.jpg"><br>下载ubuntu-18.04-desktop-amd64.iso版本。<br>下面的ubuntu-18.04-live-server-amd64.iso是服务器版本的。<br>等待下载完成之后，你会看到如下一个文件。<br><img src="/image/2018-5-20/03.jpg"></p>
+<h3 id="二．通过UtralISO制作启动盘"><a href="#二．通过UtralISO制作启动盘" class="headerlink" title="二．通过UtralISO制作启动盘"></a>二．通过UtralISO制作启动盘</h3><p>1.打开UtralISO点击试用即可。<br>在UtralISO主界面中点击文件—打开—选择你之前下载的ubuntu镜像文件。选中红框区域。<br><img src="/image/2018-5-20/04.jpg"><br>点击启动—写入硬盘映像<br>默认即可，无需设置<br><img src="/image/2018-5-20/05.jpg"><br>点击写入，等待写入完成。</p>
+<h3 id="三．分区"><a href="#三．分区" class="headerlink" title="三．分区"></a>三．分区</h3><p>假设你的电脑和我一样是windows10那么可以打开磁盘管理<br><img src="/image/2018-5-20/06.jpg"><br>从你的机械硬盘或者固态硬盘中分配一块区域（最好大于40G）出来。让这块区域显示为未分配状态即可。具体ubuntu系统分区会在安装ubuntu系统的时候在这块windows10未分配区域操作。所以你在windows里面是无法访问你的ubuntu系统磁盘的。</p>
+<h3 id="四．安装Ubuntu"><a href="#四．安装Ubuntu" class="headerlink" title="四．安装Ubuntu"></a>四．安装Ubuntu</h3><p>1.重启电脑进入BIOS我的电脑是F2进入<br>2.把你的U盘设置成第一启动盘<br>3.移动到sava and restar回车点击YES<br>4.等待自动重启<br>5.在选项里面选择Install Ubuntu<br>6.进入安装引导界面：<br><img src="/image/2018-5-20/07.jpg"><br>选择中文吧，虽然选择英文比较好,但是初期使用还是使用中文吧…<br>2.选择安装方式：<br><img src="/image/2018-5-20/08.jpg"><br>这个应该很好看懂…装双系统的话就选择其他选项<br>3.分区（最重要的一步）在ubuntu安装界面中，有一个磁盘管理的界面<br>选择你之前在windows下未分配的磁盘分区<br>点击左下角的+号<br>先创建主分区 /分区<br>我的是创建20G 主分区 空间起始位置 Ext4日志文件系统 /<br><img src="/image/2018-5-20/09.jpg"><br>创建swap分区 8000M 主分区 空间起始位置 用于交换空间 ok<br>创建boot分区 2048M 逻辑分区 空间起始位置 Ext4日志文件 系统挂载点 /boot<br>创建home分区 未分配的区域全部分区至home分区 逻辑分区 空间起始位置 Ext4日志文件 系统挂载点 /home<br>接下来就简单了，安装即可 设置用户名密码登陆系统<br><img src="/image/2018-5-20/10.jpg"></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sunrise</title>
+    <url>/archives/54959.html</url>
+    <content><![CDATA[<p><img src="/image/00.gif">  </p>
+<blockquote class="blockquote-center">
+<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
+
+</blockquote>
+
+]]></content>
   </entry>
   <entry>
     <title>Hexo博客编写与部署</title>
@@ -689,25 +660,32 @@
       </tags>
   </entry>
   <entry>
-    <title>嵌入式实训 Day2 u-boot的烧写及使用</title>
-    <url>/archives/65394.html</url>
-    <content><![CDATA[<h5 id="实验环境："><a href="#实验环境：" class="headerlink" title="实验环境："></a>实验环境：</h5><p>1、    ubuntu 12.04发行版<br>2、    u-boot-2010.03<br>3、    FS4412平台</p>
-<h5 id="【1】Linux系统移植"><a href="#【1】Linux系统移植" class="headerlink" title="【1】Linux系统移植"></a>【1】Linux系统移植</h5><p>引导启动界面 –&gt; Linux镜像 –&gt; 加载Linux文件系统</p>
-<p>引导程序：bootloder<br>uboot    Linux 3.14</p>
-<h5 id="【2】SD启动盘制作"><a href="#【2】SD启动盘制作" class="headerlink" title="【2】SD启动盘制作"></a>【2】SD启动盘制作</h5><p>　　a)    将 sdfuse_q拷贝到Linux家目录下<br>　　b)    将SD卡插入电脑并在ubuntu中识别<br>　　c)    进入sdfuse_q目录并执行如下操作将SD卡制作成uboot 2010启动盘</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo  ./mkuboot.sh  /dev/sdb</span><br></pre></td></tr></table></figure>
-<p>　　d)    在SD卡中创建目录sdupdate并把学生资料中的实验代码/第一天/镜像中的u-boot-fs4412.bin(uboot 2013)拷贝到这个目录下</p>
-<h5 id="【3】u-boot的烧写"><a href="#【3】u-boot的烧写" class="headerlink" title="【3】u-boot的烧写"></a>【3】u-boot的烧写</h5><p>a)    使用串口线连接板子与电脑，运行串口通信程序putty(实验代码/第一天/工具)<br><img src="/image/2018-7-3/01.png"><br>选择右上角的”Serial”，然后点击左下角的”Serial”<br><img src="/image/2018-7-3/02.png"><br>按照自己的主机的情况（设备管理器中）选择COM口，其他信息必须一直，然后点击open打开串口<br><img src="/image/2018-7-3/03.png"><br>b)    关闭开发板电源，将拨码开关SW1调至(1000)(SD启动模式)<br>c)    将刚才做好的SD启动盘插入开发板SD卡插槽<br>d)    重新打开开发板电源能够看到如下界面<br><img src="/image/2018-7-3/04.png"><br>在倒计时时按任意键让uboot停留在交互模式<br>e)    烧写<br>在终端上执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># sdfuse flashall</span></span><br></pre></td></tr></table></figure>
-<p>等待终端无输出是表示烧写结束<br>f)    关闭开发板电源，将拨码开关SW1调至0110(EMMC启动模式)后打开电源可以看到如下界面表示烧写成功<br><img src="/image/2018-7-3/05.png"><br>在倒计时时按任意键让uboot停留在交互模式</p>
-<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>　　整个嵌入式开发大体分为三层，自上而下依次为应用层、驱动层和硬件层，而我们主要做的是应用层。Linux系统的启动需要引导程序的引导，所以在移植系统之前需要对开发板烧写uboot引导程序。对开发板烧写系统与安装Windows系统类似，首先需要制作SD启动盘，在制作好SD启动盘后，将uboot烧写到flash中。这样，开发板在每次上电以后就会自行将uboot从flash中复制到DRAM中，并通过一系列命令引导Linux镜像启动。接下来就是通过tftp传输内核镜像，nfs远程访问文件系统，此为后话。<br><img src="/image/2018-7-3/06.png"></p>
-]]></content>
+    <title>Hexo-Admin后台管理</title>
+    <url>/archives/23176.html</url>
+    <content><![CDATA[<h4 id="1-安装-hexo-admin-插件"><a href="#1-安装-hexo-admin-插件" class="headerlink" title="1. 安装 hexo-admin 插件"></a>1. 安装 hexo-admin 插件</h4><p>首先，在创建Blog的根目录下安装插件，打开Git Bash输入如下命令。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>安装过程中可能会有许多错误提示，绝大多数情况下没有影响可以忽略。<br>输入命令，启动服务器。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>在浏览器中打开localhost:4000/admin/即可编辑文章内容,界面如下。<br><img src="/image/2020-3-20/image-1.png"></p>
+<h4 id="2-安全与配置"><a href="#2-安全与配置" class="headerlink" title="2. 安全与配置"></a>2. 安全与配置</h4><p>此时，访问后台不需要账号密码即可进入，为安全起见设置账号密码。<br>在主页面上方选在 “ Setting ”，然后点击“ Setup authentification here ”。<br><img src="/image/2020-3-20/image-2.png"><br>填写username,password,seret等信息，获得password_hash。</p>
+<p><img src="/image/2020-3-20/image-3.png"><br>将页面下方获取的内容复制。<br><img src="/image/2020-3-20/image-4.png"><br>粘贴到 _config.yml 文件中。注意此文件非主题中的配置文件，目录结构如下。</p>
+<p><img src="/image/2020-3-20/image-5.png"></p>
+<h4 id="3-文章编写"><a href="#3-文章编写" class="headerlink" title="3. 文章编写"></a>3. 文章编写</h4><p>在 admin 主页面 “Posts” 下方点击 New Post 输入文章名称即可进入编辑界面。<br><img src="/image/2020-3-20/image-12.png"><br><img src="/image/2020-3-20/image-13.png"><br>点击右上角的 齿轮 标识可以设置文章的 Date、Author、Tags、Categories等信息。<br><img src="/image/2020-3-20/image-14.png"><br>此插件支持图片的直接粘贴，并可以将图片保存到指定位置。<br>在 Setting 中最下方有 “Image Pasting Settings” 设置项。<br><img src="/image/2020-3-20/image-15.png"><br><strong>Image directory</strong>： 图片存放位置<br><strong>Image filename prefix</strong>：图片保存名称格式<br>将复制的图片粘贴在文档中即可，可以看到插件已自动按照MD语法将图片添加到文章中，并按照设置好的路径和命名方式保存。<br><img src="/image/2020-3-20/image-16.png"><br><img src="/image/2020-3-20/image-17.png"><br>编辑时，文章作为草稿保存在 _drafts 文件夹中。<br><img src="/image/2020-3-20/image-18.png"><br>文章编写完成后，点击右上角  ‘Publish’ ，文章会被转存到 _posts 文件夹中。<br>此后进行下一步操作。</p>
+<h4 id="4-文章-Deploy"><a href="#4-文章-Deploy" class="headerlink" title="4. 文章 Deploy"></a>4. 文章 Deploy</h4><p>如要 Deploy ，需要在标题 2 中的 _config.yml 文件同级目录下编写一个脚本。<br>脚本名为“ hexo-deploy，文件内容如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+<p>配置 _config.yml 文件，在 admin 处添加</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deployCommand:<span class="string">&#x27;hexo-deploy.bat&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>操作完成后点击Deploy，即可将文章部署到 GitHub 上。</p>
+<hr>
+<h5 id="Hexo-Admin地址"><a href="#Hexo-Admin地址" class="headerlink" title="Hexo-Admin地址"></a><a href="https://github.com/jaredly/hexo-admin">Hexo-Admin地址</a></h5>]]></content>
       <categories>
-        <category>学习</category>
+        <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
-        <tag>嵌入式</tag>
+        <tag>Blog</tag>
+        <tag>Hexo</tag>
+        <tag>hexo-admin</tag>
       </tags>
   </entry>
   <entry>
@@ -746,6 +724,272 @@
       <tags>
         <tag>Blog</tag>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嵌入式实训 Day3 Linux内核编译与服务器配置</title>
+    <url>/archives/20426.html</url>
+    <content><![CDATA[<h5 id="【1】uboot烧写原理"><a href="#【1】uboot烧写原理" class="headerlink" title="【1】uboot烧写原理"></a>【1】uboot烧写原理</h5><p> SD卡制作启动盘：<br>     cd  sdfuse_q<br>     ./mkuboot.sh /dev/sdb    SD卡的设备文件名    /dev 保存设备节点（文件名）<br>     ./sd_fusing_exynos4x12.sh /dev/sdb u-boot-fs4412.bin</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$2</span> fusing...&quot;</span></span><br><span class="line">dd iflag=dsync oflag=dsync <span class="keyword">if</span>=<span class="variable">$2</span> of=<span class="variable">$1</span> seek=1 &amp;&amp; \</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$2</span> image has been fused successfully.&quot;</span>   </span><br></pre></td></tr></table></figure>
+<p>if(inputfile)–输入文件—u-boot-fs4412.bin（2010）<br>of(outputfile)–输出文件— /dev/sdb<br>dd 将输入文件的内容复制给输出文件（复制的同时进行了格式转换）<br>本质：将uboot镜像固化到SD卡，SD卡成为启动盘</p>
+<pre><code>Linux文件类型：
+b  （block 块设备文件）  具体表示是一种设备
+c  （char 字符设备文件） 具体表示是一种设备
+d  （目录）
+-  （普通文件） .txt .dat
+l  （链接文件）
+s  （套接字文件）
+p  （管道文件）
+</code></pre>
+<h5 id="【2】重启网卡"><a href="#【2】重启网卡" class="headerlink" title="【2】重启网卡"></a>【2】重启网卡</h5><pre><code>sudo /etc/init.d/networking restart
+</code></pre>
+<h5 id="【3】Linux内核配置编译"><a href="#【3】Linux内核配置编译" class="headerlink" title="【3】Linux内核配置编译"></a>【3】Linux内核配置编译</h5><p> 1）Makefile<br>    198 ARCH        ?= arm     默认X86<br>    199 CROSS_COMPILE   ?= arm-none-linux-gnueabi-    申明交叉编译工具链的前缀</p>
+<p> 2）导入默认配置<br>    确保Linux内核镜像可以运行在当前产品中，支持当前的SOC<br>    make  exynos_defconfig<br>          描述的是与SOC有关的代码对应的选项<br>          cp arch/arm/configs/exynos_defconfig .config</p>
+<p>  .config 配置文件通知Makefile在编译内核镜像的时候，用来确定编译哪些文件</p>
+<p>  由顶层目录下的Makefile，调用子目录的中的Makefile协同完成源码的编译</p>
+<p>  .config保存的都是选项，每一个选项都会对应源码中的一个文件或者多个文件</p>
+<p> 3）make menuconfig  图形界面的选配<br>    对上一步的完善，用户可以自定义选择选项，选项被选择，该选项所对应的文件被编译到内核镜像中‘<br>    选项未选中，该选项所对应的文件肯定不会被编译到内核镜像中</p>
+<p> 4）make uImage  编译内核镜像</p>
+<p> 5）make dtbs  编译设备树文件</p>
+<h5 id="【4】tftp服务器"><a href="#【4】tftp服务器" class="headerlink" title="【4】tftp服务器"></a>【4】tftp服务器</h5><p> tftp远程传输协议<br> 服务器端配置： sudo vi /etc/default/tftpd-hpa</p>
+<p>  3 TFTP_USERNAME=”tftp”<br>  4 TFTP_DIRECTORY=”/tftpboot”   传输目录<br>                                 sudo mkdir /tftpboot<br>                                 sudo chmod  777 /tftpboot<br>  5 TFTP_ADDRESS=”0.0.0.0:69”<br>  6 TFTP_OPTIONS=”-c -s -l”    </p>
+<p>  启动服务器：<br>  sudo service tftpd-hpa restart</p>
+<h5 id="【5】配置nfs服务器"><a href="#【5】配置nfs服务器" class="headerlink" title="【5】配置nfs服务器"></a>【5】配置nfs服务器</h5><p> 配置server端：<br>     sudo vi /etc/exports</p>
+<pre><code> /source/rootfs/ *(rw,sync,no_subtree_check,no_root_squash)
+
+ /source  共享目录
+          sudo mkdir /source
+          sudo chmod 777 /source
+ rootfs   开发板需要访问的文件系统
+ 
+</code></pre>
+<p> 启动nfs服务器：<br>    sudo /etc/init.d/nfs-kernel-server restart</p>
+<h5 id="【6】bootloader"><a href="#【6】bootloader" class="headerlink" title="【6】bootloader"></a>【6】bootloader</h5><p> bootloader的操作的方式：自启动、交互</p>
+<p> setenv  设置新的环境变量<br> saveenv  保存设置的环境变量<br> printenv 显示保存的环境变量</p>
+<p> serverip  主机IP<br> ipaddr    目标机<br> bootcmd   bootcmd  自启动命令（当uboot自启动时，默认操作该命令后的所有指令）<br> tftp addr uImage/exynos4412-fs4412.dtb   传输指令<br> bootm  addr  启动地址上的镜像</p>
+<p> bootargs  uboot不执行该命令，uboot将该命令在启动内核之后，传递给内核，<br>           内核会读取检验该命令，进而完成对文件系统的访问</p>
+<h5 id="【7】网卡驱动"><a href="#【7】网卡驱动" class="headerlink" title="【7】网卡驱动"></a>【7】网卡驱动</h5><p> 1）设备树（网卡的信息）<br>    设备树功能：描述硬件信息，内核在启动时，会解析设备树文件，将设备树中保存的硬件信息读取，保存<br>    内核中的驱动可以通过读取的硬件信息，进而完成对硬件设备的控制<br>    Linux3.0提供设备树的机制（结合数据结构中的树为思想）<br>    设备树本质是文本文件，Linux内核中把该文件抽象为树型结构</p>
+<pre><code>/&#123;
+    testnode1&#123;
+       a = x;
+    &#125;;
+    testnode2&#123;
+        testnode3&#123;
+           b = y;
+        &#125;;
+    
+    &#125;;
+
+&#125;;
+</code></pre>
+<p> 2）make menuconfig图形界面<br>    选配选项 [*]  </p>
+<pre><code>[*] Networking support  ---&gt;
+Networking options  ---&gt;     网络配置 网络协议
+    &lt;*&gt; Packet socket
+    &lt;*&gt; Unix domain sockets 
+    [*] TCP/IP networking
+    [*]   IP: kernel level autoconfiguration
+</code></pre>
+<hr>
+<pre><code>device Drivers  ---&gt;       设备驱动
+[*] Network device support  ---&gt;
+    [*]   Ethernet driver support   ---&gt;
+        &lt;*&gt;   DM9000 support
+</code></pre>
+<hr>
+<pre><code>File systems  ---&gt;          文件系统支持（支持nfs服务器的客户端）
+[*] Network File Systems   ---&gt;
+    &lt;*&gt;   NFS client support
+    [*]   NFS client support for NFS version 3 (NEW)
+    [*]   NFS client support for the NFSv3 ACL protocol extension (NEW)
+    [*]   Root file system on NFS (NEW)
+</code></pre>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嵌入式实训 Day2 u-boot的烧写及使用</title>
+    <url>/archives/65394.html</url>
+    <content><![CDATA[<h5 id="实验环境："><a href="#实验环境：" class="headerlink" title="实验环境："></a>实验环境：</h5><p>1、    ubuntu 12.04发行版<br>2、    u-boot-2010.03<br>3、    FS4412平台</p>
+<h5 id="【1】Linux系统移植"><a href="#【1】Linux系统移植" class="headerlink" title="【1】Linux系统移植"></a>【1】Linux系统移植</h5><p>引导启动界面 –&gt; Linux镜像 –&gt; 加载Linux文件系统</p>
+<p>引导程序：bootloder<br>uboot    Linux 3.14</p>
+<h5 id="【2】SD启动盘制作"><a href="#【2】SD启动盘制作" class="headerlink" title="【2】SD启动盘制作"></a>【2】SD启动盘制作</h5><p>　　a)    将 sdfuse_q拷贝到Linux家目录下<br>　　b)    将SD卡插入电脑并在ubuntu中识别<br>　　c)    进入sdfuse_q目录并执行如下操作将SD卡制作成uboot 2010启动盘</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo  ./mkuboot.sh  /dev/sdb</span><br></pre></td></tr></table></figure>
+<p>　　d)    在SD卡中创建目录sdupdate并把学生资料中的实验代码/第一天/镜像中的u-boot-fs4412.bin(uboot 2013)拷贝到这个目录下</p>
+<h5 id="【3】u-boot的烧写"><a href="#【3】u-boot的烧写" class="headerlink" title="【3】u-boot的烧写"></a>【3】u-boot的烧写</h5><p>a)    使用串口线连接板子与电脑，运行串口通信程序putty(实验代码/第一天/工具)<br><img src="/image/2018-7-3/01.png"><br>选择右上角的”Serial”，然后点击左下角的”Serial”<br><img src="/image/2018-7-3/02.png"><br>按照自己的主机的情况（设备管理器中）选择COM口，其他信息必须一直，然后点击open打开串口<br><img src="/image/2018-7-3/03.png"><br>b)    关闭开发板电源，将拨码开关SW1调至(1000)(SD启动模式)<br>c)    将刚才做好的SD启动盘插入开发板SD卡插槽<br>d)    重新打开开发板电源能够看到如下界面<br><img src="/image/2018-7-3/04.png"><br>在倒计时时按任意键让uboot停留在交互模式<br>e)    烧写<br>在终端上执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># sdfuse flashall</span></span><br></pre></td></tr></table></figure>
+<p>等待终端无输出是表示烧写结束<br>f)    关闭开发板电源，将拨码开关SW1调至0110(EMMC启动模式)后打开电源可以看到如下界面表示烧写成功<br><img src="/image/2018-7-3/05.png"><br>在倒计时时按任意键让uboot停留在交互模式</p>
+<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>　　整个嵌入式开发大体分为三层，自上而下依次为应用层、驱动层和硬件层，而我们主要做的是应用层。Linux系统的启动需要引导程序的引导，所以在移植系统之前需要对开发板烧写uboot引导程序。对开发板烧写系统与安装Windows系统类似，首先需要制作SD启动盘，在制作好SD启动盘后，将uboot烧写到flash中。这样，开发板在每次上电以后就会自行将uboot从flash中复制到DRAM中，并通过一系列命令引导Linux镜像启动。接下来就是通过tftp传输内核镜像，nfs远程访问文件系统，此为后话。<br><img src="/image/2018-7-3/06.png"></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嵌入式实训 Day5 第三方驱动移植</title>
+    <url>/archives/56504.html</url>
+    <content><![CDATA[<h5 id="【1】第三方驱动移植"><a href="#【1】第三方驱动移植" class="headerlink" title="【1】第三方驱动移植"></a>【1】第三方驱动移植</h5><p> 1）Kconfig  生成图形界面中的选项<br>      由顶层目录下的Kconfig逐级调用各个子目录中的Kconfig，共同生成整体的图形界面</p>
+<pre><code>  5 menu &quot;Character devices&quot;       图形界面中生成菜单
+  7 config  FS4412_LED             config-生成选项
+  8     tristate &quot;FS4412 LED Driver Support&quot;-图形界面中的选项名
+        bool： *（y）  （n）
+        tristate： *（y）  （n）  （M）
+  9     depends on ARCH_EXYNOS4       依赖
+        default  y                    默认选中
+  10     help                         帮助，申明
+  11         support led device on FS4412 develop board
+  source  引用下一级Kconfig
+  endmenu
+</code></pre>
+<p> 2） 64 obj-$(CONFIG_FS4412_LED)    += fs4412_led_drv.o       </p>
+<pre><code> obj-y  += fs4412_led_drv.o  表示编译此代码
+</code></pre>
+<p> 3）$ make menuconfig      </p>
+<pre><code>  Device Drivers  ---&gt;  
+  Character devices  ---&gt;  
+        &lt;*&gt; FS4412  LED  Device Support  静态编译
+        编译此文件，并将其编译到内核镜像中
+        &lt;M&gt; FS4412  LED  Device Support  动态编译
+        编译此文件，将该文件编译为模块，不会添加到内核镜像中，便于调试
+</code></pre>
+<p>4）make  modules<br>    将图形界面中所有选择为M的选项所对应的文件，全部编译为模块（xxx.ko）</p>
+<h5 id="【2】字符设备"><a href="#【2】字符设备" class="headerlink" title="【2】字符设备"></a>【2】字符设备</h5><p> 应用层实现对字符设备的控制，采用文件IO（文件的读写）<br> 文件IO定义：采用系统调用的方式实现对文件的读写操作</p>
+<p> 打开文件（普通文件，硬件设备（字符设备节点 mknod /dev/led c 500 0））<br> int open(const char *pathname, int flags);<br> int open(const char *pathname, int flags, mode_t mode);<br> 功能： 打开一个文件<br> 参数: </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pathname -路径名</span><br><span class="line">flags -标志位：          </span><br><span class="line">O_RDONLY   以只读的方式打开文件 </span><br><span class="line">O_WRONLY   以只写的方式打开文件</span><br><span class="line">O_RDWR     以读写的方式打开文件</span><br><span class="line">O_APPEND   以追加的方式打开文件（从文件的数据的末尾处开始读写）</span><br><span class="line">O_CREAT    如果打开的文件不存在，自动创建</span><br><span class="line">O_TRUNC    清空文件中原有的数据</span><br><span class="line">   O_WRONLY|O_CREAT|O_TRUNC 以只写的方式打开文件，如果文件不存在，自动创建，如果文件存在，清空数据</span><br><span class="line">O_RDWR|O_CREAT|O_TRUNC   以读写的方式打开文件，如果文件不存在，自动创建，如果文件存在，清空数据</span><br><span class="line">O_WRONLY|O_CREAT|O_APPEND 以只写的方式打开文件，如果文件不存在，自动创建，如果文件存在，写入到数据的末尾</span><br><span class="line">O_RDWR|O_CREAT|O_APPEND  以读写的方式打开文件，如果文件不存在，自动创建，如果文件存在，从文件末尾处读写</span><br><span class="line">mode   用户对该文件的执行权限   </span><br><span class="line">       如果第二个参数中指定O_CREAT，必须指定该参数</span><br><span class="line">	返回值: 成功  文件描述符（非负数）</span><br><span class="line">          失败  -1</span><br></pre></td></tr></table></figure>
+<p>【3】字符设备驱动框架<br> 1）需要申请注册设备号（设备号用来区分不同的设备）<br> 2）完成对设备的控制（完成与应用层的交互）<br> 3）驱动自行创建设备节点（不用手动自行创建  mknod）</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嵌入式实训 Day6 驱动编写</title>
+    <url>/archives/18881.html</url>
+    <content><![CDATA[<p>【3】字符设备驱动框架<br> 内核：内存管理、进程管理、网络协议、驱动、虚拟文件系统</p>
+<p> 1）需要申请注册设备号（设备号用来区分不同的设备）–设备号给驱动使用<br> 2）完成对设备的控制（完成与应用层的交互）<br> 3）驱动自行创建设备节点（不用手动自行创建  mknod）–节点给应用层使用，在应用层中视字符设备为文件<br>                                                     应用层代码通过操作文件，实现对设备的控制</p>
+<p> 驱动三要素：<br> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static 静态，修饰函数，表示该函数只应用于本文件（作用域只适用本文件）</span><br><span class="line">1）入口函数</span><br><span class="line">    驱动在内核生效，自动执行入口函数，在入口函数完成资源申请，初始化工作</span><br><span class="line">	  6 static int __init driver_test_init(void)&#123;</span><br><span class="line">      7 </span><br><span class="line">      8     return 0;</span><br><span class="line">      9 &#125;</span><br><span class="line">	  14 module_init(driver_test_init);      </span><br><span class="line">2）卸载函数</span><br><span class="line">    驱动在内核失效，自动执行卸载函数，在卸载函数资源释放，注销工作</span><br><span class="line"></span><br><span class="line">	  11 static void __exit driver_test_exit(void)&#123;</span><br><span class="line">      12 </span><br><span class="line">      13 &#125;</span><br><span class="line">      15 module_exit(driver_test_exit);</span><br><span class="line"> 3）模块申明（驱动）</span><br><span class="line">    开发许可证申明</span><br><span class="line">	MODULE_LICENSE(&quot;GPL&quot;);</span><br></pre></td></tr></table></figure><br>【2】申请注册设备号<br> 设备号（32bit） = 主设备号（高12bit）  +  次设备号（低20bit）</p>
+<p> #define MINORBITS    20<br> #define MINORMASK    ((1U &lt;&lt; MINORBITS) - 1)</p>
+<p> #define MAJOR(dev)    ((unsigned int) ((dev) &gt;&gt; MINORBITS))  根据设备号，得到主设备号<br> #define MINOR(dev)    ((unsigned int) ((dev) &amp; MINORMASK)) 根据设备号，得到次设备号<br> #define MKDEV(ma,mi)    (((ma) &lt;&lt; MINORBITS) | (mi))    根据主次设备号，生成设备号<br>  主： 11010010       —》 1101001000000000000000000000<br>  次： 100010111001   —》                 100010111001<br>                            1101001000000000100010111001<br> 申请注册设备号：<br>     1）静态注册<br>        （驱动中设定设备号，向内核注册）–用户自定义不能与内核中已注册的设备号重复<br>         int register_chrdev_region(dev_t from, unsigned count, const char *name)<br>         功能：向内核注册设备号<br>         参数：from  设备号<br>               count 注册设备号的数量<br>               name  名字 用户自定义<br>         返回值：成功 0<br>                 失败 负数<br>     2）动态注册<br>        （驱动向内核申请设备号，由内核自动分配，再注册）<br>        int alloc_chrdev_region(dev_t *dev, unsigned baseminor, unsigned count,<br>            const char *name)</p>
+<pre><code>    功能：自动分配设备号，并完成注册
+    参数：dev  保存内核自动分配的设备号
+          baseminor  次设备号
+          count  注册设备号的数量
+          name   用户自定义
+    返回值：成功   0
+            失败   负数
+            
+ 3）注销设备号
+    void unregister_chrdev_region(dev_t from, unsigned count)
+    功能：注销设备号
+    参数：from  设备号
+          count  数量
+</code></pre>
+<p>【2】设备号与设备建立关系，实现对设备的控制<br> 在内核中，由内核定义结构体cdev，用结构体描述具体的设备<br> struct cdev {<br>    struct module *owner;     THIS_MODULE<br>    const struct file_operations *ops;    定义对具体的硬件设备操作的方法<br>    dev_t dev;        设备号<br> };</p>
+<p> 1）初始化cdev结构体<br>    void cdev_init(struct cdev *cdev, const struct file_operations *fops)<br>    功能：初始化cdev结构体中的成员<br>    参数：cdev  cdev结构体指针<br>          fops  file_operations结构体的指针</p>
+<p> 2）将cdev结构体添加到内核的链表<br>    int cdev_add(struct cdev *p, dev_t dev, unsigned count)<br>    功能：将已经初始化的cdev结构体添加到内核链表中<br>    参数：p   cdev结构体的指针<br>          dev  设备号<br>          count 添加到内核链表中cdev结构体的数量<br>    返回值：成功  0<br>            失败 负数 </p>
+<p> 3）void cdev_del(struct cdev *p)<br>    功能：从链表中移除cdev结构体<br>    参数：p   cdev结构体    </p>
+<p>【3】实现设备的打开、关闭<br> 应用层： fd  = open(“/dev/test”, O_RDWR);<br>          close(fd);</p>
+<p> 驱动： int test_open(struct inode *, struct file *){<br>            //用户实现设备的打开操作<br>        }<br>        int test_close(struct inode *, struct file *){<br>            //实现设备的关闭<br>        }</p>
+<p> struct file_operations fops = {<br>    .open = test_open,<br>    .release = test_close,<br> };        </p>
+<p> 当用户创建设备节点，内核同时初始化inode和file结构体，与设备节点所对应，保存该设备节点的属性</p>
+<p> 当应用程序执行对设备节点的操作时（open close），内核自动找到该设备节点所对应的inode结构体以及file结构体<br> 从inode结构体中获的设备节点所对应的设备号，内核根据设备号找到从内核链表中找到对应的cdev结构体，<br> 得到cdev结构体中对设备操作的方法集合，进而调用操作集合中对应的函数实现对设备的控制</p>
+<p>【4】实现对设备的读写操作<br> 应用层实现读写操作：<br> ssize_t write(int fd, const void *buf, size_t count);<br> 功能：<br> 参数：<br> 返回值：</p>
+<p> ssize_t read(int fd, void *buf, size_t count);<br> 功能：<br> 参数：<br> 返回值：</p>
+<p> day7<br> 【1】系统调用<br> func（功能函数）—-》系统调用接口层（异常-中断）——》SYSCALL（系统调用的服务例程）—–》sys_func—-》test_func<br> 应用层（文件系统）        虚拟文件系统层                  内核层</p>
+<p> 每一次系统调用的函数接口对应一个系统调用编号，给服务例程使用<br> 每一次系统调用，处理器的状态发生改变，用户态—》内核态   内核态—》用户态</p>
+<p>【2】驱动实现控制设备<br> 应用层：int ioctl(int d, int request, …);<br>         功能：控制设备<br>         参数： fd   文件描述符<br>                request  命令码<br>                         生成命令码<br>                         #define _IO(type,nr)<br>                         生成命令码，实现数据的传输<br>                         #define _IOR(type,nr,size)<br>                         #define _IOW(type,nr,size)<br>                         #define _IOWR(type,nr,size)<br>                         参数1：传字符<br>                         参数2：编号<br>                         参数3：传递的数据的大小（直接给数据）<br>                …      附件参数，不可被忽略，传递一个地址<br>                         如果ioctl需要传递数据，必须有第三个参数，该参数表示的是需要传递的数据（数据的地址）<br>                         如果不传数据，该参数赋值为NULL</p>
+<pre><code>    返回值：成功  0
+            失败  -1
+</code></pre>
+<p> 驱动：    long test_ioctl(struct file *, unsigned int, unsigned long){</p>
+<pre><code>    &#125;
+ 
+    struct file_operations fops = &#123;
+        .unlocked_ioctl = test_ioctl,
+    &#125;
+</code></pre>
+<p>【3】地址转换<br> 对于Linux系统来说，不论应用层或内核层，所有的进程，对地址进行操作，都采用操作虚拟地址</p>
+<p> 对于CPU，一切皆内存，32处理器，取值范围 0x0  ~ 0xffffffff  （0 ~ 2^32 -1 –4G）</p>
+<p> 对于系统，从软件角度来看，系统中所有的进程在发访问设备的时候，只能操作虚拟地址</p>
+<p> 虚拟地址通过映射物理地址得来</p>
+<p> void * ioremap(unsigned long paddr, unsigned long size)<br> 功能：实现物理地址到虚拟地址的转换<br> 参数：addr  物理地址<br>       size  映射实际地址区域的大小<br> 返回值：  虚拟地址值</p>
+<p> void iounmap(void  *addr)<br> 功能：将物理地址和虚拟地址的映射关系断开<br> 参数：虚拟地址值</p>
+<p> 通过地址转换，得到寄存器所在的虚拟地址</p>
+<p>【4】实现对寄存器的值修改<br> int readl(const void *addr)<br> 功能：读取寄存器中保存的值<br> 参数：寄存器的地址（虚拟地址）<br> 返回值：寄存器中保存的值</p>
+<p> 修改寄存器中的值：<br>     通过位操作  （  &lt;&lt;   &gt;&gt;  |  &amp;   ~）</p>
+<p> void writel(unsigned int l, volatile void __iomem *addr)<br> 功能：将值写入到寄存器中<br> 参数：l   需要写入的值<br>       addr  寄存器的地址（虚拟地址）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>东软冬训营 HTML篇</title>
+    <url>/archives/63841.html</url>
+    <content><![CDATA[<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">(1.19)</span><br><span class="line">1.页面内容</span><br><span class="line">	a.静态文本 直接写</span><br><span class="line">	b.用户输入，输入 按固定格式写</span><br><span class="line">2.常用标签</span><br><span class="line">	</span><br><span class="line">	注意： 标签必须符合HTML规范</span><br><span class="line">	a.form：表单标签，用于提交数据</span><br><span class="line">		action 表示提交数据位置</span><br><span class="line">		method 表示提交数据的方式</span><br><span class="line">			post 隐含</span><br><span class="line">	b.table: 表格</span><br><span class="line">		&lt;table&gt;</span><br><span class="line">			&lt;tr&gt;                &lt;!-- 第一行 --&gt;</span><br><span class="line">				&lt;td&gt;列一&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;列二&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/table&gt;</span><br><span class="line">	c.输入类：</span><br><span class="line">	&lt;input <span class="built_in">type</span>=<span class="string">&quot;&quot;</span> name=<span class="string">&quot;&quot;</span> id=<span class="string">&quot;&quot;</span>&gt;</span><br><span class="line">		<span class="built_in">type</span>类型：</span><br><span class="line">			text	输入文本</span><br><span class="line">			radio	单选 需提供 value 属性</span><br><span class="line">	d.下拉列表：</span><br><span class="line">	&lt;select name=<span class="string">&quot;&quot;</span> id=<span class="string">&quot;&quot;</span>&gt;</span><br><span class="line">		&lt;option value=<span class="string">&quot;xxx&quot;</span>&gt;xxx&lt;/option&gt;</span><br><span class="line">	&lt;/select&gt;</span><br><span class="line">	e.文本域：</span><br><span class="line">	&lt;textarea name=<span class="string">&quot;&quot;</span> rows=<span class="string">&quot;&quot;</span> clos=<span class="string">&quot;&quot;</span>&gt;&lt;/textarea&gt;</span><br><span class="line">	f.按钮：</span><br><span class="line">	&lt;button <span class="built_in">type</span>=<span class="string">&quot;&quot;</span>&gt;xxx&lt;/button&gt;</span><br><span class="line"></span><br><span class="line">3.控件属性设置</span><br><span class="line">	语言结构</span><br><span class="line">	a.样式 必须放在 head 标签内</span><br><span class="line">	b.必须放在 &lt;style&gt; &lt;/style&gt; 标签内</span><br><span class="line">	c.格式</span><br><span class="line">		选择器&#123;</span><br><span class="line">			样式的属性：值 ;</span><br><span class="line">		&#125;</span><br><span class="line">4.选择器分类</span><br><span class="line">	a.标签选择器 </span><br><span class="line">		以标签名 命名，只对同名的标签起作用</span><br><span class="line">		//对所有标签起作用</span><br><span class="line">		*&#123;</span><br><span class="line">		&#125;</span><br><span class="line">	b.类选择器</span><br><span class="line">		不同名称的标签，具有相同的样式</span><br><span class="line">		.名称&#123;</span><br><span class="line">		&#125;</span><br><span class="line">		通过标签的 class 属性进行引入</span><br><span class="line">			class = <span class="string">&quot;名称&quot;</span></span><br><span class="line">	c.id选择器</span><br><span class="line">		仅对与 id 同名的标签起作用，只作用一个</span><br><span class="line">		<span class="comment">#名称&#123;</span></span><br><span class="line">		&#125;</span><br><span class="line">			</span><br><span class="line">		(1.20)</span><br><span class="line">1.div：</span><br><span class="line">	块 级容器，独立成行</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嵌入式实训 Day1 Linux基础篇</title>
+    <url>/archives/27735.html</url>
+    <content><![CDATA[<h5 id="【1】linux命令"><a href="#【1】linux命令" class="headerlink" title="【1】linux命令"></a>【1】linux命令</h5><p>   linux@ubuntu:~$  家目录   /home/linux<br>   linux@ubuntu:/$  根目录   </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ctrl+alt+t		<span class="comment">#打开终端</span></span><br><span class="line"><span class="built_in">cd</span>			<span class="comment">#切换到家目录</span></span><br><span class="line"><span class="built_in">cd</span> /			<span class="comment">#切换到根目录（系统文件）</span></span><br><span class="line"><span class="built_in">cd</span> ..			<span class="comment">#切换到上一级</span></span><br><span class="line"><span class="built_in">cd</span> -			<span class="comment">#返回上一级</span></span><br><span class="line">ls  			<span class="comment">#查看当前目录下的所有文件目录  （-list）</span></span><br></pre></td></tr></table></figure>
+<p>   目录：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir + 目录名  					<span class="comment">#创建目录	</span></span><br><span class="line">rmdir + 目录名 （只能删除空目录）			<span class="comment">#删除目录	</span></span><br><span class="line">touch + 文件名 （普通文本，C源码）			<span class="comment">#创建新文件  </span></span><br><span class="line">rm + 文件名 					<span class="comment">#删除文件	</span></span><br><span class="line">cp + 被复制 + 新文件名/目录名（拷贝到此目录）	<span class="comment">#复制文件	</span></span><br><span class="line">mv + 被剪切 + 新文件名/目录名（剪切到此目录）	<span class="comment">#剪切		</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h5 id="【2】vim编辑器"><a href="#【2】vim编辑器" class="headerlink" title="【2】vim编辑器"></a>【2】vim编辑器</h5><p>vim编辑器模式：<br>    1.输入模式<br>    2.底行模式<br>在底行模式下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift + : wq		#保存退出</span><br><span class="line">	  q!		#不保存退出</span><br><span class="line">	  w		#只保存</span><br><span class="line">	  行号 		#光标跳转到某一行</span><br><span class="line">	  &#x2F; + 关键字 #查找关键字  N</span><br><span class="line">yy 	#复制一行</span><br><span class="line">dd	#剪切一行</span><br><span class="line">p  	#粘贴</span><br></pre></td></tr></table></figure>
+<p>底行模式 ——&gt; 输入模式  i<br>输入模式 ——&gt; 底行模式  Esc</p>
+<h5 id="【3】gcc编译器"><a href="#【3】gcc编译器" class="headerlink" title="【3】gcc编译器"></a>【3】gcc编译器</h5><pre><code>gcc + xxx.c   #生成a.out(elf格式)
+执行 ./a.out 
+自定义生成的文件名：  gcc  xxx.c  -o（生成新文件） xxx
+gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
+</code></pre>
+<p>gcc编译流程： 预处理、编译、汇编、链接<br>预处理：xxx.c —&gt; xxx.i(预处理文件)<br>编译：    xxx.i —&gt; xxx.s(汇编文件)<br>汇编：    xxx.s —&gt; xxx.o(可重定向文件、执行文件的依赖文件)<br>链接：    xxx.o —&gt; xxx(可执行文件,elf格式)</p>
+<p>单步编译处理：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">预处理:  gcc -E xxx.c -o xxx.i</span><br><span class="line">编译：	gcc -S xxx.c -o xxx.s</span><br><span class="line">汇编：	gcc -c xxx.s -o xxx.o</span><br><span class="line">链接：	gcc xxx.o -o xxx</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>东软冬训营 Java篇</title>
+    <url>/archives/13739.html</url>
+    <content><![CDATA[<p>1.整数与小数<br>小数 除以 0 = 无穷 (小数中没有绝对的零)<br>整数 除以 0  无意义<br>2.字符串<br>a)获取字符串长度<br>    String str = “123456789”;<br>    int size = str.length();<br>b)字符串截取<br>    //截取从a位置到b位置的字符串，a，b为字符串位置下标<br>    String str1 = str.substring(a,b+1); //前包含，后不包含<br>c)判断字符串是否相等<br>    str1.equals(str2);<br>d)获取字符串 下标对应的字符<br>    str1.charAt(下标)；<br>3.强制类型转换<br>Integer.parseInt(str); //字符串型强制转换为整型<br>Integer.toString(n);   //整型强制转换为字符串型<br>4.输出打印<br>println 输出换行<br>print   输出不换行<br>5.获取用户输入数据<br>Scanner sc=new Scanner(System.in);<br>int a=sc.nextInt(); //获取输入数据</p>
+<p>String str=sc.next();<br>//next()以空格为结束符，不能获取带有空格的字符串<br>String str=sc.nextLine();<br>//nextLoine()以 Enter 键为结束符，获得的字符串为 Enter 前的所有内容<br>6.获取随机数<br>a)<br>    Math.random() //获取0<del>1之间的随机数<br>    //获取0</del>a之间的整数，需强制类型转换<br>    int n = (int)(Math.random()*a)<br>b)<br>    Random rand = new Random；<br>    int n = rand.nextInt(a)<br>    //获取0~a之间的整数，包含0,但不包含a<br>（1.14）<br>1.数字格式化<br>DecimalFormat df = new DecimalFormat(“0,000.00”);//数字格式化<br>String n = df.format(rst);   //rst 传入待处理数值，转化为字符串<br>2.Java 方法定义及调用<br>a)定义<br>    public 返回值类型 方法名(参数类型 参数名){<br>        //功能<br>        return 值；<br>    }<br>b)调用<br>    类名 对象名 = new 类名();<br>    返回值类型 变量 = 对象名.方法名(参数);<br>3.<br>double n = math.ceil(r); //获取大于等于 r 的最小整数<br>double n = math.floor(r);//获取小于等于 r 的最大整数<br>4.集合<br>a)线性集合<br>    List&lt;类型&gt; list = new Arraylist&lt;&gt;();     //(整型：Integer类)<br>    list.add()          //将数据添加到集合<br>    list.contains()      //内容查重，返回boolean值<br>    list.size()            //获取集合元素个数<br>    list.get(数据下标)； //获取集合中相应下标对应的数据<br>b)键值对集合<br>    Map&lt;key类型，value类型&gt; map = new HashMap&lt;&gt;(); //构建集合<br>    map.put(key,value);  //放入键值对，key 重复，value 值覆盖<br>    map.get(key);        //获取 key 对应的 value</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -873,250 +1117,6 @@ CRUD
       <tags>
         <tag>Java</tag>
         <tag>mysql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>东软冬训营 Java篇</title>
-    <url>/archives/13739.html</url>
-    <content><![CDATA[<p>1.整数与小数<br>小数 除以 0 = 无穷 (小数中没有绝对的零)<br>整数 除以 0  无意义<br>2.字符串<br>a)获取字符串长度<br>    String str = “123456789”;<br>    int size = str.length();<br>b)字符串截取<br>    //截取从a位置到b位置的字符串，a，b为字符串位置下标<br>    String str1 = str.substring(a,b+1); //前包含，后不包含<br>c)判断字符串是否相等<br>    str1.equals(str2);<br>d)获取字符串 下标对应的字符<br>    str1.charAt(下标)；<br>3.强制类型转换<br>Integer.parseInt(str); //字符串型强制转换为整型<br>Integer.toString(n);   //整型强制转换为字符串型<br>4.输出打印<br>println 输出换行<br>print   输出不换行<br>5.获取用户输入数据<br>Scanner sc=new Scanner(System.in);<br>int a=sc.nextInt(); //获取输入数据</p>
-<p>String str=sc.next();<br>//next()以空格为结束符，不能获取带有空格的字符串<br>String str=sc.nextLine();<br>//nextLoine()以 Enter 键为结束符，获得的字符串为 Enter 前的所有内容<br>6.获取随机数<br>a)<br>    Math.random() //获取0<del>1之间的随机数<br>    //获取0</del>a之间的整数，需强制类型转换<br>    int n = (int)(Math.random()*a)<br>b)<br>    Random rand = new Random；<br>    int n = rand.nextInt(a)<br>    //获取0~a之间的整数，包含0,但不包含a<br>（1.14）<br>1.数字格式化<br>DecimalFormat df = new DecimalFormat(“0,000.00”);//数字格式化<br>String n = df.format(rst);   //rst 传入待处理数值，转化为字符串<br>2.Java 方法定义及调用<br>a)定义<br>    public 返回值类型 方法名(参数类型 参数名){<br>        //功能<br>        return 值；<br>    }<br>b)调用<br>    类名 对象名 = new 类名();<br>    返回值类型 变量 = 对象名.方法名(参数);<br>3.<br>double n = math.ceil(r); //获取大于等于 r 的最小整数<br>double n = math.floor(r);//获取小于等于 r 的最大整数<br>4.集合<br>a)线性集合<br>    List&lt;类型&gt; list = new Arraylist&lt;&gt;();     //(整型：Integer类)<br>    list.add()          //将数据添加到集合<br>    list.contains()      //内容查重，返回boolean值<br>    list.size()            //获取集合元素个数<br>    list.get(数据下标)； //获取集合中相应下标对应的数据<br>b)键值对集合<br>    Map&lt;key类型，value类型&gt; map = new HashMap&lt;&gt;(); //构建集合<br>    map.put(key,value);  //放入键值对，key 重复，value 值覆盖<br>    map.get(key);        //获取 key 对应的 value</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>嵌入式实训 Day3 Linux内核编译与服务器配置</title>
-    <url>/archives/20426.html</url>
-    <content><![CDATA[<h5 id="【1】uboot烧写原理"><a href="#【1】uboot烧写原理" class="headerlink" title="【1】uboot烧写原理"></a>【1】uboot烧写原理</h5><p> SD卡制作启动盘：<br>     cd  sdfuse_q<br>     ./mkuboot.sh /dev/sdb    SD卡的设备文件名    /dev 保存设备节点（文件名）<br>     ./sd_fusing_exynos4x12.sh /dev/sdb u-boot-fs4412.bin</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$2</span> fusing...&quot;</span></span><br><span class="line">dd iflag=dsync oflag=dsync <span class="keyword">if</span>=<span class="variable">$2</span> of=<span class="variable">$1</span> seek=1 &amp;&amp; \</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$2</span> image has been fused successfully.&quot;</span>   </span><br></pre></td></tr></table></figure>
-<p>if(inputfile)–输入文件—u-boot-fs4412.bin（2010）<br>of(outputfile)–输出文件— /dev/sdb<br>dd 将输入文件的内容复制给输出文件（复制的同时进行了格式转换）<br>本质：将uboot镜像固化到SD卡，SD卡成为启动盘</p>
-<pre><code>Linux文件类型：
-b  （block 块设备文件）  具体表示是一种设备
-c  （char 字符设备文件） 具体表示是一种设备
-d  （目录）
--  （普通文件） .txt .dat
-l  （链接文件）
-s  （套接字文件）
-p  （管道文件）
-</code></pre>
-<h5 id="【2】重启网卡"><a href="#【2】重启网卡" class="headerlink" title="【2】重启网卡"></a>【2】重启网卡</h5><pre><code>sudo /etc/init.d/networking restart
-</code></pre>
-<h5 id="【3】Linux内核配置编译"><a href="#【3】Linux内核配置编译" class="headerlink" title="【3】Linux内核配置编译"></a>【3】Linux内核配置编译</h5><p> 1）Makefile<br>    198 ARCH        ?= arm     默认X86<br>    199 CROSS_COMPILE   ?= arm-none-linux-gnueabi-    申明交叉编译工具链的前缀</p>
-<p> 2）导入默认配置<br>    确保Linux内核镜像可以运行在当前产品中，支持当前的SOC<br>    make  exynos_defconfig<br>          描述的是与SOC有关的代码对应的选项<br>          cp arch/arm/configs/exynos_defconfig .config</p>
-<p>  .config 配置文件通知Makefile在编译内核镜像的时候，用来确定编译哪些文件</p>
-<p>  由顶层目录下的Makefile，调用子目录的中的Makefile协同完成源码的编译</p>
-<p>  .config保存的都是选项，每一个选项都会对应源码中的一个文件或者多个文件</p>
-<p> 3）make menuconfig  图形界面的选配<br>    对上一步的完善，用户可以自定义选择选项，选项被选择，该选项所对应的文件被编译到内核镜像中‘<br>    选项未选中，该选项所对应的文件肯定不会被编译到内核镜像中</p>
-<p> 4）make uImage  编译内核镜像</p>
-<p> 5）make dtbs  编译设备树文件</p>
-<h5 id="【4】tftp服务器"><a href="#【4】tftp服务器" class="headerlink" title="【4】tftp服务器"></a>【4】tftp服务器</h5><p> tftp远程传输协议<br> 服务器端配置： sudo vi /etc/default/tftpd-hpa</p>
-<p>  3 TFTP_USERNAME=”tftp”<br>  4 TFTP_DIRECTORY=”/tftpboot”   传输目录<br>                                 sudo mkdir /tftpboot<br>                                 sudo chmod  777 /tftpboot<br>  5 TFTP_ADDRESS=”0.0.0.0:69”<br>  6 TFTP_OPTIONS=”-c -s -l”    </p>
-<p>  启动服务器：<br>  sudo service tftpd-hpa restart</p>
-<h5 id="【5】配置nfs服务器"><a href="#【5】配置nfs服务器" class="headerlink" title="【5】配置nfs服务器"></a>【5】配置nfs服务器</h5><p> 配置server端：<br>     sudo vi /etc/exports</p>
-<pre><code> /source/rootfs/ *(rw,sync,no_subtree_check,no_root_squash)
-
- /source  共享目录
-          sudo mkdir /source
-          sudo chmod 777 /source
- rootfs   开发板需要访问的文件系统
- 
-</code></pre>
-<p> 启动nfs服务器：<br>    sudo /etc/init.d/nfs-kernel-server restart</p>
-<h5 id="【6】bootloader"><a href="#【6】bootloader" class="headerlink" title="【6】bootloader"></a>【6】bootloader</h5><p> bootloader的操作的方式：自启动、交互</p>
-<p> setenv  设置新的环境变量<br> saveenv  保存设置的环境变量<br> printenv 显示保存的环境变量</p>
-<p> serverip  主机IP<br> ipaddr    目标机<br> bootcmd   bootcmd  自启动命令（当uboot自启动时，默认操作该命令后的所有指令）<br> tftp addr uImage/exynos4412-fs4412.dtb   传输指令<br> bootm  addr  启动地址上的镜像</p>
-<p> bootargs  uboot不执行该命令，uboot将该命令在启动内核之后，传递给内核，<br>           内核会读取检验该命令，进而完成对文件系统的访问</p>
-<h5 id="【7】网卡驱动"><a href="#【7】网卡驱动" class="headerlink" title="【7】网卡驱动"></a>【7】网卡驱动</h5><p> 1）设备树（网卡的信息）<br>    设备树功能：描述硬件信息，内核在启动时，会解析设备树文件，将设备树中保存的硬件信息读取，保存<br>    内核中的驱动可以通过读取的硬件信息，进而完成对硬件设备的控制<br>    Linux3.0提供设备树的机制（结合数据结构中的树为思想）<br>    设备树本质是文本文件，Linux内核中把该文件抽象为树型结构</p>
-<pre><code>/&#123;
-    testnode1&#123;
-       a = x;
-    &#125;;
-    testnode2&#123;
-        testnode3&#123;
-           b = y;
-        &#125;;
-    
-    &#125;;
-
-&#125;;
-</code></pre>
-<p> 2）make menuconfig图形界面<br>    选配选项 [*]  </p>
-<pre><code>[*] Networking support  ---&gt;
-Networking options  ---&gt;     网络配置 网络协议
-    &lt;*&gt; Packet socket
-    &lt;*&gt; Unix domain sockets 
-    [*] TCP/IP networking
-    [*]   IP: kernel level autoconfiguration
-</code></pre>
-<hr>
-<pre><code>device Drivers  ---&gt;       设备驱动
-[*] Network device support  ---&gt;
-    [*]   Ethernet driver support   ---&gt;
-        &lt;*&gt;   DM9000 support
-</code></pre>
-<hr>
-<pre><code>File systems  ---&gt;          文件系统支持（支持nfs服务器的客户端）
-[*] Network File Systems   ---&gt;
-    &lt;*&gt;   NFS client support
-    [*]   NFS client support for NFS version 3 (NEW)
-    [*]   NFS client support for the NFSv3 ACL protocol extension (NEW)
-    [*]   Root file system on NFS (NEW)
-</code></pre>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>嵌入式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>东软冬训营 HTML篇</title>
-    <url>/archives/63841.html</url>
-    <content><![CDATA[<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">(1.19)</span><br><span class="line">1.页面内容</span><br><span class="line">	a.静态文本 直接写</span><br><span class="line">	b.用户输入，输入 按固定格式写</span><br><span class="line">2.常用标签</span><br><span class="line">	</span><br><span class="line">	注意： 标签必须符合HTML规范</span><br><span class="line">	a.form：表单标签，用于提交数据</span><br><span class="line">		action 表示提交数据位置</span><br><span class="line">		method 表示提交数据的方式</span><br><span class="line">			post 隐含</span><br><span class="line">	b.table: 表格</span><br><span class="line">		&lt;table&gt;</span><br><span class="line">			&lt;tr&gt;                &lt;!-- 第一行 --&gt;</span><br><span class="line">				&lt;td&gt;列一&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;列二&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/table&gt;</span><br><span class="line">	c.输入类：</span><br><span class="line">	&lt;input <span class="built_in">type</span>=<span class="string">&quot;&quot;</span> name=<span class="string">&quot;&quot;</span> id=<span class="string">&quot;&quot;</span>&gt;</span><br><span class="line">		<span class="built_in">type</span>类型：</span><br><span class="line">			text	输入文本</span><br><span class="line">			radio	单选 需提供 value 属性</span><br><span class="line">	d.下拉列表：</span><br><span class="line">	&lt;select name=<span class="string">&quot;&quot;</span> id=<span class="string">&quot;&quot;</span>&gt;</span><br><span class="line">		&lt;option value=<span class="string">&quot;xxx&quot;</span>&gt;xxx&lt;/option&gt;</span><br><span class="line">	&lt;/select&gt;</span><br><span class="line">	e.文本域：</span><br><span class="line">	&lt;textarea name=<span class="string">&quot;&quot;</span> rows=<span class="string">&quot;&quot;</span> clos=<span class="string">&quot;&quot;</span>&gt;&lt;/textarea&gt;</span><br><span class="line">	f.按钮：</span><br><span class="line">	&lt;button <span class="built_in">type</span>=<span class="string">&quot;&quot;</span>&gt;xxx&lt;/button&gt;</span><br><span class="line"></span><br><span class="line">3.控件属性设置</span><br><span class="line">	语言结构</span><br><span class="line">	a.样式 必须放在 head 标签内</span><br><span class="line">	b.必须放在 &lt;style&gt; &lt;/style&gt; 标签内</span><br><span class="line">	c.格式</span><br><span class="line">		选择器&#123;</span><br><span class="line">			样式的属性：值 ;</span><br><span class="line">		&#125;</span><br><span class="line">4.选择器分类</span><br><span class="line">	a.标签选择器 </span><br><span class="line">		以标签名 命名，只对同名的标签起作用</span><br><span class="line">		//对所有标签起作用</span><br><span class="line">		*&#123;</span><br><span class="line">		&#125;</span><br><span class="line">	b.类选择器</span><br><span class="line">		不同名称的标签，具有相同的样式</span><br><span class="line">		.名称&#123;</span><br><span class="line">		&#125;</span><br><span class="line">		通过标签的 class 属性进行引入</span><br><span class="line">			class = <span class="string">&quot;名称&quot;</span></span><br><span class="line">	c.id选择器</span><br><span class="line">		仅对与 id 同名的标签起作用，只作用一个</span><br><span class="line">		<span class="comment">#名称&#123;</span></span><br><span class="line">		&#125;</span><br><span class="line">			</span><br><span class="line">		(1.20)</span><br><span class="line">1.div：</span><br><span class="line">	块 级容器，独立成行</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>嵌入式实训 Day5 第三方驱动移植</title>
-    <url>/archives/56504.html</url>
-    <content><![CDATA[<h5 id="【1】第三方驱动移植"><a href="#【1】第三方驱动移植" class="headerlink" title="【1】第三方驱动移植"></a>【1】第三方驱动移植</h5><p> 1）Kconfig  生成图形界面中的选项<br>      由顶层目录下的Kconfig逐级调用各个子目录中的Kconfig，共同生成整体的图形界面</p>
-<pre><code>  5 menu &quot;Character devices&quot;       图形界面中生成菜单
-  7 config  FS4412_LED             config-生成选项
-  8     tristate &quot;FS4412 LED Driver Support&quot;-图形界面中的选项名
-        bool： *（y）  （n）
-        tristate： *（y）  （n）  （M）
-  9     depends on ARCH_EXYNOS4       依赖
-        default  y                    默认选中
-  10     help                         帮助，申明
-  11         support led device on FS4412 develop board
-  source  引用下一级Kconfig
-  endmenu
-</code></pre>
-<p> 2） 64 obj-$(CONFIG_FS4412_LED)    += fs4412_led_drv.o       </p>
-<pre><code> obj-y  += fs4412_led_drv.o  表示编译此代码
-</code></pre>
-<p> 3）$ make menuconfig      </p>
-<pre><code>  Device Drivers  ---&gt;  
-  Character devices  ---&gt;  
-        &lt;*&gt; FS4412  LED  Device Support  静态编译
-        编译此文件，并将其编译到内核镜像中
-        &lt;M&gt; FS4412  LED  Device Support  动态编译
-        编译此文件，将该文件编译为模块，不会添加到内核镜像中，便于调试
-</code></pre>
-<p>4）make  modules<br>    将图形界面中所有选择为M的选项所对应的文件，全部编译为模块（xxx.ko）</p>
-<h5 id="【2】字符设备"><a href="#【2】字符设备" class="headerlink" title="【2】字符设备"></a>【2】字符设备</h5><p> 应用层实现对字符设备的控制，采用文件IO（文件的读写）<br> 文件IO定义：采用系统调用的方式实现对文件的读写操作</p>
-<p> 打开文件（普通文件，硬件设备（字符设备节点 mknod /dev/led c 500 0））<br> int open(const char *pathname, int flags);<br> int open(const char *pathname, int flags, mode_t mode);<br> 功能： 打开一个文件<br> 参数: </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pathname -路径名</span><br><span class="line">flags -标志位：          </span><br><span class="line">O_RDONLY   以只读的方式打开文件 </span><br><span class="line">O_WRONLY   以只写的方式打开文件</span><br><span class="line">O_RDWR     以读写的方式打开文件</span><br><span class="line">O_APPEND   以追加的方式打开文件（从文件的数据的末尾处开始读写）</span><br><span class="line">O_CREAT    如果打开的文件不存在，自动创建</span><br><span class="line">O_TRUNC    清空文件中原有的数据</span><br><span class="line">   O_WRONLY|O_CREAT|O_TRUNC 以只写的方式打开文件，如果文件不存在，自动创建，如果文件存在，清空数据</span><br><span class="line">O_RDWR|O_CREAT|O_TRUNC   以读写的方式打开文件，如果文件不存在，自动创建，如果文件存在，清空数据</span><br><span class="line">O_WRONLY|O_CREAT|O_APPEND 以只写的方式打开文件，如果文件不存在，自动创建，如果文件存在，写入到数据的末尾</span><br><span class="line">O_RDWR|O_CREAT|O_APPEND  以读写的方式打开文件，如果文件不存在，自动创建，如果文件存在，从文件末尾处读写</span><br><span class="line">mode   用户对该文件的执行权限   </span><br><span class="line">       如果第二个参数中指定O_CREAT，必须指定该参数</span><br><span class="line">	返回值: 成功  文件描述符（非负数）</span><br><span class="line">          失败  -1</span><br></pre></td></tr></table></figure>
-<p>【3】字符设备驱动框架<br> 1）需要申请注册设备号（设备号用来区分不同的设备）<br> 2）完成对设备的控制（完成与应用层的交互）<br> 3）驱动自行创建设备节点（不用手动自行创建  mknod）</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>嵌入式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>嵌入式实训 Day1 Linux基础篇</title>
-    <url>/archives/27735.html</url>
-    <content><![CDATA[<h5 id="【1】linux命令"><a href="#【1】linux命令" class="headerlink" title="【1】linux命令"></a>【1】linux命令</h5><p>   linux@ubuntu:~$  家目录   /home/linux<br>   linux@ubuntu:/$  根目录   </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ctrl+alt+t		<span class="comment">#打开终端</span></span><br><span class="line"><span class="built_in">cd</span>			<span class="comment">#切换到家目录</span></span><br><span class="line"><span class="built_in">cd</span> /			<span class="comment">#切换到根目录（系统文件）</span></span><br><span class="line"><span class="built_in">cd</span> ..			<span class="comment">#切换到上一级</span></span><br><span class="line"><span class="built_in">cd</span> -			<span class="comment">#返回上一级</span></span><br><span class="line">ls  			<span class="comment">#查看当前目录下的所有文件目录  （-list）</span></span><br></pre></td></tr></table></figure>
-<p>   目录：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir + 目录名  					<span class="comment">#创建目录	</span></span><br><span class="line">rmdir + 目录名 （只能删除空目录）			<span class="comment">#删除目录	</span></span><br><span class="line">touch + 文件名 （普通文本，C源码）			<span class="comment">#创建新文件  </span></span><br><span class="line">rm + 文件名 					<span class="comment">#删除文件	</span></span><br><span class="line">cp + 被复制 + 新文件名/目录名（拷贝到此目录）	<span class="comment">#复制文件	</span></span><br><span class="line">mv + 被剪切 + 新文件名/目录名（剪切到此目录）	<span class="comment">#剪切		</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h5 id="【2】vim编辑器"><a href="#【2】vim编辑器" class="headerlink" title="【2】vim编辑器"></a>【2】vim编辑器</h5><p>vim编辑器模式：<br>    1.输入模式<br>    2.底行模式<br>在底行模式下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift + : wq		#保存退出</span><br><span class="line">	  q!		#不保存退出</span><br><span class="line">	  w		#只保存</span><br><span class="line">	  行号 		#光标跳转到某一行</span><br><span class="line">	  &#x2F; + 关键字 #查找关键字  N</span><br><span class="line">yy 	#复制一行</span><br><span class="line">dd	#剪切一行</span><br><span class="line">p  	#粘贴</span><br></pre></td></tr></table></figure>
-<p>底行模式 ——&gt; 输入模式  i<br>输入模式 ——&gt; 底行模式  Esc</p>
-<h5 id="【3】gcc编译器"><a href="#【3】gcc编译器" class="headerlink" title="【3】gcc编译器"></a>【3】gcc编译器</h5><pre><code>gcc + xxx.c   #生成a.out(elf格式)
-执行 ./a.out 
-自定义生成的文件名：  gcc  xxx.c  -o（生成新文件） xxx
-gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
-</code></pre>
-<p>gcc编译流程： 预处理、编译、汇编、链接<br>预处理：xxx.c —&gt; xxx.i(预处理文件)<br>编译：    xxx.i —&gt; xxx.s(汇编文件)<br>汇编：    xxx.s —&gt; xxx.o(可重定向文件、执行文件的依赖文件)<br>链接：    xxx.o —&gt; xxx(可执行文件,elf格式)</p>
-<p>单步编译处理：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">预处理:  gcc -E xxx.c -o xxx.i</span><br><span class="line">编译：	gcc -S xxx.c -o xxx.s</span><br><span class="line">汇编：	gcc -c xxx.s -o xxx.o</span><br><span class="line">链接：	gcc xxx.o -o xxx</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>嵌入式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>嵌入式实训 Day6 驱动编写</title>
-    <url>/archives/18881.html</url>
-    <content><![CDATA[<p>【3】字符设备驱动框架<br> 内核：内存管理、进程管理、网络协议、驱动、虚拟文件系统</p>
-<p> 1）需要申请注册设备号（设备号用来区分不同的设备）–设备号给驱动使用<br> 2）完成对设备的控制（完成与应用层的交互）<br> 3）驱动自行创建设备节点（不用手动自行创建  mknod）–节点给应用层使用，在应用层中视字符设备为文件<br>                                                     应用层代码通过操作文件，实现对设备的控制</p>
-<p> 驱动三要素：<br> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static 静态，修饰函数，表示该函数只应用于本文件（作用域只适用本文件）</span><br><span class="line">1）入口函数</span><br><span class="line">    驱动在内核生效，自动执行入口函数，在入口函数完成资源申请，初始化工作</span><br><span class="line">	  6 static int __init driver_test_init(void)&#123;</span><br><span class="line">      7 </span><br><span class="line">      8     return 0;</span><br><span class="line">      9 &#125;</span><br><span class="line">	  14 module_init(driver_test_init);      </span><br><span class="line">2）卸载函数</span><br><span class="line">    驱动在内核失效，自动执行卸载函数，在卸载函数资源释放，注销工作</span><br><span class="line"></span><br><span class="line">	  11 static void __exit driver_test_exit(void)&#123;</span><br><span class="line">      12 </span><br><span class="line">      13 &#125;</span><br><span class="line">      15 module_exit(driver_test_exit);</span><br><span class="line"> 3）模块申明（驱动）</span><br><span class="line">    开发许可证申明</span><br><span class="line">	MODULE_LICENSE(&quot;GPL&quot;);</span><br></pre></td></tr></table></figure><br>【2】申请注册设备号<br> 设备号（32bit） = 主设备号（高12bit）  +  次设备号（低20bit）</p>
-<p> #define MINORBITS    20<br> #define MINORMASK    ((1U &lt;&lt; MINORBITS) - 1)</p>
-<p> #define MAJOR(dev)    ((unsigned int) ((dev) &gt;&gt; MINORBITS))  根据设备号，得到主设备号<br> #define MINOR(dev)    ((unsigned int) ((dev) &amp; MINORMASK)) 根据设备号，得到次设备号<br> #define MKDEV(ma,mi)    (((ma) &lt;&lt; MINORBITS) | (mi))    根据主次设备号，生成设备号<br>  主： 11010010       —》 1101001000000000000000000000<br>  次： 100010111001   —》                 100010111001<br>                            1101001000000000100010111001<br> 申请注册设备号：<br>     1）静态注册<br>        （驱动中设定设备号，向内核注册）–用户自定义不能与内核中已注册的设备号重复<br>         int register_chrdev_region(dev_t from, unsigned count, const char *name)<br>         功能：向内核注册设备号<br>         参数：from  设备号<br>               count 注册设备号的数量<br>               name  名字 用户自定义<br>         返回值：成功 0<br>                 失败 负数<br>     2）动态注册<br>        （驱动向内核申请设备号，由内核自动分配，再注册）<br>        int alloc_chrdev_region(dev_t *dev, unsigned baseminor, unsigned count,<br>            const char *name)</p>
-<pre><code>    功能：自动分配设备号，并完成注册
-    参数：dev  保存内核自动分配的设备号
-          baseminor  次设备号
-          count  注册设备号的数量
-          name   用户自定义
-    返回值：成功   0
-            失败   负数
-            
- 3）注销设备号
-    void unregister_chrdev_region(dev_t from, unsigned count)
-    功能：注销设备号
-    参数：from  设备号
-          count  数量
-</code></pre>
-<p>【2】设备号与设备建立关系，实现对设备的控制<br> 在内核中，由内核定义结构体cdev，用结构体描述具体的设备<br> struct cdev {<br>    struct module *owner;     THIS_MODULE<br>    const struct file_operations *ops;    定义对具体的硬件设备操作的方法<br>    dev_t dev;        设备号<br> };</p>
-<p> 1）初始化cdev结构体<br>    void cdev_init(struct cdev *cdev, const struct file_operations *fops)<br>    功能：初始化cdev结构体中的成员<br>    参数：cdev  cdev结构体指针<br>          fops  file_operations结构体的指针</p>
-<p> 2）将cdev结构体添加到内核的链表<br>    int cdev_add(struct cdev *p, dev_t dev, unsigned count)<br>    功能：将已经初始化的cdev结构体添加到内核链表中<br>    参数：p   cdev结构体的指针<br>          dev  设备号<br>          count 添加到内核链表中cdev结构体的数量<br>    返回值：成功  0<br>            失败 负数 </p>
-<p> 3）void cdev_del(struct cdev *p)<br>    功能：从链表中移除cdev结构体<br>    参数：p   cdev结构体    </p>
-<p>【3】实现设备的打开、关闭<br> 应用层： fd  = open(“/dev/test”, O_RDWR);<br>          close(fd);</p>
-<p> 驱动： int test_open(struct inode *, struct file *){<br>            //用户实现设备的打开操作<br>        }<br>        int test_close(struct inode *, struct file *){<br>            //实现设备的关闭<br>        }</p>
-<p> struct file_operations fops = {<br>    .open = test_open,<br>    .release = test_close,<br> };        </p>
-<p> 当用户创建设备节点，内核同时初始化inode和file结构体，与设备节点所对应，保存该设备节点的属性</p>
-<p> 当应用程序执行对设备节点的操作时（open close），内核自动找到该设备节点所对应的inode结构体以及file结构体<br> 从inode结构体中获的设备节点所对应的设备号，内核根据设备号找到从内核链表中找到对应的cdev结构体，<br> 得到cdev结构体中对设备操作的方法集合，进而调用操作集合中对应的函数实现对设备的控制</p>
-<p>【4】实现对设备的读写操作<br> 应用层实现读写操作：<br> ssize_t write(int fd, const void *buf, size_t count);<br> 功能：<br> 参数：<br> 返回值：</p>
-<p> ssize_t read(int fd, void *buf, size_t count);<br> 功能：<br> 参数：<br> 返回值：</p>
-<p> day7<br> 【1】系统调用<br> func（功能函数）—-》系统调用接口层（异常-中断）——》SYSCALL（系统调用的服务例程）—–》sys_func—-》test_func<br> 应用层（文件系统）        虚拟文件系统层                  内核层</p>
-<p> 每一次系统调用的函数接口对应一个系统调用编号，给服务例程使用<br> 每一次系统调用，处理器的状态发生改变，用户态—》内核态   内核态—》用户态</p>
-<p>【2】驱动实现控制设备<br> 应用层：int ioctl(int d, int request, …);<br>         功能：控制设备<br>         参数： fd   文件描述符<br>                request  命令码<br>                         生成命令码<br>                         #define _IO(type,nr)<br>                         生成命令码，实现数据的传输<br>                         #define _IOR(type,nr,size)<br>                         #define _IOW(type,nr,size)<br>                         #define _IOWR(type,nr,size)<br>                         参数1：传字符<br>                         参数2：编号<br>                         参数3：传递的数据的大小（直接给数据）<br>                …      附件参数，不可被忽略，传递一个地址<br>                         如果ioctl需要传递数据，必须有第三个参数，该参数表示的是需要传递的数据（数据的地址）<br>                         如果不传数据，该参数赋值为NULL</p>
-<pre><code>    返回值：成功  0
-            失败  -1
-</code></pre>
-<p> 驱动：    long test_ioctl(struct file *, unsigned int, unsigned long){</p>
-<pre><code>    &#125;
- 
-    struct file_operations fops = &#123;
-        .unlocked_ioctl = test_ioctl,
-    &#125;
-</code></pre>
-<p>【3】地址转换<br> 对于Linux系统来说，不论应用层或内核层，所有的进程，对地址进行操作，都采用操作虚拟地址</p>
-<p> 对于CPU，一切皆内存，32处理器，取值范围 0x0  ~ 0xffffffff  （0 ~ 2^32 -1 –4G）</p>
-<p> 对于系统，从软件角度来看，系统中所有的进程在发访问设备的时候，只能操作虚拟地址</p>
-<p> 虚拟地址通过映射物理地址得来</p>
-<p> void * ioremap(unsigned long paddr, unsigned long size)<br> 功能：实现物理地址到虚拟地址的转换<br> 参数：addr  物理地址<br>       size  映射实际地址区域的大小<br> 返回值：  虚拟地址值</p>
-<p> void iounmap(void  *addr)<br> 功能：将物理地址和虚拟地址的映射关系断开<br> 参数：虚拟地址值</p>
-<p> 通过地址转换，得到寄存器所在的虚拟地址</p>
-<p>【4】实现对寄存器的值修改<br> int readl(const void *addr)<br> 功能：读取寄存器中保存的值<br> 参数：寄存器的地址（虚拟地址）<br> 返回值：寄存器中保存的值</p>
-<p> 修改寄存器中的值：<br>     通过位操作  （  &lt;&lt;   &gt;&gt;  |  &amp;   ~）</p>
-<p> void writel(unsigned int l, volatile void __iomem *addr)<br> 功能：将值写入到寄存器中<br> 参数：l   需要写入的值<br>       addr  寄存器的地址（虚拟地址）</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>嵌入式</tag>
       </tags>
   </entry>
   <entry>
