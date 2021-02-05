@@ -47,7 +47,7 @@
 <meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-8.png">
 <meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-9.png">
 <meta property="article:published_time" content="2021-02-03T15:20:00.000Z">
-<meta property="article:modified_time" content="2021-02-04T16:49:24.690Z">
+<meta property="article:modified_time" content="2021-02-05T05:06:06.872Z">
 <meta property="article:author" content="LJONE">
 <meta property="article:tag" content="Blog">
 <meta name="twitter:card" content="summary">
@@ -225,7 +225,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Vercel"><span class="nav-text">Vercel</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%93%E5%BA%93%E5%AF%BC%E5%85%A5%E4%B8%8E%E9%83%A8%E7%BD%B2"><span class="nav-text">仓库导入与部署</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D"><span class="nav-text">自定义域名</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Coding%E9%83%A8%E7%BD%B2"><span class="nav-text">Coding部署</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Vercel"><span class="nav-text">Vercel</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%93%E5%BA%93%E5%AF%BC%E5%85%A5%E4%B8%8E%E9%83%A8%E7%BD%B2"><span class="nav-text">仓库导入与部署</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D"><span class="nav-text">自定义域名</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -669,6 +669,7 @@ if(canvas.getContext){
     
     <div class="post-body" itemprop="articleBody">
         <p>近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。同时，由于 Coding 部署利用了腾讯的 OSS 和 CDN 资源需要收费，而我作为新版 Coding 的新用户不能向老用户一样白嫖，这显然不符合我白嫖走天下的理念。经过一番寻找最终找到了部署至 Vercel 的方案。</p>
+<h2 id="Coding部署"><a href="#Coding部署" class="headerlink" title="Coding部署"></a>Coding部署</h2><p>关于Coding部署可以参考这一篇：<a target="_blank" rel="noopener" href="https://asurada.zone/post/CODING-Pages-Upgrade-To-TencentCloud/">CODING Pages 静态网站升级腾讯云新版踩坑小记</a></p>
 <div class="note info"><h2 id="Vercel"><a href="#Vercel" class="headerlink" title="Vercel"></a>Vercel</h2><p>原名 Zeit，服务器在美国，在港台有 CDN 节点，提供自定义 xxx.now.sh 和 xxx.vercel.app 域名，且支持免费绑定个人域名，同时可以解决百度爬虫问题。最大的好处就是可以绑定 GitHub 账号，由 GitHub 托管Hexo博客源码，Vercel 导入博客源码，当检测到仓库改动后自动进行部署。</p>
 </div>
 <p>下面进行 Vercel 部署的介绍。</p>
@@ -690,7 +691,7 @@ if(canvas.getContext){
 <p>填写项目名称选择框架，默认即可，点击<code>Deploy</code>。</p>
 <p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-3.png"></p>
 <p>等待 Vercel 部署完成，点击 <code>Visit</code>即可浏览。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-5.png" alt=" "></p>
+<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-5.png" alt=" ">   </p>
 <p>在首页可以看到 Vercel 提供的两个域名，如果没有自定义域名需求的话到这里就可以结束了。</p>
 <p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-6.png" alt=" "></p>
 <h2 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h2><p>进入项目设置，找到 <code>Domains</code>，在 <code>Add</code> 前面的输入框内输入要自定义的域名地址，再点击 <code>Add</code> 即可。</p>
@@ -763,6 +764,7 @@ if(canvas.getContext){
 
 
 
+    <div class="comments gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -980,6 +982,26 @@ if (document.querySelectorAll('.pdf-container').length) {
       });
       });
   </script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('.gitalk-container', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'd21d58780baaedb6496d',
+      clientSecret: '3c19a3ad46fa4df3cf6e8dbfce589bf9a5b028ea',
+      repo        : 'leafiness.github.io',
+      owner       : 'leafiness',
+      admin       : ['leafiness'],
+      id          : 'fbdb110e7183de6fc17cd37e520b259e',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render(document.querySelector('.gitalk-container'));
+  }, window.Gitalk);
+});
+</script>
 
 
 

@@ -723,6 +723,7 @@ if(canvas.getContext){
 
 
 
+    <div class="comments gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -940,6 +941,26 @@ if (document.querySelectorAll('.pdf-container').length) {
       });
       });
   </script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('.gitalk-container', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'd21d58780baaedb6496d',
+      clientSecret: '3c19a3ad46fa4df3cf6e8dbfce589bf9a5b028ea',
+      repo        : 'leafiness.github.io',
+      owner       : 'leafiness',
+      admin       : ['leafiness'],
+      id          : '8bc0bbaf6e17196e218ba99151d36202',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render(document.querySelector('.gitalk-container'));
+  }, window.Gitalk);
+});
+</script>
 
 
 
