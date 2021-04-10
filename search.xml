@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>MyTest</title>
-    <url>/archives/12215.html</url>
+    <url>/archives/2018/05/MyTest/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="0afd48b5869d1b2f20c3ea2ee8c0d769c5dfb985602849a7a24804d7a02f4b0e">bd25ed9264b080267271e137e33d0ce10d0d63c746cf62e20f15a634036418035663a28cabb4d8b61b9b22b55a2353d15acb169f7fa04cc96688119bd92ec7b40b99daa3c42da4fecadae2f68aad2a034ef2e0af1015869ed0322b4c171df2c76f376a02d301920914a387ca6e0f471e</script>
   <div class="hbe hbe-content">
@@ -21,7 +21,7 @@
   </entry>
   <entry>
     <title>Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题</title>
-    <url>/archives/6c5790f9.html</url>
+    <url>/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit-%E2%80%94%E2%80%94%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。同时，由于 Coding 部署利用了腾讯的 OSS 和 CDN 资源需要收费，而我作为新版 Coding 的新用户不能向老用户一样白嫖，这显然不符合我白嫖走天下的理念。经过一番寻找最终找到了部署至 Vercel 的方案。</p>
 <h2 id="Coding部署"><a href="#Coding部署" class="headerlink" title="Coding部署"></a>Coding部署</h2><p>关于Coding部署可以参考这一篇：<a href="https://asurada.zone/post/CODING-Pages-Upgrade-To-TencentCloud/">CODING Pages 静态网站升级腾讯云新版踩坑小记</a></p>
 <div class="note info"><h2 id="Vercel"><a href="#Vercel" class="headerlink" title="Vercel"></a>Vercel</h2><p>原名 Zeit，服务器在美国，在港台有 CDN 节点，提供自定义 xxx.now.sh 和 xxx.vercel.app 域名，且支持免费绑定个人域名，同时可以解决百度爬虫问题。最大的好处就是可以绑定 GitHub 账号，由 GitHub 托管Hexo博客源码，Vercel 导入博客源码，当检测到仓库改动后自动进行部署。</p>
@@ -71,7 +71,7 @@
   </entry>
   <entry>
     <title>Markdown使用记录</title>
-    <url>/archives/cd4d50e8.html</url>
+    <url>/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h2 id="1、代码增减标识"><a href="#1、代码增减标识" class="headerlink" title="1、代码增减标识"></a>1、代码增减标识</h2><p>代码块中有代码增减替换时，着色标识，格式如下：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;diff</span><br><span class="line">+ 增加</span><br><span class="line">- 删减</span><br><span class="line">&#96;&#96;&#39;</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
@@ -105,13 +105,13 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Blog</tag>
         <tag>Markdown</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
     <title>AD快捷键</title>
-    <url>/archives/29590.html</url>
+    <url>/archives/2020/05/AD%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
     <content><![CDATA[<p>走线状态，+tab，改变线宽；<br>2d线状态，+shift+tab ，切换倒角方式；<br>crtl+左键 ：高亮选中网络；</p>
 <p>左下角双击，层管理，显示或隐藏某一层；</p>
 <a id="more"></a>
@@ -158,7 +158,7 @@
   </entry>
   <entry>
     <title>Markdown 数学公式语法(转载)</title>
-    <url>/archives/44899.html</url>
+    <url>/archives/2020/04/Markdown-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E8%AF%AD%E6%B3%95(%E8%BD%AC%E8%BD%BD)/</url>
     <content><![CDATA[<h4 id="上标、下标与组合"><a href="#上标、下标与组合" class="headerlink" title="上标、下标与组合"></a>上标、下标与组合</h4><ol>
 <li>上标符号，符号：<code>^</code>，如：$x^4$</li>
 <li>下标符号，符号：<code>_</code>，如：$x_1$</li>
@@ -450,7 +450,7 @@
   </entry>
   <entry>
     <title>Deepin + Python编译环境搭建</title>
-    <url>/archives/23569.html</url>
+    <url>/archives/2020/04/Deepin-Python%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[<h5 id="一、Linux使用"><a href="#一、Linux使用" class="headerlink" title="一、Linux使用"></a>一、Linux使用</h5><p>1、安装软件：sudo apt-get install 软件名  <br>2、卸载软件：sudo apt autoremove 软件名        同时删除无用依赖<br>3、启动器重启：sudo service lightdm restart<br>4、dpkg：<br> &emsp;&emsp;&emsp;&emsp;-i：安装软件包；  <br> &emsp;&emsp;&emsp;&emsp;-r：删除软件包；<br> &emsp;&emsp;&emsp;&emsp;-P：删除软件包的同时删除其配置文件；<br> &emsp;&emsp;&emsp;&emsp;-L：显示于软件包关联的文件；<br> &emsp;&emsp;&emsp;&emsp;-l：显示已安装软件包列表；<br> &emsp;&emsp;&emsp;&emsp;–unpack：解开软件包；<br> &emsp;&emsp;&emsp;&emsp;-c：显示软件包内文件列表；<br> &emsp;&emsp;&emsp;&emsp;–confiugre：配置软件包。<br>5、sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade -y<br>6、<a href="https://www.cnblogs.com/xuxinstyle/p/9609551.html">linux常用命令（50个）</a><br>7、<a href="https://qv2ray.github.io/">VPN工具：Qv2ray</a></p>
 <h5 id="二、Python开发环境搭建"><a href="#二、Python开发环境搭建" class="headerlink" title="二、Python开发环境搭建"></a>二、Python开发环境搭建</h5><p>1、<a href="https://jingyan.baidu.com/article/ff42efa97dc89c809f22023f.html">Deepin V20 升级python版本</a><br>2、<a href="https://blog.csdn.net/zhangziju/article/details/80398908">Deepin之anaconda和pycharm的安装</a><br>3、<a href="https://blog.csdn.net/wanttifa/article/details/83995460">Deepin(linux)下安装anaconda3</a><br>4、<a href="https://blog.csdn.net/Just_youHG/article/details/104686642">解决激活anaconda Linux终端出现”(base)”问题</a></p>
 ]]></content>
@@ -465,7 +465,7 @@
   </entry>
   <entry>
     <title>动态规划—背包问题（Python）</title>
-    <url>/archives/64316.html</url>
+    <url>/archives/2020/03/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%88Python%EF%BC%89/</url>
     <content><![CDATA[<h4 id="一、什么是动态规划（Dynamic-Programming，DP）"><a href="#一、什么是动态规划（Dynamic-Programming，DP）" class="headerlink" title="一、什么是动态规划（Dynamic Programming，DP）"></a>一、什么是动态规划（Dynamic Programming，DP）</h4><ul>
 <li>1.动态规划是通过组合子问题的解来解决原问题</li>
 <li>2.动态规划应用于子问题重叠的情况，即不同的子问题具有公共的子子问题</li>
@@ -523,7 +523,7 @@
   </entry>
   <entry>
     <title>Next主题美化</title>
-    <url>/archives/21360.html</url>
+    <url>/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<p>Next主题设置及美化，打造自己的个性化主题。</p>
 <p><img src="/image/2020-3-21/image-1.png"></p>
 <h2 id="1、代码块折叠"><a href="#1、代码块折叠" class="headerlink" title="1、代码块折叠"></a>1、代码块折叠</h2><p>当文章中添加代码过长时，会对文章的阅读和显示造成不好的体验，折叠代码块是一种很好的解决方式<br>书写格式：</p>
@@ -634,7 +634,7 @@
   </entry>
   <entry>
     <title>Hexo-Admin后台管理</title>
-    <url>/archives/23176.html</url>
+    <url>/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Hexo-Admin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/</url>
     <content><![CDATA[<h4 id="1-安装-hexo-admin-插件"><a href="#1-安装-hexo-admin-插件" class="headerlink" title="1. 安装 hexo-admin 插件"></a>1. 安装 hexo-admin 插件</h4><p>首先，在创建Blog的根目录下安装插件，打开Git Bash输入如下命令。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
@@ -663,7 +663,7 @@
   </entry>
   <entry>
     <title>东软冬训营 HTML篇</title>
-    <url>/archives/63841.html</url>
+    <url>/archives/2019/01/%E4%B8%9C%E8%BD%AF%E5%86%AC%E8%AE%AD%E8%90%A5/003.%E4%B8%9C%E8%BD%AF%E5%86%AC%E8%AE%AD%E8%90%A5%20HTML%E7%AF%87/</url>
     <content><![CDATA[<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">(1.19)</span><br><span class="line">1.页面内容</span><br><span class="line">	a.静态文本 直接写</span><br><span class="line">	b.用户输入，输入 按固定格式写</span><br><span class="line">2.常用标签</span><br><span class="line">	</span><br><span class="line">	注意： 标签必须符合HTML规范</span><br><span class="line">	a.form：表单标签，用于提交数据</span><br><span class="line">		action 表示提交数据位置</span><br><span class="line">		method 表示提交数据的方式</span><br><span class="line">			post 隐含</span><br><span class="line">	b.table: 表格</span><br><span class="line">		&lt;table&gt;</span><br><span class="line">			&lt;tr&gt;                &lt;!-- 第一行 --&gt;</span><br><span class="line">				&lt;td&gt;列一&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;列二&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/table&gt;</span><br><span class="line">	c.输入类：</span><br><span class="line">	&lt;input <span class="built_in">type</span>=<span class="string">&quot;&quot;</span> name=<span class="string">&quot;&quot;</span> id=<span class="string">&quot;&quot;</span>&gt;</span><br><span class="line">		<span class="built_in">type</span>类型：</span><br><span class="line">			text	输入文本</span><br><span class="line">			radio	单选 需提供 value 属性</span><br><span class="line">	d.下拉列表：</span><br><span class="line">	&lt;select name=<span class="string">&quot;&quot;</span> id=<span class="string">&quot;&quot;</span>&gt;</span><br><span class="line">		&lt;option value=<span class="string">&quot;xxx&quot;</span>&gt;xxx&lt;/option&gt;</span><br><span class="line">	&lt;/select&gt;</span><br><span class="line">	e.文本域：</span><br><span class="line">	&lt;textarea name=<span class="string">&quot;&quot;</span> rows=<span class="string">&quot;&quot;</span> clos=<span class="string">&quot;&quot;</span>&gt;&lt;/textarea&gt;</span><br><span class="line">	f.按钮：</span><br><span class="line">	&lt;button <span class="built_in">type</span>=<span class="string">&quot;&quot;</span>&gt;xxx&lt;/button&gt;</span><br><span class="line"></span><br><span class="line">3.控件属性设置</span><br><span class="line">	语言结构</span><br><span class="line">	a.样式 必须放在 head 标签内</span><br><span class="line">	b.必须放在 &lt;style&gt; &lt;/style&gt; 标签内</span><br><span class="line">	c.格式</span><br><span class="line">		选择器&#123;</span><br><span class="line">			样式的属性：值 ;</span><br><span class="line">		&#125;</span><br><span class="line">4.选择器分类</span><br><span class="line">	a.标签选择器 </span><br><span class="line">		以标签名 命名，只对同名的标签起作用</span><br><span class="line">		//对所有标签起作用</span><br><span class="line">		*&#123;</span><br><span class="line">		&#125;</span><br><span class="line">	b.类选择器</span><br><span class="line">		不同名称的标签，具有相同的样式</span><br><span class="line">		.名称&#123;</span><br><span class="line">		&#125;</span><br><span class="line">		通过标签的 class 属性进行引入</span><br><span class="line">			class = <span class="string">&quot;名称&quot;</span></span><br><span class="line">	c.id选择器</span><br><span class="line">		仅对与 id 同名的标签起作用，只作用一个</span><br><span class="line">		<span class="comment">#名称&#123;</span></span><br><span class="line">		&#125;</span><br><span class="line">			</span><br><span class="line">		(1.20)</span><br><span class="line">1.div：</span><br><span class="line">	块 级容器，独立成行</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>学习</category>
@@ -675,7 +675,7 @@
   </entry>
   <entry>
     <title>东软冬训营 SQL篇</title>
-    <url>/archives/18771.html</url>
+    <url>/archives/2019/01/%E4%B8%9C%E8%BD%AF%E5%86%AC%E8%AE%AD%E8%90%A5/002.%E4%B8%9C%E8%BD%AF%E5%86%AC%E8%AE%AD%E8%90%A5%20SQL%E7%AF%87/</url>
     <content><![CDATA[<pre><code>(1.16)
 </code></pre>
 <p>1.常见数据库<br>    oracle：免费，服务收费<br>    DB2      ：金融，证券，稳定性强<br>    mysql ：<br>2.数据类型<br>    varchar()： 可变长度，占用设定长度内的最小值<br>    char()     :    固定长度，数据占用长度固定不变<br>    decimal(,): 小数，需指定长度和小数位数<br>3.常用 SQL 命令<br>    a)添加数据<br>        insert into 表名(栏位,…)<br>            values(值,…)<br>        注意：<br>            i)  个数对应<br>            ii) 类型对应<br>            iii)非空列必须给值<br>    b)查询<br>        select * from 表名       //全部<br>        select *from 表名<br>            where 栏位名 &gt; xxx</p>
@@ -802,7 +802,7 @@ CRUD
   </entry>
   <entry>
     <title>东软冬训营 Java篇</title>
-    <url>/archives/13739.html</url>
+    <url>/archives/2019/01/%E4%B8%9C%E8%BD%AF%E5%86%AC%E8%AE%AD%E8%90%A5/001.%E4%B8%9C%E8%BD%AF%E5%86%AC%E8%AE%AD%E8%90%A5%20Java%E7%AF%87/</url>
     <content><![CDATA[<p>1.整数与小数<br>小数 除以 0 = 无穷 (小数中没有绝对的零)<br>整数 除以 0  无意义<br>2.字符串<br>a)获取字符串长度<br>    String str = “123456789”;<br>    int size = str.length();<br>b)字符串截取<br>    //截取从a位置到b位置的字符串，a，b为字符串位置下标<br>    String str1 = str.substring(a,b+1); //前包含，后不包含<br>c)判断字符串是否相等<br>    str1.equals(str2);<br>d)获取字符串 下标对应的字符<br>    str1.charAt(下标)；<br>3.强制类型转换<br>Integer.parseInt(str); //字符串型强制转换为整型<br>Integer.toString(n);   //整型强制转换为字符串型<br>4.输出打印<br>println 输出换行<br>print   输出不换行<br>5.获取用户输入数据<br>Scanner sc=new Scanner(System.in);<br>int a=sc.nextInt(); //获取输入数据</p>
 <p>String str=sc.next();<br>//next()以空格为结束符，不能获取带有空格的字符串<br>String str=sc.nextLine();<br>//nextLoine()以 Enter 键为结束符，获得的字符串为 Enter 前的所有内容<br>6.获取随机数<br>a)<br>    Math.random() //获取0<del>1之间的随机数<br>    //获取0</del>a之间的整数，需强制类型转换<br>    int n = (int)(Math.random()*a)<br>b)<br>    Random rand = new Random；<br>    int n = rand.nextInt(a)<br>    //获取0~a之间的整数，包含0,但不包含a<br>（1.14）<br>1.数字格式化<br>DecimalFormat df = new DecimalFormat(“0,000.00”);//数字格式化<br>String n = df.format(rst);   //rst 传入待处理数值，转化为字符串<br>2.Java 方法定义及调用<br>a)定义<br>    public 返回值类型 方法名(参数类型 参数名){<br>        //功能<br>        return 值；<br>    }<br>b)调用<br>    类名 对象名 = new 类名();<br>    返回值类型 变量 = 对象名.方法名(参数);<br>3.<br>double n = math.ceil(r); //获取大于等于 r 的最小整数<br>double n = math.floor(r);//获取小于等于 r 的最大整数<br>4.集合<br>a)线性集合<br>    List&lt;类型&gt; list = new Arraylist&lt;&gt;();     //(整型：Integer类)<br>    list.add()          //将数据添加到集合<br>    list.contains()      //内容查重，返回boolean值<br>    list.size()            //获取集合元素个数<br>    list.get(数据下标)； //获取集合中相应下标对应的数据<br>b)键值对集合<br>    Map&lt;key类型，value类型&gt; map = new HashMap&lt;&gt;(); //构建集合<br>    map.put(key,value);  //放入键值对，key 重复，value 值覆盖<br>    map.get(key);        //获取 key 对应的 value</p>
 ]]></content>
@@ -815,7 +815,7 @@ CRUD
   </entry>
   <entry>
     <title>嵌入式实训 Day6 驱动编写</title>
-    <url>/archives/18881.html</url>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day6/</url>
     <content><![CDATA[<p>【3】字符设备驱动框架<br> 内核：内存管理、进程管理、网络协议、驱动、虚拟文件系统</p>
 <p> 1）需要申请注册设备号（设备号用来区分不同的设备）–设备号给驱动使用<br> 2）完成对设备的控制（完成与应用层的交互）<br> 3）驱动自行创建设备节点（不用手动自行创建  mknod）–节点给应用层使用，在应用层中视字符设备为文件<br>                                                     应用层代码通过操作文件，实现对设备的控制</p>
 <p> 驱动三要素：<br> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static 静态，修饰函数，表示该函数只应用于本文件（作用域只适用本文件）</span><br><span class="line">1）入口函数</span><br><span class="line">    驱动在内核生效，自动执行入口函数，在入口函数完成资源申请，初始化工作</span><br><span class="line">	  6 static int __init driver_test_init(void)&#123;</span><br><span class="line">      7 </span><br><span class="line">      8     return 0;</span><br><span class="line">      9 &#125;</span><br><span class="line">	  14 module_init(driver_test_init);      </span><br><span class="line">2）卸载函数</span><br><span class="line">    驱动在内核失效，自动执行卸载函数，在卸载函数资源释放，注销工作</span><br><span class="line"></span><br><span class="line">	  11 static void __exit driver_test_exit(void)&#123;</span><br><span class="line">      12 </span><br><span class="line">      13 &#125;</span><br><span class="line">      15 module_exit(driver_test_exit);</span><br><span class="line"> 3）模块申明（驱动）</span><br><span class="line">    开发许可证申明</span><br><span class="line">	MODULE_LICENSE(&quot;GPL&quot;);</span><br></pre></td></tr></table></figure><br>【2】申请注册设备号<br> 设备号（32bit） = 主设备号（高12bit）  +  次设备号（低20bit）</p>
@@ -880,7 +880,7 @@ CRUD
   </entry>
   <entry>
     <title>嵌入式实训 Day5 第三方驱动移植</title>
-    <url>/archives/56504.html</url>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day5/</url>
     <content><![CDATA[<h5 id="【1】第三方驱动移植"><a href="#【1】第三方驱动移植" class="headerlink" title="【1】第三方驱动移植"></a>【1】第三方驱动移植</h5><p> 1）Kconfig  生成图形界面中的选项<br>      由顶层目录下的Kconfig逐级调用各个子目录中的Kconfig，共同生成整体的图形界面</p>
 <pre><code>  5 menu &quot;Character devices&quot;       图形界面中生成菜单
   7 config  FS4412_LED             config-生成选项
@@ -921,7 +921,7 @@ CRUD
   </entry>
   <entry>
     <title>嵌入式实训 Day3 Linux内核编译与服务器配置</title>
-    <url>/archives/20426.html</url>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day3/</url>
     <content><![CDATA[<h5 id="【1】uboot烧写原理"><a href="#【1】uboot烧写原理" class="headerlink" title="【1】uboot烧写原理"></a>【1】uboot烧写原理</h5><p> SD卡制作启动盘：<br>     cd  sdfuse_q<br>     ./mkuboot.sh /dev/sdb    SD卡的设备文件名    /dev 保存设备节点（文件名）<br>     ./sd_fusing_exynos4x12.sh /dev/sdb u-boot-fs4412.bin</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$2</span> fusing...&quot;</span></span><br><span class="line">dd iflag=dsync oflag=dsync <span class="keyword">if</span>=<span class="variable">$2</span> of=<span class="variable">$1</span> seek=1 &amp;&amp; \</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$2</span> image has been fused successfully.&quot;</span>   </span><br></pre></td></tr></table></figure>
 <p>if(inputfile)–输入文件—u-boot-fs4412.bin（2010）<br>of(outputfile)–输出文件— /dev/sdb<br>dd 将输入文件的内容复制给输出文件（复制的同时进行了格式转换）<br>本质：将uboot镜像固化到SD卡，SD卡成为启动盘</p>
@@ -1008,7 +1008,7 @@ Networking options  ---&gt;     网络配置 网络协议
   </entry>
   <entry>
     <title>嵌入式实训 Day2 u-boot的烧写及使用</title>
-    <url>/archives/65394.html</url>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day2/</url>
     <content><![CDATA[<h5 id="实验环境："><a href="#实验环境：" class="headerlink" title="实验环境："></a>实验环境：</h5><p>1、    ubuntu 12.04发行版<br>2、    u-boot-2010.03<br>3、    FS4412平台</p>
 <h5 id="【1】Linux系统移植"><a href="#【1】Linux系统移植" class="headerlink" title="【1】Linux系统移植"></a>【1】Linux系统移植</h5><p>引导启动界面 –&gt; Linux镜像 –&gt; 加载Linux文件系统</p>
 <p>引导程序：bootloder<br>uboot    Linux 3.14</p>
@@ -1030,7 +1030,7 @@ Networking options  ---&gt;     网络配置 网络协议
   </entry>
   <entry>
     <title>嵌入式实训 Day1 Linux基础篇</title>
-    <url>/archives/27735.html</url>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD%20Day1%20Linux%E5%9F%BA%E7%A1%80%E7%AF%87/</url>
     <content><![CDATA[<h5 id="【1】linux命令"><a href="#【1】linux命令" class="headerlink" title="【1】linux命令"></a>【1】linux命令</h5><p>   linux@ubuntu:~$  家目录   /home/linux<br>   linux@ubuntu:/$  根目录   </p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ctrl+alt+t		<span class="comment">#打开终端</span></span><br><span class="line"><span class="built_in">cd</span>			<span class="comment">#切换到家目录</span></span><br><span class="line"><span class="built_in">cd</span> /			<span class="comment">#切换到根目录（系统文件）</span></span><br><span class="line"><span class="built_in">cd</span> ..			<span class="comment">#切换到上一级</span></span><br><span class="line"><span class="built_in">cd</span> -			<span class="comment">#返回上一级</span></span><br><span class="line">ls  			<span class="comment">#查看当前目录下的所有文件目录  （-list）</span></span><br></pre></td></tr></table></figure>
 <p>   目录：</p>
@@ -1056,7 +1056,7 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   </entry>
   <entry>
     <title>NIOS II 定时器的使用</title>
-    <url>/archives/28428.html</url>
+    <url>/archives/2018/05/NIOS-II-%E5%AE%9A%E6%97%B6%E5%99%A8%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h5 id="初始化，即对定时器进行清零"><a href="#初始化，即对定时器进行清零" class="headerlink" title="初始化，即对定时器进行清零"></a>初始化，即对定时器进行清零</h5><p>清零的方式有两种，一种是用定时器清零，另外一种是使用库函数，主要是io.h这个库里面的。<br>这里主要讲一下使用库函数，主要原因是使用库函数使得程序的可读性更强。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">IOWR_ALTERA_AVALON_TIMER_STATUS(TIMER1_BASE,0x00);  //清除timer1中断标志位</span><br></pre></td></tr></table></figure>
 <p>其中TIMER1_BASE是定时器1的基地址，在system.h这个头文件中。</p>
@@ -1085,7 +1085,7 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   </entry>
   <entry>
     <title>NIOS II中PIO有关寄存器</title>
-    <url>/archives/18310.html</url>
+    <url>/archives/2018/05/NIOS-II%E4%B8%ADPIO%E6%9C%89%E5%85%B3%E5%AF%84%E5%AD%98%E5%99%A8/</url>
     <content><![CDATA[<h5 id="寄存器映射"><a href="#寄存器映射" class="headerlink" title="寄存器映射"></a>寄存器映射</h5><p>Avalon-MM主外设，例如CPU，通过4个32位寄存器控制并与PIO核通信，假定PIO核的I/O端口被配置为n位宽度。如下图：</p>
 <p> <img src="/image/2018-5-25/01.png" alt="PIO核的寄存器映射"><br>(1) 该寄存器是否存在取决于硬件配置，如果寄存器不存在，读寄存器返回一个未定义的值，写寄存器无影响。<br>(2) 写任何值到edgecapture，会清0所有位。</p>
 <h5 id="数据寄存器"><a href="#数据寄存器" class="headerlink" title="数据寄存器"></a>数据寄存器</h5><p>读从Data寄存器返回的呈现在输入端口的值。如果PIO核硬件被配置为output-only（只输出）模式，读data寄存器将返回一个未定义的值。<br>写data寄存器将存储值到寄存器中以驱动输出端口。如果PIO核硬件被配置为input-only（只输入）模式，写data寄存器无影响。如果PIO核硬件被配置为双向模式，则仅当在  direction（方向）寄存器中相应的位被置1（输出）时，被寄存的值才会出现在输出端口上。</p>
@@ -1106,7 +1106,7 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   </entry>
   <entry>
     <title>Hexo博客编写与部署</title>
-    <url>/archives/4880.html</url>
+    <url>/archives/2018/05/Hexo%E5%8D%9A%E5%AE%A2/Hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E4%B8%8E%E9%83%A8%E7%BD%B2/</url>
     <content><![CDATA[<p>通过前面<a href="https://ljone.top/2018/05/19/%E5%88%A9%E7%94%A8Hexo%E5%85%8D%E8%B4%B9%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B(1)/">《利用Hexo免费创建个人博客》</a>的步骤，已经完成了基础环境的搭建以及 Hexo 的安装，那么接下来就跟大家说一说怎样利用 Hexo 编写博客然后将其部署到云端。</p>
 <h4 id="一、博客编写"><a href="#一、博客编写" class="headerlink" title="一、博客编写"></a>一、博客编写</h4><p>在命令行输入：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;file_name&quot;</span></span><br></pre></td></tr></table></figure>
@@ -1146,7 +1146,7 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   </entry>
   <entry>
     <title>Win10+Ubuntu 双系统安装教程</title>
-    <url>/archives/45577.html</url>
+    <url>/archives/2018/05/Win10+Ubuntu%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>最近上课要用Linux，准备从头记录一次Ubuntu的安装过程。如果有刚学的可以看看..同时接受大佬建议和指出错误…</p>
 <h3 id="一-安装ubuntu之前"><a href="#一-安装ubuntu之前" class="headerlink" title="一.安装ubuntu之前"></a>一.安装ubuntu之前</h3><p>1.你需要下载UtralISO<br><img src="/image/2018-5-20/01.jpg"><br>下载试用版即可<br>2.下载Ubuntu桌面版，推荐下载此18.04LTS版本，能从新的上手就尽量从新的上手使用。<br><img src="/image/2018-5-20/02.jpg"><br>下载ubuntu-18.04-desktop-amd64.iso版本。<br>下面的ubuntu-18.04-live-server-amd64.iso是服务器版本的。<br>等待下载完成之后，你会看到如下一个文件。<br><img src="/image/2018-5-20/03.jpg"></p>
 <h3 id="二．通过UtralISO制作启动盘"><a href="#二．通过UtralISO制作启动盘" class="headerlink" title="二．通过UtralISO制作启动盘"></a>二．通过UtralISO制作启动盘</h3><p>1.打开UtralISO点击试用即可。<br>在UtralISO主界面中点击文件—打开—选择你之前下载的ubuntu镜像文件。选中红框区域。<br><img src="/image/2018-5-20/04.jpg"><br>点击启动—写入硬盘映像<br>默认即可，无需设置<br><img src="/image/2018-5-20/05.jpg"><br>点击写入，等待写入完成。</p>
@@ -1162,7 +1162,7 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   </entry>
   <entry>
     <title>利用Hexo免费创建个人博客</title>
-    <url>/archives/21892.html</url>
+    <url>/archives/2018/05/Hexo%E5%8D%9A%E5%AE%A2/%E5%88%A9%E7%94%A8Hexo%E5%85%8D%E8%B4%B9%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>相信很多朋友正在为了不知道怎么创建私人博客而苦恼、不知所措，那么读完这篇文章你会发现新天地。本篇文章将带领你基于码云利用HEXO创建个人博客，让我们一起来学习吧！<br><img src="/image/05.gif"></p>
 <h4 id="什么是-Hexo-？"><a href="#什么是-Hexo-？" class="headerlink" title="什么是 Hexo ？"></a>什么是 Hexo ？</h4><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
 <p>安装之前需要准备以下文件：<br><a href="http://nodejs.cn/download/">Node.js环境</a><br><a href="https://git-scm.com/downloads">Git</a><br>准备好后，接下来就可以进行安装</p>
@@ -1200,7 +1200,7 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   </entry>
   <entry>
     <title>Sunrise</title>
-    <url>/archives/54959.html</url>
+    <url>/archives/2018/05/Sunrise/</url>
     <content><![CDATA[<p><img src="/image/00.gif">  </p>
 <blockquote class="blockquote-center">
 <p>欢迎来到我的博客<br>这是我的第一条博客！</p>
@@ -1211,7 +1211,7 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   </entry>
   <entry>
     <title>hello-world</title>
-    <url>/archives/9408.html</url>
+    <url>/archives/2018/05/Hello_world/</url>
     <content><![CDATA[<p> <img src="/image/03.jpg"></p>
 <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
