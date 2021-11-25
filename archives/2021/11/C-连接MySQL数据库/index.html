@@ -28,15 +28,15 @@
 <script class="next-config" data-name="main" type="application/json">{"hostname":"ljone.top","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":false,"post_body":false,"coll_header":"fadeInUp","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 <meta name="description" content="1、环境准备 环境：VS2019、MySQL8.0.26 x86_64  通过 MySQL 官方 API 连接数据库。  2、添加 MySQL 连接器头文件 新建 C++ 项目，将项目平台改为 x64    在项目名称处点击右键，选择 属性 -&gt; C&#x2F;C++ -&gt; 常规，在附加包含目录处添加连接器头文件路径：  C:\Program Files\MySQL\MySQL Server 8.0\inc">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C++连接MySQL数据库">
-<meta property="og:url" content="https://ljone.top/archives/2021/11/C--%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/index.html">
+<meta property="og:title" content="C++ 连接 MySQL 数据库">
+<meta property="og:url" content="https://ljone.top/archives/2021/11/C-%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/index.html">
 <meta property="og:site_name" content="西瓜丢了芝麻">
 <meta property="og:description" content="1、环境准备 环境：VS2019、MySQL8.0.26 x86_64  通过 MySQL 官方 API 连接数据库。  2、添加 MySQL 连接器头文件 新建 C++ 项目，将项目平台改为 x64    在项目名称处点击右键，选择 属性 -&gt; C&#x2F;C++ -&gt; 常规，在附加包含目录处添加连接器头文件路径：  C:\Program Files\MySQL\MySQL Server 8.0\inc">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://ljone.top/image/2021-11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210916185916971.png">
 <meta property="og:image" content="https://ljone.top/image/2021-11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210916190518524.png">
 <meta property="article:published_time" content="2021-11-25T10:59:00.000Z">
-<meta property="article:modified_time" content="2021-11-25T12:40:52.337Z">
+<meta property="article:modified_time" content="2021-11-25T12:45:35.027Z">
 <meta property="article:author" content="LJONE">
 <meta property="article:tag" content="C++">
 <meta property="article:tag" content="MySQL">
@@ -44,14 +44,14 @@
 <meta name="twitter:image" content="https://ljone.top/image/2021-11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210916185916971.png">
 
 
-<link rel="canonical" href="https://ljone.top/archives/2021/11/C--%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/">
+<link rel="canonical" href="https://ljone.top/archives/2021/11/C-%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://ljone.top/archives/2021/11/C--%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/","path":"archives/2021/11/C--连接MySQL数据库/","title":"C++连接MySQL数据库"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://ljone.top/archives/2021/11/C-%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/","path":"archives/2021/11/C-连接MySQL数据库/","title":"C++ 连接 MySQL 数据库"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>C++连接MySQL数据库 | 西瓜丢了芝麻</title>
+<title>C++ 连接 MySQL 数据库 | 西瓜丢了芝麻</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188890468-1"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-188890468-1","only_pageview":false}</script>
@@ -219,19 +219,19 @@
         
         
           <li>
-            <a href="/archives/2021/11/C--%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/" title="C++连接MySQL数据库" target="_blank">C++连接MySQL数据库</a>
+            <a href="/archives/2021/11/C-%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/" title="C++ 连接 MySQL 数据库" target="_blank">C++ 连接 MySQL 数据库</a>
           </li>
         
           <li>
-            <a href="/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/" title="Hexo部署至Vercel(Zeit)" target="_blank">Hexo部署至Vercel(Zeit)</a>
+            <a href="/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/" title="Hexo 部署至 Vercel(Zeit)" target="_blank">Hexo 部署至 Vercel(Zeit)</a>
           </li>
         
           <li>
-            <a href="/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" title="Markdown使用" target="_blank">Markdown使用</a>
+            <a href="/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" title="Markdown 使用" target="_blank">Markdown 使用</a>
           </li>
         
           <li>
-            <a href="/archives/2020/05/AD%E5%BF%AB%E6%8D%B7%E9%94%AE/" title="PCB快捷键" target="_blank">PCB快捷键</a>
+            <a href="/archives/2020/05/AD%E5%BF%AB%E6%8D%B7%E9%94%AE/" title="PCB 快捷键" target="_blank">PCB 快捷键</a>
           </li>
         
           <li>
@@ -543,7 +543,7 @@ if(canvas.getContext){
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/2021/11/C--%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/">
+    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/2021/11/C-%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/image/site/avatar.jpg">
@@ -556,7 +556,7 @@ if(canvas.getContext){
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          C++连接MySQL数据库
+          C++ 连接 MySQL 数据库
         </h1>
 
         <div class="post-meta-container">
@@ -608,7 +608,7 @@ if(canvas.getContext){
 <p>通过 MySQL 官方 API 连接数据库。</p>
 <h1 id="2、添加-MySQL-连接器头文件"><a href="#2、添加-MySQL-连接器头文件" class="headerlink" title="2、添加 MySQL 连接器头文件"></a>2、添加 MySQL 连接器头文件</h1><p>新建 C++ 项目，将项目平台改为 <strong>x64</strong></p>
 <p><img src="/image/2021-11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210916185916971.png" alt="image-20210916185916971"></p>
-<p>在项目名称处点击右键，选择 属性 -&gt; C/C++ -&gt; 常规，在附加包含目录处添加连接器头文件路径：</p>
+<p>在项目名称处点击右键，选择 <code>属性</code> -&gt; <code>C/C++</code> -&gt; <code>常规</code>，在附加包含目录处添加连接器头文件路径：</p>
 <p><code>C:\Program Files\MySQL\MySQL Server 8.0\include</code>，路径根据自己安装目录进行调整。</p>
 <p><img src="/image/2021-11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210916190518524.png" alt="image-20210916190518524"></p>
 <h1 id="3、添加静态和动态库依赖"><a href="#3、添加静态和动态库依赖" class="headerlink" title="3、添加静态和动态库依赖"></a>3、添加静态和动态库依赖</h1><p>在路径<code>C:\Program Files\MySQL\MySQL Server 8.0\lib</code>下找到 <code>libmysql.lib</code> 和 <code>libmysql.dll</code>文件，将其复制到新建项目的根目录中。</p>
@@ -844,8 +844,8 @@ if(canvas.getContext){
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/" rel="prev" title="Hexo部署至Vercel(Zeit)">
-                  <i class="fa fa-chevron-left"></i> Hexo部署至Vercel(Zeit)
+                <a href="/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/" rel="prev" title="Hexo 部署至 Vercel(Zeit)">
+                  <i class="fa fa-chevron-left"></i> Hexo 部署至 Vercel(Zeit)
                 </a>
             </div>
             <div class="post-nav-item">
@@ -964,11 +964,11 @@ show_date_time();
 
 
   <script src="https://cdn.jsdelivr.net/npm/quicklink@2.2.0/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
-  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"ignores":null,"url":"https://ljone.top/archives/2021/11/C--%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/"}</script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"ignores":null,"url":"https://ljone.top/archives/2021/11/C-%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/"}</script>
   <script src="/js/third-party/quicklink.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"leafiness","repo":"Gitalk","client_id":"3ab3a1c7b96bd2bdf9ae","client_secret":"b2d2eeecd8df597fa6bf23a405062981bce96df7","admin_user":"leafiness","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"6ce4e08b273d5cf3d4d92277695dbb43"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"leafiness","repo":"Gitalk","client_id":"3ab3a1c7b96bd2bdf9ae","client_secret":"b2d2eeecd8df597fa6bf23a405062981bce96df7","admin_user":"leafiness","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"aadf063a0884d161e33e3e4a81fb949a"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
 
 
