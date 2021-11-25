@@ -3,29 +3,30 @@
   <entry>
     <title>Sunrise</title>
     <url>/archives/2018/05/Sunrise/</url>
-    <content><![CDATA[<p><img src="/image/00.gif">  </p>
+    <content><![CDATA[<p><img src="/image/2018-05/welcome.jpg">  </p>
 <blockquote class="blockquote-center">
 <p>欢迎来到我的博客<br>这是我的第一条博客！</p>
 
 </blockquote>
 
+<p><img src="/image/2018-05/00.gif">  </p>
 ]]></content>
   </entry>
   <entry>
     <title>C++ 连接 MySQL 数据库</title>
-    <url>/archives/2021/11/C++%20%E8%BF%9E%E6%8E%A5%20MySQL%20%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <url>/archives/2021/11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
     <content><![CDATA[<h1 id="1、环境准备"><a href="#1、环境准备" class="headerlink" title="1、环境准备"></a>1、环境准备</h1><p><strong>环境：</strong>VS2019、MySQL8.0.26 x86_64</p>
 <p>通过 MySQL 官方 API 连接数据库。</p>
 <h1 id="2、添加-MySQL-连接器头文件"><a href="#2、添加-MySQL-连接器头文件" class="headerlink" title="2、添加 MySQL 连接器头文件"></a>2、添加 MySQL 连接器头文件</h1><p>新建 C++ 项目，将项目平台改为 <strong>x64</strong></p>
-<p>![image-20210916185916971](/image/2021-11/C++ 连接 MySQL 数据库/image-20210916185916971.png)</p>
+<p><img src="/image/2021-11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210916185916971.png" alt="image-20210916185916971"></p>
 <p>在项目名称处点击右键，选择 属性 -&gt; C/C++ -&gt; 常规，在附加包含目录处添加连接器头文件路径：</p>
 <p><code>C:\Program Files\MySQL\MySQL Server 8.0\include</code>，路径根据自己安装目录进行调整。</p>
-<p>![image-20210916190518524](/image/2021-11/C++ 连接 MySQL 数据库/image-20210916190518524.png)</p>
+<p><img src="/image/2021-11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210916190518524.png" alt="image-20210916190518524"></p>
 <h1 id="3、添加静态和动态库依赖"><a href="#3、添加静态和动态库依赖" class="headerlink" title="3、添加静态和动态库依赖"></a>3、添加静态和动态库依赖</h1><p>在路径<code>C:\Program Files\MySQL\MySQL Server 8.0\lib</code>下找到 <code>libmysql.lib</code> 和 <code>libmysql.dll</code>文件，将其复制到新建项目的根目录中。</p>
 <p>在项目中添加以下代码，使项目链接到<code>libmysql.lib</code>库</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> comment(lib, <span class="meta-string">&quot;libmysql.lib&quot;</span>)</span></span><br></pre></td></tr></table></figure>
 
-<h1 id="4、利用官方-API-连接数据库"><a href="#4、利用官方-API-连接数据库" class="headerlink" title="4、利用官方 API 连接数据库"></a>4、利用官方 API 连接数据库</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;mysql.h&quot;</span> </span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> comment(lib, <span class="meta-string">&quot;libmysql.lib&quot;</span>)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//创建mysql实例</span></span><br><span class="line">    MYSQL mysql;</span><br><span class="line">    mysql_init(&amp;mysql);</span><br><span class="line">    <span class="keyword">if</span> (!mysql_real_connect(&amp;mysql, <span class="string">&quot;localhost&quot;</span>, <span class="string">&quot;root&quot;</span>, <span class="string">&quot;admin&quot;</span>, <span class="string">&quot;itcast&quot;</span>, <span class="number">3306</span>, <span class="literal">NULL</span>, <span class="number">0</span>))</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;数据库连接失败&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;数据库连接成功&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 防止中文乱码,设置读取格式为 GBK</span></span><br><span class="line">	mysql_query(&amp;mysql, <span class="string">&quot;set names gbk&quot;</span>);</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 插入数据</span></span><br><span class="line">	<span class="built_in">string</span> insertStr = <span class="string">&quot;INSERT INTO people(name,age) VALUES(&#x27;测试1&#x27;, 12)&quot;</span>;</span><br><span class="line">    <span class="comment">// 执行SQL语句</span></span><br><span class="line">	<span class="keyword">if</span> (mysql_query(&amp;mysql, insertStr.c_str()))</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;插入失败：&quot;</span> &lt;&lt; mysql_error(&amp;mysql) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;插入成功...&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    </span><br><span class="line">	<span class="comment">// 查询数据</span></span><br><span class="line">	<span class="built_in">string</span> sql = <span class="string">&quot;select * from people&quot;</span>;</span><br><span class="line">    <span class="comment">// 执行SQL语句</span></span><br><span class="line">	mysql_query(&amp;mysql, sql.c_str()); </span><br><span class="line">    <span class="comment">// 获取查询内容</span></span><br><span class="line">	MYSQL_RES* result = mysql_store_result(&amp;mysql); </span><br><span class="line">    <span class="comment">// 打印查询行数</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;数据行数：&quot;</span> &lt;&lt; result-&gt;row_count &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;数据行数：&quot;</span> &lt;&lt; mysql_affected_rows(&amp;mysql) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="comment">// 遍历数据</span></span><br><span class="line">	<span class="keyword">while</span> (MYSQL_ROW row = mysql_fetch_row(result)) <span class="comment">//获取整条数据内容</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; result-&gt;field_count; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span> (<span class="literal">NULL</span> == row[i])</span><br><span class="line">				<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot; NULL&quot;</span>;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">				<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; row[i];</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="4、利用官方-API-连接数据库"><a href="#4、利用官方-API-连接数据库" class="headerlink" title="4、利用官方 API 连接数据库"></a>4、利用官方 API 连接数据库</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;mysql.h&quot;</span> </span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> comment(lib, <span class="meta-string">&quot;libmysql.lib&quot;</span>)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//创建mysql实例</span></span><br><span class="line">    MYSQL mysql;</span><br><span class="line">    mysql_init(&amp;mysql);</span><br><span class="line">    <span class="keyword">if</span> (!mysql_real_connect(&amp;mysql, <span class="string">&quot;localhost&quot;</span>, <span class="string">&quot;root&quot;</span>, <span class="string">&quot;admin&quot;</span>, <span class="string">&quot;itcast&quot;</span>, <span class="number">3306</span>, <span class="literal">NULL</span>, <span class="number">0</span>))</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;数据库连接失败&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;数据库连接成功&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 防止中文乱码,设置读取格式为 GBK</span></span><br><span class="line">    mysql_query(&amp;mysql, <span class="string">&quot;set names gbk&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 插入数据</span></span><br><span class="line">    <span class="built_in">string</span> insertStr = <span class="string">&quot;INSERT INTO people(name,age) VALUES(&#x27;测试1&#x27;, 12)&quot;</span>;</span><br><span class="line">    <span class="comment">// 执行SQL语句</span></span><br><span class="line">    <span class="keyword">if</span> (mysql_query(&amp;mysql, insertStr.c_str()))</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;插入失败：&quot;</span> &lt;&lt; mysql_error(&amp;mysql) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;插入成功...&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 查询数据</span></span><br><span class="line">    <span class="built_in">string</span> sql = <span class="string">&quot;select * from people&quot;</span>;</span><br><span class="line">    <span class="comment">// 执行SQL语句</span></span><br><span class="line">    mysql_query(&amp;mysql, sql.c_str()); </span><br><span class="line">    <span class="comment">// 获取查询内容</span></span><br><span class="line">    MYSQL_RES* result = mysql_store_result(&amp;mysql); </span><br><span class="line">    <span class="comment">// 打印查询行数</span></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;数据行数：&quot;</span> &lt;&lt; result-&gt;row_count &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;数据行数：&quot;</span> &lt;&lt; mysql_affected_rows(&amp;mysql) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="comment">// 遍历数据</span></span><br><span class="line">    <span class="keyword">while</span> (MYSQL_ROW row = mysql_fetch_row(result)) <span class="comment">//获取整条数据内容</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; result-&gt;field_count; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (<span class="literal">NULL</span> == row[i])</span><br><span class="line">                <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot; NULL&quot;</span>;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; row[i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h1 id="5、MySQL-常用-API-函数"><a href="#5、MySQL-常用-API-函数" class="headerlink" title="5、MySQL 常用 API 函数"></a>5、MySQL 常用 API 函数</h1><table>
 <thead>
@@ -255,29 +256,29 @@
 </div>
 
 <p>进入 <a href="https://vercel.com/">Vercel</a> 官网，注册账号，点击 <code>Continue with GitHub</code>。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-0.png"></p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-0.png"></p>
 <p>过程中会弹出如下对话框,此图截取自参考链接 3 的博主文章，他给的建议是<code>All repo</code>,但我选择的<code>Only</code>,只不过再导入 GitHub 其他项目时需要重新走一遍流程，可自己根据情况选择。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-4.png"></p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-4.png"></p>
 <p>授权完成后，选择 <code>Import Git Repository</code> ，点击 <code>Continue</code>，进入如下界面。输入你的仓库 url（https）。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-1.png"></p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-1.png"></p>
 <p>填写仓库名，点击 <code>Continue</code>,创建Vercel仓库用于存储导入的文件。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-2.png"></p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-2.png"></p>
 <p>填写项目名称选择框架，默认即可，点击<code>Deploy</code>。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-3.png"></p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-3.png"></p>
 <p>等待 Vercel 部署完成，点击 <code>Visit</code>即可浏览。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-5.png" alt=" ">   </p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-5.png" alt=" ">   </p>
 <p>在首页可以看到 Vercel 提供的两个域名，如果没有自定义域名需求的话到这里就可以结束了。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-6.png" alt=" "></p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-6.png" alt=" "></p>
 <h2 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h2><p>进入项目设置，找到 <code>Domains</code>，在 <code>Add</code> 前面的输入框内输入要自定义的域名地址，再点击 <code>Add</code> 即可。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-7.png" alt=" "></p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-7.png" alt=" "></p>
 <p>在下方会显示 <code>Invalid Configuration</code> 提示，并给出两种验证方式。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-8.png"></p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-8.png"></p>
 <p>此时，可以选择添加 DNS 解析记录</p>
 <blockquote>
 <p>添加 A 类型，主机记录 <code>@ </code>，记录值为 <code>76.76.21.21</code>。<br>添加 CNAME 类型，主机记录 <code>@ </code>，记录值为 <code>cname.vercel-dns.com</code>。</p>
 </blockquote>
 <p>添加完成后，稍等片刻便会在自定义域名下方显示通过的提示，有时解析正常 仍然显示 <code>Invalid Configuration</code>，只要可以通过自定义域名访问博客便可忽略。</p>
-<p><img src="/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-9.png"></p>
+<p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-9.png"></p>
 <p>到这里，整个部署过程就结束了，通过此方式百度便可进行爬虫，接下来就该去到百度提交站点地图等待收录了。</p>
 <hr>
 <p>参考：<br>1、<a href="http://hongwan.xyz/netlify%E5%92%8Ccloudflare%E4%B8%8Ezeit%E6%90%AD%E9%85%8Djsdelivr%E7%BB%99Hexo%E5%8D%9A%E5%AE%A2cdn%E5%8A%A0%E9%80%9F%E5%AF%B9%E6%AF%94.html">netlify和cloudflare与zeit搭配jsdelivr给Hexo博客cdn加速对比</a><br>2、<a href="https://zpjiang.me/2020/01/15/let-baidu-index-github-page">解决百度爬虫无法爬取 Github Pages 个人博客的问题</a><br>3、<a href="https://snow.js.org/hexo-vercel/">Hexo：将你的博客部署到 Vercel</a>（主题不错）</p>
@@ -1044,7 +1045,7 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   <entry>
     <title>利用Hexo免费创建个人博客</title>
     <url>/archives/2018/05/Hexo%E5%8D%9A%E5%AE%A2/%E5%88%A9%E7%94%A8Hexo%E5%85%8D%E8%B4%B9%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>相信很多朋友正在为了不知道怎么创建私人博客而苦恼、不知所措，那么读完这篇文章你会发现新天地。本篇文章将带领你基于码云利用HEXO创建个人博客，让我们一起来学习吧！<br><img src="/image/05.gif"></p>
+    <content><![CDATA[<p>相信很多朋友正在为了不知道怎么创建私人博客而苦恼、不知所措，那么读完这篇文章你会发现新天地。本篇文章将带领你基于码云利用HEXO创建个人博客，让我们一起来学习吧！<br><img src="/image/2018-5-19/05.gif"></p>
 <h4 id="什么是-Hexo-？"><a href="#什么是-Hexo-？" class="headerlink" title="什么是 Hexo ？"></a>什么是 Hexo ？</h4><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
 <p>安装之前需要准备以下文件：<br><a href="http://nodejs.cn/download/">Node.js环境</a><br><a href="https://git-scm.com/downloads">Git</a><br>准备好后，接下来就可以进行安装</p>
 <h4 id="一、配置环境"><a href="#一、配置环境" class="headerlink" title="一、配置环境"></a>一、配置环境</h4><h5 id="1、安装Node-js环境"><a href="#1、安装Node-js环境" class="headerlink" title="1、安装Node.js环境"></a>1、安装Node.js环境</h5><p>因为博主使用的 Windows 系统，在这就以 Windows 系统举例。</p>
@@ -1080,35 +1081,10 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
       </tags>
   </entry>
   <entry>
-    <title>hello-world</title>
-    <url>/archives/2018/05/Hello_world/</url>
-    <content><![CDATA[<p> <img src="/image/03.jpg"></p>
-<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>示例</category>
-      </categories>
-      <tags>
-        <tag>示例</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MyTest</title>
     <url>/archives/2018/05/MyTest/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="0afd48b5869d1b2f20c3ea2ee8c0d769c5dfb985602849a7a24804d7a02f4b0e">bd25ed9264b080267271e137e33d0ce10d0d63c746cf62e20f15a634036418035663a28cabb4d8b61b9b22b55a2353d15acb169f7fa04cc96688119bd92ec7b40b99daa3c42da4fecadae2f68aad2a034ef2e0af1015869ed0322b4c171df2c76f376a02d301920914a387ca6e0f471e</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="7d8231c3188a08abc6540ad9f6341755d7f286b8c5e0b1d8d420ae0e6c7a123c">bd25ed9264b080267271e137e33d0ce10d0d63c746cf62e20f15a634036418035663a28cabb4d8b61b9b22b55a2353d15acb169f7fa04cc96688119bd92ec7b4839ae812f7024f069eb306923adbfc2a130d3b738c64a494b90528b93f7ed23c75502db2be4b8a50e7942a2f10516126c934adde31bc0638aab3a2c9ef220410</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
