@@ -1939,12 +1939,6 @@ pre code {
 .use-motion .comments {
   visibility: hidden;
 }
-.use-motion .post-header {
-  visibility: hidden;
-}
-.use-motion .post-body {
-  visibility: hidden;
-}
 .use-motion .collection-header {
   visibility: hidden;
 }
@@ -3144,11 +3138,12 @@ body {
   background-image: url("/image/site/bg1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-/*
-  +mobile() {
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  body {
     background-size: auto auto;
   }
-  */
 }
 .main-inner {
   opacity: 0.95;
@@ -3223,5 +3218,5 @@ a {
   color: #000;
 }
 .footer-inner {
-  color: #fff;
+  color: #464547;
 }

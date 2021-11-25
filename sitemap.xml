@@ -249,6 +249,13 @@
   </url>
   
   <url>
+    <loc>https://ljone.top/tags/test/</loc>
+    <lastmod>2021-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ljone.top/tags/NIOS-II/</loc>
     <lastmod>2021-11-25</lastmod>
     <changefreq>daily</changefreq>
@@ -263,14 +270,14 @@
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/test/</loc>
+    <loc>https://ljone.top/tags/Ubuntu/</loc>
     <lastmod>2021-11-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://ljone.top/tags/Ubuntu/</loc>
+    <loc>https://ljone.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
     <lastmod>2021-11-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -306,13 +313,6 @@
   
   <url>
     <loc>https://ljone.top/tags/hexo-admin/</loc>
-    <lastmod>2021-11-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ljone.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
     <lastmod>2021-11-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
