@@ -14,7 +14,7 @@
   </entry>
   <entry>
     <title>C++连接MySQL数据库</title>
-    <url>/archives/2021/11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <url>/archives/2021/11/C--%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
     <content><![CDATA[<h1 id="1、环境准备"><a href="#1、环境准备" class="headerlink" title="1、环境准备"></a>1、环境准备</h1><p><strong>环境：</strong>VS2019、MySQL8.0.26 x86_64</p>
 <p>通过 MySQL 官方 API 连接数据库。</p>
 <h1 id="2、添加-MySQL-连接器头文件"><a href="#2、添加-MySQL-连接器头文件" class="headerlink" title="2、添加 MySQL 连接器头文件"></a>2、添加 MySQL 连接器头文件</h1><p>新建 C++ 项目，将项目平台改为 <strong>x64</strong></p>
@@ -336,8 +336,8 @@
         <category>Markdown</category>
       </categories>
       <tags>
-        <tag>Markdown</tag>
         <tag>Blog</tag>
+        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -1035,7 +1035,7 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   </entry>
   <entry>
     <title>Win10+Ubuntu双系统安装教程</title>
-    <url>/archives/2018/05/Win10+Ubuntu%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <url>/archives/2018/05/Win10-Ubuntu%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>最近上课要用Linux，准备从头记录一次Ubuntu的安装过程。如果有刚学的可以看看..同时接受大佬建议和指出错误…</p>
 <h3 id="一-安装ubuntu之前"><a href="#一-安装ubuntu之前" class="headerlink" title="一.安装ubuntu之前"></a>一.安装ubuntu之前</h3><p>1.你需要下载UtralISO<br><img src="/image/2018-5-20/01.jpg"><br>下载试用版即可<br>2.下载Ubuntu桌面版，推荐下载此18.04LTS版本，能从新的上手就尽量从新的上手使用。<br><img src="/image/2018-5-20/02.jpg"><br>下载ubuntu-18.04-desktop-amd64.iso版本。<br>下面的ubuntu-18.04-live-server-amd64.iso是服务器版本的。<br>等待下载完成之后，你会看到如下一个文件。<br><img src="/image/2018-5-20/03.jpg"></p>
 <h3 id="二．通过UtralISO制作启动盘"><a href="#二．通过UtralISO制作启动盘" class="headerlink" title="二．通过UtralISO制作启动盘"></a>二．通过UtralISO制作启动盘</h3><p>1.打开UtralISO点击试用即可。<br>在UtralISO主界面中点击文件—打开—选择你之前下载的ubuntu镜像文件。选中红框区域。<br><img src="/image/2018-5-20/04.jpg"><br>点击启动—写入硬盘映像<br>默认即可，无需设置<br><img src="/image/2018-5-20/05.jpg"><br>点击写入，等待写入完成。</p>
