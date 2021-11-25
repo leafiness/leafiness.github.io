@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>MyTest</title>
-    <url>/archives/2018/05/MyTest/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="0afd48b5869d1b2f20c3ea2ee8c0d769c5dfb985602849a7a24804d7a02f4b0e">bd25ed9264b080267271e137e33d0ce10d0d63c746cf62e20f15a634036418035663a28cabb4d8b61b9b22b55a2353d15acb169f7fa04cc96688119bd92ec7b40b99daa3c42da4fecadae2f68aad2a034ef2e0af1015869ed0322b4c171df2c76f376a02d301920914a387ca6e0f471e</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">测试用，请输入密码：</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>test</tag>
-      </tags>
+    <title>Sunrise</title>
+    <url>/archives/2018/05/Sunrise/</url>
+    <content><![CDATA[<p><img src="/image/00.gif">  </p>
+<blockquote class="blockquote-center">
+<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
+
+</blockquote>
+
+]]></content>
   </entry>
   <entry>
-    <title>Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题</title>
-    <url>/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit-%E2%80%94%E2%80%94%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。同时，由于 Coding 部署利用了腾讯的 OSS 和 CDN 资源需要收费，而我作为新版 Coding 的新用户不能向老用户一样白嫖，这显然不符合我白嫖走天下的理念。经过一番寻找最终找到了部署至 Vercel 的方案。</p>
+    <title>Hexo部署至Vercel(Zeit)</title>
+    <url>/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/</url>
+    <content><![CDATA[<div class="note warning"><p><strong>前排提示：百度收录失效，仍可加快国内访问速度</strong></p>
+</div>
+<p>近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。同时，由于 Coding 部署利用了腾讯的 OSS 和 CDN 资源需要收费，而我作为新版 Coding 的新用户不能向老用户一样白嫖，这显然不符合我白嫖走天下的理念。经过一番寻找最终找到了部署至 Vercel 的方案。</p>
 <h2 id="Coding部署"><a href="#Coding部署" class="headerlink" title="Coding部署"></a>Coding部署</h2><p>关于Coding部署可以参考这一篇：<a href="https://asurada.zone/post/CODING-Pages-Upgrade-To-TencentCloud/">CODING Pages 静态网站升级腾讯云新版踩坑小记</a></p>
 <div class="note info"><h2 id="Vercel"><a href="#Vercel" class="headerlink" title="Vercel"></a>Vercel</h2><p>原名 Zeit，服务器在美国，在港台有 CDN 节点，提供自定义 xxx.now.sh 和 xxx.vercel.app 域名，且支持免费绑定个人域名，同时可以解决百度爬虫问题。最大的好处就是可以绑定 GitHub 账号，由 GitHub 托管Hexo博客源码，Vercel 导入博客源码，当检测到仓库改动后自动进行部署。</p>
 </div>
@@ -70,19 +64,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown使用记录</title>
+    <title>Markdown使用</title>
     <url>/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h2 id="1、代码增减标识"><a href="#1、代码增减标识" class="headerlink" title="1、代码增减标识"></a>1、代码增减标识</h2><p>代码块中有代码增减替换时，着色标识，格式如下：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;diff</span><br><span class="line">+ 增加</span><br><span class="line">- 删减</span><br><span class="line">&#96;&#96;&#39;</span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
 <figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ 增加</span></span><br><span class="line"><span class="deletion">- 删减</span></span><br></pre></td></tr></table></figure>
-<h2 id="2、引用居中显示（适用于Next主题）"><a href="#2、引用居中显示（适用于Next主题）" class="headerlink" title="2、引用居中显示（适用于Next主题）"></a>2、引用居中显示（适用于Next主题）</h2><p>格式：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125; </span><br><span class="line">引用内容</span><br><span class="line">&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-<blockquote class="blockquote-center">
-<p>故乡啊，挨着碰着，都是带刺的花。<br>——小林一茶</p>
+<h2 id="2、代码块折叠"><a href="#2、代码块折叠" class="headerlink" title="2、代码块折叠"></a>2、代码块折叠</h2><p>当文章中添加代码过长时，会对文章的阅读和显示造成不好的体验，折叠代码块是一种很好的解决方式<br>书写格式：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">summary</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line">	详细内容</span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-</blockquote>
+<p>原理：采用 HTML5 中的新标签，因此这不能算是对 Next 主题的美化。<br><code>summary</code> 标签作为 <code>details</code> 元素的标题，<code>details</code> 元素用于描述有关文档或文档片段的详细信息。<br>与 <code>details</code> 一起使用,标题是可见的，当用户点击标题时会显示出详细信息。</p>
+<p>缺点：兼容性不好，只有 Chrome 以及 Safari 6 支持 <code>summary</code> 标签。</p>
+<p>效果如下：</p>
+<details>
+  <summary>点击显/隐代码</summary>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">&lt;div class=&quot;site-author site-overview-item animated&quot; itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;</span><br><span class="line">  &#123;%- if theme.avatar.url %&#125;</span><br><span class="line"><span class="addition">+    &lt;a href=&quot;/&quot;&gt;</span></span><br><span class="line">      &lt;img class=&quot;site-author-image&quot; itemprop=&quot;image&quot; alt=&quot;&#123;&#123; author &#125;&#125;&quot;</span><br><span class="line">        src=&quot;&#123;&#123; url_for(theme.avatar.url or theme.images + &#x27;/avatar.gif&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line"><span class="addition">+    &lt;/a&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line">  &lt;p class=&quot;site-author-name&quot; itemprop=&quot;name&quot;&gt;&#123;&#123; author &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;div class=&quot;site-description&quot; itemprop=&quot;description&quot;&gt;&#123;&#123; description &#125;&#125;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</details>
 
 <h2 id="3、区块"><a href="#3、区块" class="headerlink" title="3、区块"></a>3、区块</h2><p>效果：</p>
 <blockquote>
@@ -105,8 +102,8 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Blog</tag>
         <tag>Markdown</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -114,7 +111,7 @@
     <url>/archives/2020/05/AD%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
     <content><![CDATA[<p>走线状态，+tab，改变线宽；<br>2d线状态，+shift+tab ，切换倒角方式；<br>crtl+左键 ：高亮选中网络；</p>
 <p>左下角双击，层管理，显示或隐藏某一层；</p>
-<a id="more"></a>
+<span id="more"></span>
 
 <p>旋转：Space；</p>
 <p>X轴镜像：X；<br>Y轴镜像：Y；<br>板层管理：L；<br>栅格设置：G；<br>单位进制切换：Q；</p>
@@ -523,6 +520,7 @@
 <h4 id="三、DP算法思路"><a href="#三、DP算法思路" class="headerlink" title="三、DP算法思路"></a>三、DP算法思路</h4><h5 id="1、传统思路"><a href="#1、传统思路" class="headerlink" title="1、传统思路"></a>1、传统思路</h5><p>&emsp;&emsp;传统思路是将不同物品进行排列组合放入背包，通过比较全部的组合形式以获得最优解，而这种算法是时间复杂度是指数级别，后果就是当子问题越多时计算量将会急剧增长。</p>
 <h5 id="2、DP算法思路"><a href="#2、DP算法思路" class="headerlink" title="2、DP算法思路"></a>2、DP算法思路</h5><p>&emsp;&emsp;DP算法是将主问题分解成若干小问题，自下而上求解子问题。<br>在这里通过将背包容量分割以及不同物品组成网格，每一行物品将对应的网格填充并比较上一行的价值大小。如下：<br><img src="/image/2020-3-27/image-0.png"><br>具体思路看参考链接。</p>
 <h4 id="四、代码例程"><a href="#四、代码例程" class="headerlink" title="四、代码例程"></a>四、代码例程</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这里使用了图解中的吉他，音箱，电脑，手机做的测试，数据保持一致</span></span><br><span class="line">w = [<span class="number">0</span>, <span class="number">1</span>, <span class="number">4</span>, <span class="number">3</span>, <span class="number">1</span>]   <span class="comment">#n个物体的重量(w[0]无用)</span></span><br><span class="line">p = [<span class="number">0</span>, <span class="number">1500</span>, <span class="number">3000</span>, <span class="number">2000</span>, <span class="number">2000</span>]   <span class="comment">#n个物体的价值(p[0]无用)</span></span><br><span class="line">n = <span class="built_in">len</span>(w) - <span class="number">1</span>   <span class="comment">#计算n的个数</span></span><br><span class="line">m = <span class="number">4</span>   <span class="comment">#背包的载重量</span></span><br><span class="line"></span><br><span class="line">x = []   <span class="comment">#装入背包的物体，元素为True时，对应物体被装入(x[0]无用)</span></span><br><span class="line">v = <span class="number">0</span></span><br><span class="line"><span class="comment">#optp[i][j]表示在前i个物体中，能够装入载重量为j的背包中的物体的最大价值</span></span><br><span class="line">optp = [[<span class="number">0</span> <span class="keyword">for</span> col <span class="keyword">in</span> <span class="built_in">range</span>(m + <span class="number">1</span>)] <span class="keyword">for</span> raw <span class="keyword">in</span> <span class="built_in">range</span>(n + <span class="number">1</span>)]</span><br><span class="line"><span class="comment">#optp 相当于做了一个n*m的全零矩阵的赶脚，n行为物件，m列为自背包载重量</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">knapsack_dynamic</span>(<span class="params">w, p, n, m, x</span>):</span></span><br><span class="line">    <span class="comment">#计算optp[i][j]</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, n + <span class="number">1</span>):       <span class="comment"># 物品一件件来</span></span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, m + <span class="number">1</span>):   <span class="comment"># j为子背包的载重量，寻找能够承载物品的子背包</span></span><br><span class="line">            <span class="keyword">if</span> (j &gt;= w[i]):         <span class="comment"># 当物品的重量小于背包能够承受的载重量的时候，才考虑能不能放进去</span></span><br><span class="line">                optp[i][j] = <span class="built_in">max</span>(optp[i - <span class="number">1</span>][j], optp[i - <span class="number">1</span>][j - w[i]] + p[i])    <span class="comment"># optp[i - 1][j]是上一个单元的值， optp[i - 1][j - w[i]]为剩余空间的价值</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                optp[i][j] = optp[i - <span class="number">1</span>][j]</span><br><span class="line">    </span><br><span class="line">    <span class="comment">#递推装入背包的物体,寻找跳变的地方，从最后结果开始逆推</span></span><br><span class="line">    j = m</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n, <span class="number">0</span>, -<span class="number">1</span>):</span><br><span class="line">        <span class="keyword">if</span> optp[i][j] &gt; optp[i - <span class="number">1</span>][j]:</span><br><span class="line">            x.append(i)</span><br><span class="line">            j = j - w[i]  </span><br><span class="line">    </span><br><span class="line">    <span class="comment">#返回最大价值，即表格中最后一行最后一列的值</span></span><br><span class="line">    v = optp[n][m]</span><br><span class="line">    <span class="keyword">return</span> v</span><br><span class="line"> </span><br><span class="line"><span class="built_in">print</span> <span class="string">&#x27;最大值为：&#x27;</span> + <span class="built_in">str</span>(knapsack_dynamic(w, p, n, m, x))</span><br><span class="line"><span class="built_in">print</span> <span class="string">&#x27;物品的索引：&#x27;</span>,x</span><br><span class="line"></span><br><span class="line"><span class="comment">#最大值为：4000</span></span><br><span class="line"><span class="comment">#物品的索引： [4, 3]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 <h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><p><a href="https://blog.csdn.net/MrLevo520/article/details/75676160">动态规划(DP)的整理-Python描述</a></p>
 ]]></content>
       <categories>
@@ -535,26 +533,18 @@
       </tags>
   </entry>
   <entry>
-    <title>Next主题美化</title>
-    <url>/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
+    <title>Next 美化与使用技巧</title>
+    <url>/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%20%E7%BE%8E%E5%8C%96%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<p>Next主题设置及美化，打造自己的个性化主题。</p>
 <p><img src="/image/2020-3-21/image-1.png"></p>
-<h2 id="1、代码块折叠"><a href="#1、代码块折叠" class="headerlink" title="1、代码块折叠"></a>1、代码块折叠</h2><p>当文章中添加代码过长时，会对文章的阅读和显示造成不好的体验，折叠代码块是一种很好的解决方式<br>书写格式：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">summary</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line">	详细内容</span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>原理：采用 HTML5 中的新标签，因此这不能算是对 Next 主题的美化。<br><code>summary</code> 标签作为 <code>details</code> 元素的标题，<code>details</code> 元素用于描述有关文档或文档片段的详细信息。<br>与 <code>details</code> 一起使用,标题是可见的，当用户点击标题时会显示出详细信息。</p>
-<p>缺点：兼容性不好，只有 Chrome 以及 Safari 6 支持 <code>summary</code> 标签。</p>
-<p>效果如下：</p>
-<details>
-  <summary>点击显/隐代码</summary>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">&lt;div class=&quot;site-author site-overview-item animated&quot; itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;</span><br><span class="line">  &#123;%- if theme.avatar.url %&#125;</span><br><span class="line"><span class="addition">+    &lt;a href=&quot;/&quot;&gt;</span></span><br><span class="line">      &lt;img class=&quot;site-author-image&quot; itemprop=&quot;image&quot; alt=&quot;&#123;&#123; author &#125;&#125;&quot;</span><br><span class="line">        src=&quot;&#123;&#123; url_for(theme.avatar.url or theme.images + &#x27;/avatar.gif&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line"><span class="addition">+    &lt;/a&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line">  &lt;p class=&quot;site-author-name&quot; itemprop=&quot;name&quot;&gt;&#123;&#123; author &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;div class=&quot;site-description&quot; itemprop=&quot;description&quot;&gt;&#123;&#123; description &#125;&#125;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-</details>
-
-<h2 id="2、文章永久链接"><a href="#2、文章永久链接" class="headerlink" title="2、文章永久链接"></a>2、文章永久链接</h2><p>Hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。</p>
+<h1 id="一、主题美化"><a href="#一、主题美化" class="headerlink" title="一、主题美化"></a>一、主题美化</h1><h2 id="1、文章永久链接"><a href="#1、文章永久链接" class="headerlink" title="1、文章永久链接"></a>1、文章永久链接</h2><p>Hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。</p>
 <p>这种链接对搜索爬虫很不友好，它的 url 结构超过三层，太深。<br>安装 hexo-abbrlink</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+
 <p> 然后配置站点配置文件 <code>_config.yml</code> ：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://blog.juanertu.com</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"><span class="comment">#修改</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:categories/:abbrlink.html</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment">#添加</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span> <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span> <span class="comment"># 进制：dec(default) and hex</span></span><br></pre></td></tr></table></figure>
-<h2 id="3、鼠标点击特效"><a href="#3、鼠标点击特效" class="headerlink" title="3、鼠标点击特效"></a>3、鼠标点击特效</h2><p>新建特效脚本文件，将其放在站点的 source 目录下（即 <code>hexo/source/js/cursor</code>）而不是主题目录下，如果没有 js 目录，则新建一个。</p>
+
+<h2 id="2、鼠标点击特效"><a href="#2、鼠标点击特效" class="headerlink" title="2、鼠标点击特效"></a>2、鼠标点击特效</h2><p>新建特效脚本文件，将其放在站点的 source 目录下（即 <code>hexo/source/js/cursor</code>）而不是主题目录下，如果没有 js 目录，则新建一个。</p>
 <ul>
 <li><p>礼花特效（fireworks.js）</p>
 <details>
@@ -584,20 +574,21 @@
 </ul>
 <p>在 <code>hexo/source/_data/body-end.njk</code> 文件中添加如下代码：</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;# 鼠标点击特效 #&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> theme.cursor_effect == <span class="string">&quot;fireworks&quot;</span> %&#125;</span><br><span class="line">  &lt;script <span class="keyword">async</span> src=<span class="string">&quot;/js/cursor/fireworks.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% elseif theme.cursor_effect == <span class="string">&quot;explosion&quot;</span> %&#125;</span><br><span class="line">  &lt;canvas <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;fireworks&quot;</span> style=<span class="string">&quot;position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;&quot;</span> &gt;&lt;/canvas&gt;</span><br><span class="line">  &lt;script src=<span class="string">&quot;//cdn.bootcss.com/animejs/2.2.0/anime.min.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">  &lt;script <span class="keyword">async</span> src=<span class="string">&quot;/js/cursor/explosion.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% elseif theme.cursor_effect == <span class="string">&quot;love&quot;</span> %&#125;</span><br><span class="line">  &lt;script <span class="keyword">async</span> src=<span class="string">&quot;/js/cursor/love.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% elseif theme.cursor_effect == <span class="string">&quot;text&quot;</span> %&#125;</span><br><span class="line">  &lt;script <span class="keyword">async</span> src=<span class="string">&quot;/js/cursor/text.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
 <p>然后在Next的配置文件 <code>_config.next.yml</code> 中取消 <code>bodyEnd: source/_data/body-end.njk</code> 的注释。<br>添加如下配置项：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 鼠标点击特效</span></span><br><span class="line"><span class="comment"># mouse click effect: fireworks | explosion | love </span></span><br><span class="line"><span class="attr">cursor_effect:</span> <span class="string">fireworks</span></span><br></pre></td></tr></table></figure>
-<h2 id="4、近期文章"><a href="#4、近期文章" class="headerlink" title="4、近期文章"></a>4、近期文章</h2><p> 在 <code>hexo/source/_data/sidebar.njk</code> 文件中添加如下代码：</p>
+
+<h2 id="3、近期文章"><a href="#3、近期文章" class="headerlink" title="3、近期文章"></a>3、近期文章</h2><p> 在 <code>hexo/source/_data/sidebar.njk</code> 文件中添加如下代码：</p>
 <details>
   <summary>点击显/隐代码</summary>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.recent_posts %&#125;</span><br><span class="line">    &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;links-of-blogroll motion-element &#123;&#123; &quot;</span>links-<span class="keyword">of</span>-blogroll-<span class="string">&quot; + theme.recent_posts_layout  &#125;&#125;&quot;</span>&gt;</span><br><span class="line">      &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;links-of-blogroll-title&quot;</span>&gt;</span><br><span class="line">        &lt;!-- modify icon to fire by szw --&gt;</span><br><span class="line">        &lt;i <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;fa fa-history fa-&#123;&#123; theme.recent_posts_icon | lower &#125;&#125;&quot;</span> aria-hidden=<span class="string">&quot;true&quot;</span>&gt;&lt;/i&gt;</span><br><span class="line">        &#123;&#123; theme.recent_posts_title &#125;&#125;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;ul <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;links-of-blogroll-list&quot;</span>&gt;</span><br><span class="line">        &#123;% set posts = site.posts.sort(<span class="string">&#x27;-date&#x27;</span>).toArray() %&#125;</span><br><span class="line">        &#123;% <span class="keyword">for</span> post <span class="keyword">in</span> posts.slice(<span class="string">&#x27;0&#x27;</span>, <span class="string">&#x27;5&#x27;</span>) %&#125;</span><br><span class="line">          &lt;li&gt;</span><br><span class="line">            &lt;a href=<span class="string">&quot;&#123;&#123; url_for(post.path) &#125;&#125;&quot;</span> title=<span class="string">&quot;&#123;&#123; post.title &#125;&#125;&quot;</span> target=<span class="string">&quot;_blank&quot;</span>&gt;&#123;&#123; post.title &#125;&#125;&lt;/a&gt;</span><br><span class="line">          &lt;/li&gt;</span><br><span class="line">        &#123;% endfor %&#125;</span><br><span class="line">      &lt;/ul&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 </details>
- 
-然后在Next的配置文件 `_config.next.yml` 中取消 `sidebar:source/_data/sidebar.njk` 的注释。
-添加如下配置项：
 
+<p>然后在Next的配置文件 <code>_config.next.yml</code> 中取消 <code>sidebar:source/_data/sidebar.njk</code> 的注释。<br>添加如下配置项：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">recent_posts_title:</span> <span class="string">近期文章</span></span><br><span class="line"><span class="attr">recent_posts_layout:</span> <span class="string">block</span></span><br><span class="line"><span class="attr">recent_posts:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h2 id="5、Live2D模型"><a href="#5、Live2D模型" class="headerlink" title="5、Live2D模型"></a>5、Live2D模型</h2><p>参考链接：<a href="https://www.cnblogs.com/Friends-A/p/11054968.html">Hexo添加Live2D看板娘+模型预览</a></p>
-<h2 id="6、文字背景色块"><a href="#6、文字背景色块" class="headerlink" title="6、文字背景色块"></a>6、文字背景色块</h2><p>效果如下：<br><span id="inline-blue"> 站点配置文件 </span><br><span id="inline-purple"> 主题配置文件 </span><br><span id="inline-yellow"> 站点配置文件 </span><br><span id="inline-green"> 主题配置文件 </span><br> 在 <code>hexo/source/_data/styles.styl</code> 文件中添加如下代码：</p>
+
+<h2 id="4、Live2D模型"><a href="#4、Live2D模型" class="headerlink" title="4、Live2D模型"></a>4、Live2D模型</h2><p>参考链接：<a href="https://www.cnblogs.com/Friends-A/p/11054968.html">Hexo添加Live2D看板娘+模型预览</a></p>
+<h2 id="5、文字背景色块"><a href="#5、文字背景色块" class="headerlink" title="5、文字背景色块"></a>5、文字背景色块</h2><p>效果如下：<br><span id="inline-blue"> 站点配置文件 </span><br><span id="inline-purple"> 主题配置文件 </span><br><span id="inline-yellow"> 站点配置文件 </span><br><span id="inline-green"> 主题配置文件 </span><br> 在 <code>hexo/source/_data/styles.styl</code> 文件中添加如下代码：</p>
  <details>
   <summary>点击显/隐代码</summary>
  <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"> // 颜色块<span class="selector-tag">-</span>黄</span><br><span class="line"><span class="selector-tag">span</span><span class="selector-id">#inline-yellow</span> &#123;</span><br><span class="line"><span class="attribute">display</span>:inline;</span><br><span class="line"><span class="attribute">padding</span>:.<span class="number">2em</span> .<span class="number">6em</span> .<span class="number">3em</span>;</span><br><span class="line"><span class="attribute">font-size</span>:<span class="number">80%</span>;</span><br><span class="line"><span class="attribute">font-weight</span>:bold;</span><br><span class="line"><span class="attribute">line-height</span>:<span class="number">1</span>;</span><br><span class="line"><span class="attribute">color</span>:<span class="number">#fff</span>;</span><br><span class="line"><span class="attribute">text-align</span>:center;</span><br><span class="line"><span class="attribute">white-space</span>:nowrap;</span><br><span class="line"><span class="attribute">vertical-align</span>:baseline;</span><br><span class="line"><span class="attribute">border-radius</span>:<span class="number">0</span>;</span><br><span class="line"><span class="attribute">background-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块<span class="selector-tag">-</span>绿</span><br><span class="line"><span class="selector-tag">span</span><span class="selector-id">#inline-green</span> &#123;</span><br><span class="line"><span class="attribute">display</span>:inline;</span><br><span class="line"><span class="attribute">padding</span>:.<span class="number">2em</span> .<span class="number">6em</span> .<span class="number">3em</span>;</span><br><span class="line"><span class="attribute">font-size</span>:<span class="number">80%</span>;</span><br><span class="line"><span class="attribute">font-weight</span>:bold;</span><br><span class="line"><span class="attribute">line-height</span>:<span class="number">1</span>;</span><br><span class="line"><span class="attribute">color</span>:<span class="number">#fff</span>;</span><br><span class="line"><span class="attribute">text-align</span>:center;</span><br><span class="line"><span class="attribute">white-space</span>:nowrap;</span><br><span class="line"><span class="attribute">vertical-align</span>:baseline;</span><br><span class="line"><span class="attribute">border-radius</span>:<span class="number">0</span>;</span><br><span class="line"><span class="attribute">background-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块<span class="selector-tag">-</span>蓝</span><br><span class="line"><span class="selector-tag">span</span><span class="selector-id">#inline-blue</span> &#123;</span><br><span class="line"><span class="attribute">display</span>:inline;</span><br><span class="line"><span class="attribute">padding</span>:.<span class="number">2em</span> .<span class="number">6em</span> .<span class="number">3em</span>;</span><br><span class="line"><span class="attribute">font-size</span>:<span class="number">80%</span>;</span><br><span class="line"><span class="attribute">font-weight</span>:bold;</span><br><span class="line"><span class="attribute">line-height</span>:<span class="number">1</span>;</span><br><span class="line"><span class="attribute">color</span>:<span class="number">#fff</span>;</span><br><span class="line"><span class="attribute">text-align</span>:center;</span><br><span class="line"><span class="attribute">white-space</span>:nowrap;</span><br><span class="line"><span class="attribute">vertical-align</span>:baseline;</span><br><span class="line"><span class="attribute">border-radius</span>:<span class="number">0</span>;</span><br><span class="line"><span class="attribute">background-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块<span class="selector-tag">-</span>紫</span><br><span class="line"><span class="selector-tag">span</span><span class="selector-id">#inline-purple</span> &#123;</span><br><span class="line"><span class="attribute">display</span>:inline;</span><br><span class="line"><span class="attribute">padding</span>:.<span class="number">2em</span> .<span class="number">6em</span> .<span class="number">3em</span>;</span><br><span class="line"><span class="attribute">font-size</span>:<span class="number">80%</span>;</span><br><span class="line"><span class="attribute">font-weight</span>:bold;</span><br><span class="line"><span class="attribute">line-height</span>:<span class="number">1</span>;</span><br><span class="line"><span class="attribute">color</span>:<span class="number">#fff</span>;</span><br><span class="line"><span class="attribute">text-align</span>:center;</span><br><span class="line"><span class="attribute">white-space</span>:nowrap;</span><br><span class="line"><span class="attribute">vertical-align</span>:baseline;</span><br><span class="line"><span class="attribute">border-radius</span>:<span class="number">0</span>;</span><br><span class="line"><span class="attribute">background-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -606,8 +597,9 @@
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;inline-blue&quot;</span>&gt;</span> 站点配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;inline-purple&quot;</span>&gt;</span> 主题配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;inline-yellow&quot;</span>&gt;</span> 站点配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;inline-green&quot;</span>&gt;</span> 主题配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </details>
 
-<h2 id="7、点击头像跳转首页"><a href="#7、点击头像跳转首页" class="headerlink" title="7、点击头像跳转首页"></a>7、点击头像跳转首页</h2><p>打开 <code>themes\next\layout\_partials\sidebar</code> 目录下 <code>site-overview.njk</code> 文件<br>将第一个 div 替换为以下内容：</p>
+<h2 id="6、点击头像跳转首页"><a href="#6、点击头像跳转首页" class="headerlink" title="6、点击头像跳转首页"></a>6、点击头像跳转首页</h2><p>打开 <code>themes\next\layout\_partials\sidebar</code> 目录下 <code>site-overview.njk</code> 文件<br>将第一个 div 替换为以下内容：</p>
 <figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">&lt;div class=&quot;site-author site-overview-item animated&quot; itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;</span><br><span class="line">  &#123;%- if theme.avatar.url %&#125;</span><br><span class="line"><span class="addition">+    &lt;a href=&quot;/&quot;&gt;</span></span><br><span class="line">      &lt;img class=&quot;site-author-image&quot; itemprop=&quot;image&quot; alt=&quot;&#123;&#123; author &#125;&#125;&quot;</span><br><span class="line">        src=&quot;&#123;&#123; url_for(theme.avatar.url or theme.images + &#x27;/avatar.gif&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line"><span class="addition">+    &lt;/a&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line">  &lt;p class=&quot;site-author-name&quot; itemprop=&quot;name&quot;&gt;&#123;&#123; author &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;div class=&quot;site-description&quot; itemprop=&quot;description&quot;&gt;&#123;&#123; description &#125;&#125;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
 <div class="link-grid"><div class="link-grid-container">
 <object class="link-grid-image" data="/images/apple-touch-icon-next.png"></object>
 <p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
@@ -630,7 +622,17 @@
 <a href="https://theme-next.js.org/"></a>
 </div></div>
 
+<h1 id="二、使用技巧"><a href="#二、使用技巧" class="headerlink" title="二、使用技巧"></a>二、使用技巧</h1><h2 id="1、Note-标注功能"><a href="#1、Note-标注功能" class="headerlink" title="1、Note 标注功能"></a>1、Note 标注功能</h2><p>效果如下：</p>
+<div class="note success"><p><strong>Welcome</strong> to <a href="https://hexo.io/">Hexo!</a></p>
+</div>
+<p>参考：<a href="https://theme-next.js.org/docs/tag-plugins/note.html">Note (Bootstrap Callout)</a></p>
+<h2 id="2、居中引用"><a href="#2、居中引用" class="headerlink" title="2、居中引用"></a>2、居中引用</h2><p>格式：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125; </span><br><span class="line">引用内容</span><br><span class="line">&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<blockquote class="blockquote-center">
+<p>故乡啊，挨着碰着，都是带刺的花。<br>——小林一茶</p>
 
+</blockquote>
 
 <hr>
 <p>参考：<br><a href="https://theme-next.js.org//">Next官方文档</a><br><a href="https://github.com/next-theme/hexo-theme-next">Next主题仓库</a></p>
@@ -650,7 +652,7 @@
     <url>/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Hexo-Admin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/</url>
     <content><![CDATA[<h4 id="1-安装-hexo-admin-插件"><a href="#1-安装-hexo-admin-插件" class="headerlink" title="1. 安装 hexo-admin 插件"></a>1. 安装 hexo-admin 插件</h4><p>首先，在创建Blog的根目录下安装插件，打开Git Bash输入如下命令。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
+<span id="more"></span>
 <p>安装过程中可能会有许多错误提示，绝大多数情况下没有影响可以忽略。<br>输入命令，启动服务器。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <p>在浏览器中打开localhost:4000/admin/即可编辑文章内容,界面如下。<br><img src="/image/2020-3-20/image-1.png"></p>
@@ -679,10 +681,13 @@
     <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD%20Day1%20Linux%E5%9F%BA%E7%A1%80%E7%AF%87/</url>
     <content><![CDATA[<h5 id="【1】linux命令"><a href="#【1】linux命令" class="headerlink" title="【1】linux命令"></a>【1】linux命令</h5><p>   linux@ubuntu:~$  家目录   /home/linux<br>   linux@ubuntu:/$  根目录   </p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ctrl+alt+t		<span class="comment">#打开终端</span></span><br><span class="line"><span class="built_in">cd</span>			<span class="comment">#切换到家目录</span></span><br><span class="line"><span class="built_in">cd</span> /			<span class="comment">#切换到根目录（系统文件）</span></span><br><span class="line"><span class="built_in">cd</span> ..			<span class="comment">#切换到上一级</span></span><br><span class="line"><span class="built_in">cd</span> -			<span class="comment">#返回上一级</span></span><br><span class="line">ls  			<span class="comment">#查看当前目录下的所有文件目录  （-list）</span></span><br></pre></td></tr></table></figure>
+
 <p>   目录：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir + 目录名  					<span class="comment">#创建目录	</span></span><br><span class="line">rmdir + 目录名 （只能删除空目录）			<span class="comment">#删除目录	</span></span><br><span class="line">touch + 文件名 （普通文本，C源码）			<span class="comment">#创建新文件  </span></span><br><span class="line">rm + 文件名 					<span class="comment">#删除文件	</span></span><br><span class="line">cp + 被复制 + 新文件名/目录名（拷贝到此目录）	<span class="comment">#复制文件	</span></span><br><span class="line">mv + 被剪切 + 新文件名/目录名（剪切到此目录）	<span class="comment">#剪切		</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 <h5 id="【2】vim编辑器"><a href="#【2】vim编辑器" class="headerlink" title="【2】vim编辑器"></a>【2】vim编辑器</h5><p>vim编辑器模式：<br>    1.输入模式<br>    2.底行模式<br>在底行模式下：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift + : wq		#保存退出</span><br><span class="line">	  q!		#不保存退出</span><br><span class="line">	  w		#只保存</span><br><span class="line">	  行号 		#光标跳转到某一行</span><br><span class="line">	  &#x2F; + 关键字 #查找关键字  N</span><br><span class="line">yy 	#复制一行</span><br><span class="line">dd	#剪切一行</span><br><span class="line">p  	#粘贴</span><br></pre></td></tr></table></figure>
+
 <p>底行模式 ——&gt; 输入模式  i<br>输入模式 ——&gt; 底行模式  Esc</p>
 <h5 id="【3】gcc编译器"><a href="#【3】gcc编译器" class="headerlink" title="【3】gcc编译器"></a>【3】gcc编译器</h5><pre><code>gcc + xxx.c   #生成a.out(elf格式)
 执行 ./a.out 
@@ -845,28 +850,21 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
       </tags>
   </entry>
   <entry>
-    <title>Sunrise</title>
-    <url>/archives/2018/05/Sunrise/</url>
-    <content><![CDATA[<p><img src="/image/00.gif">  </p>
-<blockquote class="blockquote-center">
-<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
-
-</blockquote>
-
-]]></content>
-  </entry>
-  <entry>
     <title>hello-world</title>
     <url>/archives/2018/05/Hello_world/</url>
     <content><![CDATA[<p> <img src="/image/03.jpg"></p>
 <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>
 ]]></content>
       <categories>
@@ -874,6 +872,25 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
       </categories>
       <tags>
         <tag>示例</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MyTest</title>
+    <url>/archives/2018/05/MyTest/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="0afd48b5869d1b2f20c3ea2ee8c0d769c5dfb985602849a7a24804d7a02f4b0e">bd25ed9264b080267271e137e33d0ce10d0d63c746cf62e20f15a634036418035663a28cabb4d8b61b9b22b55a2353d15acb169f7fa04cc96688119bd92ec7b40b99daa3c42da4fecadae2f68aad2a034ef2e0af1015869ed0322b4c171df2c76f376a02d301920914a387ca6e0f471e</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">测试用，请输入密码：</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>test</tag>
       </tags>
   </entry>
 </search>

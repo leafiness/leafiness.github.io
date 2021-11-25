@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.3.0">
+<meta name="generator" content="Hexo 5.4.0">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/image/site/favicon.ico">
@@ -23,17 +23,17 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"ljone.top","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":false,"post_body":false,"coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="Next主题设置及美化，打造自己的个性化主题。    1、代码块折叠 当文章中添加代码过长时，会对文章的阅读和显示造成不好的体验，折叠代码块是一种很好的解决方式 书写格式：  1 2 3 4      标题 	详细内容    原理：采用 HTML5 中的新标签，因此这不能算是对 Next 主题的美化。 summary 标签作为 details 元素的标题，details 元素用于描述有关文档或文档">
+<script class="next-config" data-name="main" type="application/json">{"hostname":"ljone.top","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="description" content="Next主题设置及美化，打造自己的个性化主题。    一、主题美化 1、文章永久链接 Hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。  这种链接对搜索爬虫很不友好，它的 url 结构超过三层，太深。 安装 hexo-abbrlink  1   npm install hexo-abbrlink --save    然后配置站点配置文件 _config.yml ：  1 2">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Next主题美化">
-<meta property="og:url" content="https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/index.html">
+<meta property="og:title" content="Next 美化与使用技巧">
+<meta property="og:url" content="https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%20%E7%BE%8E%E5%8C%96%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/index.html">
 <meta property="og:site_name" content="西瓜丢了芝麻">
-<meta property="og:description" content="Next主题设置及美化，打造自己的个性化主题。    1、代码块折叠 当文章中添加代码过长时，会对文章的阅读和显示造成不好的体验，折叠代码块是一种很好的解决方式 书写格式：  1 2 3 4      标题 	详细内容    原理：采用 HTML5 中的新标签，因此这不能算是对 Next 主题的美化。 summary 标签作为 details 元素的标题，details 元素用于描述有关文档或文档">
+<meta property="og:description" content="Next主题设置及美化，打造自己的个性化主题。    一、主题美化 1、文章永久链接 Hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。  这种链接对搜索爬虫很不友好，它的 url 结构超过三层，太深。 安装 hexo-abbrlink  1   npm install hexo-abbrlink --save    然后配置站点配置文件 _config.yml ：  1 2">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://ljone.top/image/2020-3-21/image-1.png">
 <meta property="article:published_time" content="2020-03-21T11:34:00.000Z">
-<meta property="article:modified_time" content="2021-02-05T10:08:55.304Z">
+<meta property="article:modified_time" content="2021-11-25T06:00:59.075Z">
 <meta property="article:author" content="LJONE">
 <meta property="article:tag" content="Blog">
 <meta property="article:tag" content="Hexo">
@@ -42,14 +42,14 @@
 <meta name="twitter:image" content="https://ljone.top/image/2020-3-21/image-1.png">
 
 
-<link rel="canonical" href="https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/">
+<link rel="canonical" href="https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%20%E7%BE%8E%E5%8C%96%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/","path":"archives/2020/03/Hexo博客/Next主题美化/","title":"Next主题美化"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%20%E7%BE%8E%E5%8C%96%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/","path":"archives/2020/03/Hexo博客/Next 美化与使用技巧/","title":"Next 美化与使用技巧"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Next主题美化 | 西瓜丢了芝麻</title>
+<title>Next 美化与使用技巧 | 西瓜丢了芝麻</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188890468-1"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-188890468-1","only_pageview":false}</script>
@@ -163,7 +163,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E3%80%81%E4%BB%A3%E7%A0%81%E5%9D%97%E6%8A%98%E5%8F%A0"><span class="nav-text">1、代码块折叠</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2%E3%80%81%E6%96%87%E7%AB%A0%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5"><span class="nav-text">2、文章永久链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E3%80%81%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%89%B9%E6%95%88"><span class="nav-text">3、鼠标点击特效</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4%E3%80%81%E8%BF%91%E6%9C%9F%E6%96%87%E7%AB%A0"><span class="nav-text">4、近期文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5%E3%80%81Live2D%E6%A8%A1%E5%9E%8B"><span class="nav-text">5、Live2D模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6%E3%80%81%E6%96%87%E5%AD%97%E8%83%8C%E6%99%AF%E8%89%B2%E5%9D%97"><span class="nav-text">6、文字背景色块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7%E3%80%81%E7%82%B9%E5%87%BB%E5%A4%B4%E5%83%8F%E8%B7%B3%E8%BD%AC%E9%A6%96%E9%A1%B5"><span class="nav-text">7、点击头像跳转首页</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96"><span class="nav-text">一、主题美化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E3%80%81%E6%96%87%E7%AB%A0%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5"><span class="nav-text">1、文章永久链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2%E3%80%81%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%89%B9%E6%95%88"><span class="nav-text">2、鼠标点击特效</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E3%80%81%E8%BF%91%E6%9C%9F%E6%96%87%E7%AB%A0"><span class="nav-text">3、近期文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4%E3%80%81Live2D%E6%A8%A1%E5%9E%8B"><span class="nav-text">4、Live2D模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5%E3%80%81%E6%96%87%E5%AD%97%E8%83%8C%E6%99%AF%E8%89%B2%E5%9D%97"><span class="nav-text">5、文字背景色块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6%E3%80%81%E7%82%B9%E5%87%BB%E5%A4%B4%E5%83%8F%E8%B7%B3%E8%BD%AC%E9%A6%96%E9%A1%B5"><span class="nav-text">6、点击头像跳转首页</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7"><span class="nav-text">二、使用技巧</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E3%80%81Note-%E6%A0%87%E6%B3%A8%E5%8A%9F%E8%83%BD"><span class="nav-text">1、Note 标注功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2%E3%80%81%E5%B1%85%E4%B8%AD%E5%BC%95%E7%94%A8"><span class="nav-text">2、居中引用</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -216,11 +216,11 @@
         
         
           <li>
-            <a href="/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit-%E2%80%94%E2%80%94%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98/" title="Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题" target="_blank">Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题</a>
+            <a href="/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/" title="Hexo部署至Vercel(Zeit)" target="_blank">Hexo部署至Vercel(Zeit)</a>
           </li>
         
           <li>
-            <a href="/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" title="Markdown使用记录" target="_blank">Markdown使用记录</a>
+            <a href="/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" title="Markdown使用" target="_blank">Markdown使用</a>
           </li>
         
           <li>
@@ -540,7 +540,7 @@ if(canvas.getContext){
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/">
+    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%20%E7%BE%8E%E5%8C%96%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/image/site/avatar.jpg">
@@ -553,7 +553,7 @@ if(canvas.getContext){
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Next主题美化
+          Next 美化与使用技巧
         </h1>
 
         <div class="post-meta-container">
@@ -583,14 +583,14 @@ if(canvas.getContext){
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>16k</span>
+      <span>15k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>15 分钟</span>
+      <span>14 分钟</span>
     </span>
 </div>
 
@@ -603,22 +603,14 @@ if(canvas.getContext){
     <div class="post-body" itemprop="articleBody">
         <p>Next主题设置及美化，打造自己的个性化主题。</p>
 <p><img src="/image/2020-3-21/image-1.png"></p>
-<h2 id="1、代码块折叠"><a href="#1、代码块折叠" class="headerlink" title="1、代码块折叠"></a>1、代码块折叠</h2><p>当文章中添加代码过长时，会对文章的阅读和显示造成不好的体验，折叠代码块是一种很好的解决方式<br>书写格式：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">summary</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line">	详细内容</span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>原理：采用 HTML5 中的新标签，因此这不能算是对 Next 主题的美化。<br><code>summary</code> 标签作为 <code>details</code> 元素的标题，<code>details</code> 元素用于描述有关文档或文档片段的详细信息。<br>与 <code>details</code> 一起使用,标题是可见的，当用户点击标题时会显示出详细信息。</p>
-<p>缺点：兼容性不好，只有 Chrome 以及 Safari 6 支持 <code>summary</code> 标签。</p>
-<p>效果如下：</p>
-<details>
-  <summary>点击显/隐代码</summary>
-<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;site-author site-overview-item animated&quot; itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;</span><br><span class="line">  &#123;%- if theme.avatar.url %&#125;</span><br><span class="line"><span class="addition">+    &lt;a href=&quot;/&quot;&gt;</span></span><br><span class="line">      &lt;img class=&quot;site-author-image&quot; itemprop=&quot;image&quot; alt=&quot;&#123;&#123; author &#125;&#125;&quot;</span><br><span class="line">        src=&quot;&#123;&#123; url_for(theme.avatar.url or theme.images + &#x27;/avatar.gif&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line"><span class="addition">+    &lt;/a&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line">  &lt;p class=&quot;site-author-name&quot; itemprop=&quot;name&quot;&gt;&#123;&#123; author &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;div class=&quot;site-description&quot; itemprop=&quot;description&quot;&gt;&#123;&#123; description &#125;&#125;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-</details>
-
-<h2 id="2、文章永久链接"><a href="#2、文章永久链接" class="headerlink" title="2、文章永久链接"></a>2、文章永久链接</h2><p>Hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。</p>
+<h1 id="一、主题美化"><a href="#一、主题美化" class="headerlink" title="一、主题美化"></a>一、主题美化</h1><h2 id="1、文章永久链接"><a href="#1、文章永久链接" class="headerlink" title="1、文章永久链接"></a>1、文章永久链接</h2><p>Hexo 默认生成的文章地址路径是 【网站名称／年／月／日／文章名称】。</p>
 <p>这种链接对搜索爬虫很不友好，它的 url 结构超过三层，太深。<br>安装 hexo-abbrlink</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+
 <p> 然后配置站点配置文件 <code>_config.yml</code> ：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://blog.juanertu.com</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"><span class="comment">#修改</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:categories/:abbrlink.html</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment">#添加</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span> <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span> <span class="comment"># 进制：dec(default) and hex</span></span><br></pre></td></tr></table></figure>
-<h2 id="3、鼠标点击特效"><a href="#3、鼠标点击特效" class="headerlink" title="3、鼠标点击特效"></a>3、鼠标点击特效</h2><p>新建特效脚本文件，将其放在站点的 source 目录下（即 <code>hexo/source/js/cursor</code>）而不是主题目录下，如果没有 js 目录，则新建一个。</p>
+
+<h2 id="2、鼠标点击特效"><a href="#2、鼠标点击特效" class="headerlink" title="2、鼠标点击特效"></a>2、鼠标点击特效</h2><p>新建特效脚本文件，将其放在站点的 source 目录下（即 <code>hexo/source/js/cursor</code>）而不是主题目录下，如果没有 js 目录，则新建一个。</p>
 <ul>
 <li><p>礼花特效（fireworks.js）</p>
 <details>
@@ -648,20 +640,21 @@ if(canvas.getContext){
 </ul>
 <p>在 <code>hexo/source/_data/body-end.njk</code> 文件中添加如下代码：</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#123;# 鼠标点击特效 #&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> theme.cursor_effect == <span class="string">&quot;fireworks&quot;</span> %&#125;</span><br><span class="line">  &lt;script <span class="keyword">async</span> src=<span class="string">&quot;/js/cursor/fireworks.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% elseif theme.cursor_effect == <span class="string">&quot;explosion&quot;</span> %&#125;</span><br><span class="line">  &lt;canvas <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;fireworks&quot;</span> style=<span class="string">&quot;position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;&quot;</span> &gt;&lt;/canvas&gt;</span><br><span class="line">  &lt;script src=<span class="string">&quot;//cdn.bootcss.com/animejs/2.2.0/anime.min.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">  &lt;script <span class="keyword">async</span> src=<span class="string">&quot;/js/cursor/explosion.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% elseif theme.cursor_effect == <span class="string">&quot;love&quot;</span> %&#125;</span><br><span class="line">  &lt;script <span class="keyword">async</span> src=<span class="string">&quot;/js/cursor/love.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% elseif theme.cursor_effect == <span class="string">&quot;text&quot;</span> %&#125;</span><br><span class="line">  &lt;script <span class="keyword">async</span> src=<span class="string">&quot;/js/cursor/text.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
 <p>然后在Next的配置文件 <code>_config.next.yml</code> 中取消 <code>bodyEnd: source/_data/body-end.njk</code> 的注释。<br>添加如下配置项：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 鼠标点击特效</span></span><br><span class="line"><span class="comment"># mouse click effect: fireworks | explosion | love </span></span><br><span class="line"><span class="attr">cursor_effect:</span> <span class="string">fireworks</span></span><br></pre></td></tr></table></figure>
-<h2 id="4、近期文章"><a href="#4、近期文章" class="headerlink" title="4、近期文章"></a>4、近期文章</h2><p> 在 <code>hexo/source/_data/sidebar.njk</code> 文件中添加如下代码：</p>
+
+<h2 id="3、近期文章"><a href="#3、近期文章" class="headerlink" title="3、近期文章"></a>3、近期文章</h2><p> 在 <code>hexo/source/_data/sidebar.njk</code> 文件中添加如下代码：</p>
 <details>
   <summary>点击显/隐代码</summary>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.recent_posts %&#125;</span><br><span class="line">    &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;links-of-blogroll motion-element &#123;&#123; &quot;</span>links-<span class="keyword">of</span>-blogroll-<span class="string">&quot; + theme.recent_posts_layout  &#125;&#125;&quot;</span>&gt;</span><br><span class="line">      &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;links-of-blogroll-title&quot;</span>&gt;</span><br><span class="line">        &lt;!-- modify icon to fire by szw --&gt;</span><br><span class="line">        &lt;i <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;fa fa-history fa-&#123;&#123; theme.recent_posts_icon | lower &#125;&#125;&quot;</span> aria-hidden=<span class="string">&quot;true&quot;</span>&gt;&lt;/i&gt;</span><br><span class="line">        &#123;&#123; theme.recent_posts_title &#125;&#125;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;ul <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;links-of-blogroll-list&quot;</span>&gt;</span><br><span class="line">        &#123;% set posts = site.posts.sort(<span class="string">&#x27;-date&#x27;</span>).toArray() %&#125;</span><br><span class="line">        &#123;% <span class="keyword">for</span> post <span class="keyword">in</span> posts.slice(<span class="string">&#x27;0&#x27;</span>, <span class="string">&#x27;5&#x27;</span>) %&#125;</span><br><span class="line">          &lt;li&gt;</span><br><span class="line">            &lt;a href=<span class="string">&quot;&#123;&#123; url_for(post.path) &#125;&#125;&quot;</span> title=<span class="string">&quot;&#123;&#123; post.title &#125;&#125;&quot;</span> target=<span class="string">&quot;_blank&quot;</span>&gt;&#123;&#123; post.title &#125;&#125;&lt;/a&gt;</span><br><span class="line">          &lt;/li&gt;</span><br><span class="line">        &#123;% endfor %&#125;</span><br><span class="line">      &lt;/ul&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 </details>
- 
-然后在Next的配置文件 `_config.next.yml` 中取消 `sidebar:source/_data/sidebar.njk` 的注释。
-添加如下配置项：
 
+<p>然后在Next的配置文件 <code>_config.next.yml</code> 中取消 <code>sidebar:source/_data/sidebar.njk</code> 的注释。<br>添加如下配置项：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">recent_posts_title:</span> <span class="string">近期文章</span></span><br><span class="line"><span class="attr">recent_posts_layout:</span> <span class="string">block</span></span><br><span class="line"><span class="attr">recent_posts:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h2 id="5、Live2D模型"><a href="#5、Live2D模型" class="headerlink" title="5、Live2D模型"></a>5、Live2D模型</h2><p>参考链接：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/Friends-A/p/11054968.html">Hexo添加Live2D看板娘+模型预览</a></p>
-<h2 id="6、文字背景色块"><a href="#6、文字背景色块" class="headerlink" title="6、文字背景色块"></a>6、文字背景色块</h2><p>效果如下：<br><span id="inline-blue"> 站点配置文件 </span><br><span id="inline-purple"> 主题配置文件 </span><br><span id="inline-yellow"> 站点配置文件 </span><br><span id="inline-green"> 主题配置文件 </span><br> 在 <code>hexo/source/_data/styles.styl</code> 文件中添加如下代码：</p>
+
+<h2 id="4、Live2D模型"><a href="#4、Live2D模型" class="headerlink" title="4、Live2D模型"></a>4、Live2D模型</h2><p>参考链接：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/Friends-A/p/11054968.html">Hexo添加Live2D看板娘+模型预览</a></p>
+<h2 id="5、文字背景色块"><a href="#5、文字背景色块" class="headerlink" title="5、文字背景色块"></a>5、文字背景色块</h2><p>效果如下：<br><span id="inline-blue"> 站点配置文件 </span><br><span id="inline-purple"> 主题配置文件 </span><br><span id="inline-yellow"> 站点配置文件 </span><br><span id="inline-green"> 主题配置文件 </span><br> 在 <code>hexo/source/_data/styles.styl</code> 文件中添加如下代码：</p>
  <details>
   <summary>点击显/隐代码</summary>
  <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"> // 颜色块<span class="selector-tag">-</span>黄</span><br><span class="line"><span class="selector-tag">span</span><span class="selector-id">#inline-yellow</span> &#123;</span><br><span class="line"><span class="attribute">display</span>:inline;</span><br><span class="line"><span class="attribute">padding</span>:.<span class="number">2em</span> .<span class="number">6em</span> .<span class="number">3em</span>;</span><br><span class="line"><span class="attribute">font-size</span>:<span class="number">80%</span>;</span><br><span class="line"><span class="attribute">font-weight</span>:bold;</span><br><span class="line"><span class="attribute">line-height</span>:<span class="number">1</span>;</span><br><span class="line"><span class="attribute">color</span>:<span class="number">#fff</span>;</span><br><span class="line"><span class="attribute">text-align</span>:center;</span><br><span class="line"><span class="attribute">white-space</span>:nowrap;</span><br><span class="line"><span class="attribute">vertical-align</span>:baseline;</span><br><span class="line"><span class="attribute">border-radius</span>:<span class="number">0</span>;</span><br><span class="line"><span class="attribute">background-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块<span class="selector-tag">-</span>绿</span><br><span class="line"><span class="selector-tag">span</span><span class="selector-id">#inline-green</span> &#123;</span><br><span class="line"><span class="attribute">display</span>:inline;</span><br><span class="line"><span class="attribute">padding</span>:.<span class="number">2em</span> .<span class="number">6em</span> .<span class="number">3em</span>;</span><br><span class="line"><span class="attribute">font-size</span>:<span class="number">80%</span>;</span><br><span class="line"><span class="attribute">font-weight</span>:bold;</span><br><span class="line"><span class="attribute">line-height</span>:<span class="number">1</span>;</span><br><span class="line"><span class="attribute">color</span>:<span class="number">#fff</span>;</span><br><span class="line"><span class="attribute">text-align</span>:center;</span><br><span class="line"><span class="attribute">white-space</span>:nowrap;</span><br><span class="line"><span class="attribute">vertical-align</span>:baseline;</span><br><span class="line"><span class="attribute">border-radius</span>:<span class="number">0</span>;</span><br><span class="line"><span class="attribute">background-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块<span class="selector-tag">-</span>蓝</span><br><span class="line"><span class="selector-tag">span</span><span class="selector-id">#inline-blue</span> &#123;</span><br><span class="line"><span class="attribute">display</span>:inline;</span><br><span class="line"><span class="attribute">padding</span>:.<span class="number">2em</span> .<span class="number">6em</span> .<span class="number">3em</span>;</span><br><span class="line"><span class="attribute">font-size</span>:<span class="number">80%</span>;</span><br><span class="line"><span class="attribute">font-weight</span>:bold;</span><br><span class="line"><span class="attribute">line-height</span>:<span class="number">1</span>;</span><br><span class="line"><span class="attribute">color</span>:<span class="number">#fff</span>;</span><br><span class="line"><span class="attribute">text-align</span>:center;</span><br><span class="line"><span class="attribute">white-space</span>:nowrap;</span><br><span class="line"><span class="attribute">vertical-align</span>:baseline;</span><br><span class="line"><span class="attribute">border-radius</span>:<span class="number">0</span>;</span><br><span class="line"><span class="attribute">background-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块<span class="selector-tag">-</span>紫</span><br><span class="line"><span class="selector-tag">span</span><span class="selector-id">#inline-purple</span> &#123;</span><br><span class="line"><span class="attribute">display</span>:inline;</span><br><span class="line"><span class="attribute">padding</span>:.<span class="number">2em</span> .<span class="number">6em</span> .<span class="number">3em</span>;</span><br><span class="line"><span class="attribute">font-size</span>:<span class="number">80%</span>;</span><br><span class="line"><span class="attribute">font-weight</span>:bold;</span><br><span class="line"><span class="attribute">line-height</span>:<span class="number">1</span>;</span><br><span class="line"><span class="attribute">color</span>:<span class="number">#fff</span>;</span><br><span class="line"><span class="attribute">text-align</span>:center;</span><br><span class="line"><span class="attribute">white-space</span>:nowrap;</span><br><span class="line"><span class="attribute">vertical-align</span>:baseline;</span><br><span class="line"><span class="attribute">border-radius</span>:<span class="number">0</span>;</span><br><span class="line"><span class="attribute">background-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -670,8 +663,9 @@ if(canvas.getContext){
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;inline-blue&quot;</span>&gt;</span> 站点配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;inline-purple&quot;</span>&gt;</span> 主题配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;inline-yellow&quot;</span>&gt;</span> 站点配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;inline-green&quot;</span>&gt;</span> 主题配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </details>
 
-<h2 id="7、点击头像跳转首页"><a href="#7、点击头像跳转首页" class="headerlink" title="7、点击头像跳转首页"></a>7、点击头像跳转首页</h2><p>打开 <code>themes\next\layout\_partials\sidebar</code> 目录下 <code>site-overview.njk</code> 文件<br>将第一个 div 替换为以下内容：</p>
+<h2 id="6、点击头像跳转首页"><a href="#6、点击头像跳转首页" class="headerlink" title="6、点击头像跳转首页"></a>6、点击头像跳转首页</h2><p>打开 <code>themes\next\layout\_partials\sidebar</code> 目录下 <code>site-overview.njk</code> 文件<br>将第一个 div 替换为以下内容：</p>
 <figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;site-author site-overview-item animated&quot; itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;</span><br><span class="line">  &#123;%- if theme.avatar.url %&#125;</span><br><span class="line"><span class="addition">+    &lt;a href=&quot;/&quot;&gt;</span></span><br><span class="line">      &lt;img class=&quot;site-author-image&quot; itemprop=&quot;image&quot; alt=&quot;&#123;&#123; author &#125;&#125;&quot;</span><br><span class="line">        src=&quot;&#123;&#123; url_for(theme.avatar.url or theme.images + &#x27;/avatar.gif&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line"><span class="addition">+    &lt;/a&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line">  &lt;p class=&quot;site-author-name&quot; itemprop=&quot;name&quot;&gt;&#123;&#123; author &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;div class=&quot;site-description&quot; itemprop=&quot;description&quot;&gt;&#123;&#123; description &#125;&#125;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
 <div class="link-grid"><div class="link-grid-container">
 <object class="link-grid-image" data="/images/apple-touch-icon-next.png"></object>
 <p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
@@ -694,7 +688,17 @@ if(canvas.getContext){
 <a target="_blank" rel="noopener" href="https://theme-next.js.org/"></a>
 </div></div>
 
+<h1 id="二、使用技巧"><a href="#二、使用技巧" class="headerlink" title="二、使用技巧"></a>二、使用技巧</h1><h2 id="1、Note-标注功能"><a href="#1、Note-标注功能" class="headerlink" title="1、Note 标注功能"></a>1、Note 标注功能</h2><p>效果如下：</p>
+<div class="note success"><p><strong>Welcome</strong> to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo!</a></p>
+</div>
+<p>参考：<a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/tag-plugins/note.html">Note (Bootstrap Callout)</a></p>
+<h2 id="2、居中引用"><a href="#2、居中引用" class="headerlink" title="2、居中引用"></a>2、居中引用</h2><p>格式：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% cq %&#125; </span><br><span class="line">引用内容</span><br><span class="line">&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<blockquote class="blockquote-center">
+<p>故乡啊，挨着碰着，都是带刺的花。<br>——小林一茶</p>
 
+</blockquote>
 
 <hr>
 <p>参考：<br><a target="_blank" rel="noopener" href="https://theme-next.js.org//">Next官方文档</a><br><a target="_blank" rel="noopener" href="https://github.com/next-theme/hexo-theme-next">Next主题仓库</a></p>
@@ -718,10 +722,10 @@ if(canvas.getContext){
       <div class="popular-posts-title"><a href="\archives\2018\05\Hexo博客\利用Hexo免费创建个人博客\" rel="bookmark">利用Hexo免费创建个人博客</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\archives\2021\02\Hexo部署至Vercel-Zeit-——解决百度爬虫问题\" rel="bookmark">Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题</a></div>
+      <div class="popular-posts-title"><a href="\archives\2021\02\Hexo部署至Vercel-Zeit\" rel="bookmark">Hexo部署至Vercel(Zeit)</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\archives\2021\02\Markdown使用记录\" rel="bookmark">Markdown使用记录</a></div>
+      <div class="popular-posts-title"><a href="\archives\2021\02\Markdown使用记录\" rel="bookmark">Markdown使用</a></div>
     </li>
   </ul>
 
@@ -859,11 +863,11 @@ show_date_time();
 
 
   <script src="https://cdn.jsdelivr.net/npm/quicklink@2.2.0/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
-  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"ignores":null,"url":"https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/"}</script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"ignores":null,"url":"https://ljone.top/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Next%20%E7%BE%8E%E5%8C%96%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"}</script>
   <script src="/js/third-party/quicklink.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"leafiness","repo":"Gitalk","client_id":"3ab3a1c7b96bd2bdf9ae","client_secret":"b2d2eeecd8df597fa6bf23a405062981bce96df7","admin_user":"leafiness","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"e0e62490b90e25e45501cae9ba65e474"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"leafiness","repo":"Gitalk","client_id":"3ab3a1c7b96bd2bdf9ae","client_secret":"b2d2eeecd8df597fa6bf23a405062981bce96df7","admin_user":"leafiness","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"3ea4c170490f42030ced03ecab511428"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
 
 

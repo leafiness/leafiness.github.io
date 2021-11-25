@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.3.0">
+<meta name="generator" content="Hexo 5.4.0">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/image/site/favicon.ico">
@@ -23,13 +23,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"ljone.top","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":false,"post_body":false,"coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。">
+<script class="next-config" data-name="main" type="application/json">{"hostname":"ljone.top","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="description" content="前排提示：百度收录失效，仍可加快国内访问速度  近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CD">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题">
-<meta property="og:url" content="https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit-%E2%80%94%E2%80%94%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:title" content="Hexo部署至Vercel(Zeit)">
+<meta property="og:url" content="https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/index.html">
 <meta property="og:site_name" content="西瓜丢了芝麻">
-<meta property="og:description" content="近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。">
+<meta property="og:description" content="前排提示：百度收录失效，仍可加快国内访问速度  近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CD">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-0.png">
 <meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-4.png">
@@ -42,21 +42,21 @@
 <meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-8.png">
 <meta property="og:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-9.png">
 <meta property="article:published_time" content="2021-02-03T15:20:00.000Z">
-<meta property="article:modified_time" content="2021-02-05T05:06:06.872Z">
+<meta property="article:modified_time" content="2021-11-25T05:53:01.322Z">
 <meta property="article:author" content="LJONE">
 <meta property="article:tag" content="Blog">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://ljone.top/image/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-0.png">
 
 
-<link rel="canonical" href="https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit-%E2%80%94%E2%80%94%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98/">
+<link rel="canonical" href="https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit-%E2%80%94%E2%80%94%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98/","path":"archives/2021/02/Hexo部署至Vercel-Zeit-——解决百度爬虫问题/","title":"Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/","path":"archives/2021/02/Hexo部署至Vercel-Zeit/","title":"Hexo部署至Vercel(Zeit)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题 | 西瓜丢了芝麻</title>
+<title>Hexo部署至Vercel(Zeit) | 西瓜丢了芝麻</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188890468-1"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-188890468-1","only_pageview":false}</script>
@@ -223,11 +223,11 @@
         
         
           <li>
-            <a href="/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit-%E2%80%94%E2%80%94%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98/" title="Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题" target="_blank">Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题</a>
+            <a href="/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/" title="Hexo部署至Vercel(Zeit)" target="_blank">Hexo部署至Vercel(Zeit)</a>
           </li>
         
           <li>
-            <a href="/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" title="Markdown使用记录" target="_blank">Markdown使用记录</a>
+            <a href="/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" title="Markdown使用" target="_blank">Markdown使用</a>
           </li>
         
           <li>
@@ -547,7 +547,7 @@ if(canvas.getContext){
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit-%E2%80%94%E2%80%94%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98/">
+    <link itemprop="mainEntityOfPage" href="https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/image/site/avatar.jpg">
@@ -560,7 +560,7 @@ if(canvas.getContext){
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hexo部署至Vercel(Zeit)——解决国内速度和百度爬虫问题
+          Hexo部署至Vercel(Zeit)
         </h1>
 
         <div class="post-meta-container">
@@ -608,7 +608,9 @@ if(canvas.getContext){
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。同时，由于 Coding 部署利用了腾讯的 OSS 和 CDN 资源需要收费，而我作为新版 Coding 的新用户不能向老用户一样白嫖，这显然不符合我白嫖走天下的理念。经过一番寻找最终找到了部署至 Vercel 的方案。</p>
+        <div class="note warning"><p><strong>前排提示：百度收录失效，仍可加快国内访问速度</strong></p>
+</div>
+<p>近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。同时，由于 Coding 部署利用了腾讯的 OSS 和 CDN 资源需要收费，而我作为新版 Coding 的新用户不能向老用户一样白嫖，这显然不符合我白嫖走天下的理念。经过一番寻找最终找到了部署至 Vercel 的方案。</p>
 <h2 id="Coding部署"><a href="#Coding部署" class="headerlink" title="Coding部署"></a>Coding部署</h2><p>关于Coding部署可以参考这一篇：<a target="_blank" rel="noopener" href="https://asurada.zone/post/CODING-Pages-Upgrade-To-TencentCloud/">CODING Pages 静态网站升级腾讯云新版踩坑小记</a></p>
 <div class="note info"><h2 id="Vercel"><a href="#Vercel" class="headerlink" title="Vercel"></a>Vercel</h2><p>原名 Zeit，服务器在美国，在港台有 CDN 节点，提供自定义 xxx.now.sh 和 xxx.vercel.app 域名，且支持免费绑定个人域名，同时可以解决百度爬虫问题。最大的好处就是可以绑定 GitHub 账号，由 GitHub 托管Hexo博客源码，Vercel 导入博客源码，当检测到仓库改动后自动进行部署。</p>
 </div>
@@ -657,10 +659,10 @@ if(canvas.getContext){
   <div class="popular-posts-header">相关文章</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\archives\2021\02\Markdown使用记录\" rel="bookmark">Markdown使用记录</a></div>
+      <div class="popular-posts-title"><a href="\archives\2021\02\Markdown使用记录\" rel="bookmark">Markdown使用</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\archives\2020\03\Hexo博客\Next主题美化\" rel="bookmark">Next主题美化</a></div>
+      <div class="popular-posts-title"><a href="\archives\2020\03\Hexo博客\Next 美化与使用技巧\" rel="bookmark">Next 美化与使用技巧</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="\archives\2020\03\Hexo博客\Hexo-Admin后台管理\" rel="bookmark">Hexo-Admin后台管理</a></div>
@@ -683,8 +685,8 @@ if(canvas.getContext){
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" rel="prev" title="Markdown使用记录">
-                  <i class="fa fa-chevron-left"></i> Markdown使用记录
+                <a href="/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" rel="prev" title="Markdown使用">
+                  <i class="fa fa-chevron-left"></i> Markdown使用
                 </a>
             </div>
             <div class="post-nav-item">
@@ -802,11 +804,11 @@ show_date_time();
 
 
   <script src="https://cdn.jsdelivr.net/npm/quicklink@2.2.0/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
-  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"ignores":null,"url":"https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit-%E2%80%94%E2%80%94%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98/"}</script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"ignores":null,"url":"https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/"}</script>
   <script src="/js/third-party/quicklink.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"leafiness","repo":"Gitalk","client_id":"3ab3a1c7b96bd2bdf9ae","client_secret":"b2d2eeecd8df597fa6bf23a405062981bce96df7","admin_user":"leafiness","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"a72b6ee94e6925169f13390321839500"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"leafiness","repo":"Gitalk","client_id":"3ab3a1c7b96bd2bdf9ae","client_secret":"b2d2eeecd8df597fa6bf23a405062981bce96df7","admin_user":"leafiness","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"73ee455862cffbef9481290c310caeaf"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
 
 
