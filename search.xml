@@ -18,10 +18,10 @@
     <content><![CDATA[<h1 id="1、环境准备"><a href="#1、环境准备" class="headerlink" title="1、环境准备"></a>1、环境准备</h1><p><strong>环境：</strong>VS2019、MySQL8.0.26 x86_64</p>
 <p>通过 MySQL 官方 API 连接数据库。</p>
 <h1 id="2、添加-MySQL-连接器头文件"><a href="#2、添加-MySQL-连接器头文件" class="headerlink" title="2、添加 MySQL 连接器头文件"></a>2、添加 MySQL 连接器头文件</h1><p>新建 C++ 项目，将项目平台改为 <strong>x64</strong></p>
-<p><img src="/image/2021-11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-1.jpg" alt="image-20210916185916971"></p>
+<p><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d537255-fc16-4bb2-bfd6-1c3d8267822a/image-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45/20211126/us-west-2/s3/aws4_request&X-Amz-Date=20211126T024148Z&X-Amz-Expires=86400&X-Amz-Signature=f8eabc992af78b1a099332fe13f444caf47a985089c7a59f70509c5efe836e4e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22image-1.jpg%22&x-id=GetObject"></p>
 <p>在项目名称处点击右键，选择 <code>属性</code> -&gt; <code>C/C++</code> -&gt; <code>常规</code>，在附加包含目录处添加连接器头文件路径：</p>
 <p><code>C:\Program Files\MySQL\MySQL Server 8.0\include</code>，路径根据自己安装目录进行调整。</p>
-<p><img src="/image/2021-11/C++%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-2.jpg" alt="image-20210916190518524"></p>
+<p><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/39534c5d-f4fb-4304-8288-38c1da91bdfb/image-2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45/20211126/us-west-2/s3/aws4_request&X-Amz-Date=20211126T024138Z&X-Amz-Expires=86400&X-Amz-Signature=881fd8a441cbf49fe3381880be7649fa9e9016a098b8272e7b7be8950c06dcf8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22image-2.jpg%22&x-id=GetObject"></p>
 <h1 id="3、添加静态和动态库依赖"><a href="#3、添加静态和动态库依赖" class="headerlink" title="3、添加静态和动态库依赖"></a>3、添加静态和动态库依赖</h1><p>在路径<code>C:\Program Files\MySQL\MySQL Server 8.0\lib</code>下找到 <code>libmysql.lib</code> 和 <code>libmysql.dll</code>文件，将其复制到新建项目的根目录中。</p>
 <p>在项目中添加以下代码，使项目链接到<code>libmysql.lib</code>库</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> comment(lib, <span class="meta-string">&quot;libmysql.lib&quot;</span>)</span></span><br></pre></td></tr></table></figure>
