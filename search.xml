@@ -18,10 +18,10 @@
     <content><![CDATA[<h1 id="1、环境准备"><a href="#1、环境准备" class="headerlink" title="1、环境准备"></a>1、环境准备</h1><p><strong>环境：</strong>VS2019、MySQL8.0.26 x86_64</p>
 <p>通过 MySQL 官方 API 连接数据库。</p>
 <h1 id="2、添加-MySQL-连接器头文件"><a href="#2、添加-MySQL-连接器头文件" class="headerlink" title="2、添加 MySQL 连接器头文件"></a>2、添加 MySQL 连接器头文件</h1><p>新建 C++ 项目，将项目平台改为 <strong>x64</strong></p>
-<p><img src="/image/2021-11/C%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-0.png" alt="upload successful"></p>
+<p><img src="/image/2021-11/C%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-1.jpg"></p>
 <p>在项目名称处点击右键，选择 <code>属性</code> -&gt; <code>C/C++</code> -&gt; <code>常规</code>，在附加包含目录处添加连接器头文件路径：</p>
 <p><code>C:\Program Files\MySQL\MySQL Server 8.0\include</code>，路径根据自己安装目录进行调整。</p>
-<p><img src="/image/2021-11/C%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-1.png" alt="upload successful"></p>
+<p><img src="/image/2021-11/C%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/image-2.jpg"></p>
 <h1 id="3、添加静态和动态库依赖"><a href="#3、添加静态和动态库依赖" class="headerlink" title="3、添加静态和动态库依赖"></a>3、添加静态和动态库依赖</h1><p>在路径<code>C:\Program Files\MySQL\MySQL Server 8.0\lib</code>下找到 <code>libmysql.lib</code> 和 <code>libmysql.dll</code>文件，将其复制到新建项目的根目录中。</p>
 <p>在项目中添加以下代码，使项目链接到<code>libmysql.lib</code>库</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> comment(lib, <span class="meta-string">&quot;libmysql.lib&quot;</span>)</span></span><br></pre></td></tr></table></figure>
@@ -336,8 +336,8 @@
         <category>Markdown</category>
       </categories>
       <tags>
-        <tag>Markdown</tag>
         <tag>Blog</tag>
+        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -926,6 +926,78 @@
       </tags>
   </entry>
   <entry>
+    <title>嵌入式实训 Day3 Linux内核编译与服务器配置</title>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day3/</url>
+    <content><![CDATA[<h5 id="【1】uboot烧写原理"><a href="#【1】uboot烧写原理" class="headerlink" title="【1】uboot烧写原理"></a>【1】uboot烧写原理</h5><p> SD卡制作启动盘：<br>     cd  sdfuse_q<br>     ./mkuboot.sh /dev/sdb    SD卡的设备文件名    /dev 保存设备节点（文件名）<br>     ./sd_fusing_exynos4x12.sh /dev/sdb u-boot-fs4412.bin</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$2</span> fusing...&quot;</span></span><br><span class="line">dd iflag=dsync oflag=dsync <span class="keyword">if</span>=<span class="variable">$2</span> of=<span class="variable">$1</span> seek=1 &amp;&amp; \</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$2</span> image has been fused successfully.&quot;</span>   </span><br></pre></td></tr></table></figure>
+<p>if(inputfile)–输入文件—u-boot-fs4412.bin（2010）<br>of(outputfile)–输出文件— /dev/sdb<br>dd 将输入文件的内容复制给输出文件（复制的同时进行了格式转换）<br>本质：将uboot镜像固化到SD卡，SD卡成为启动盘</p>
+<pre><code>Linux文件类型：
+b  （block 块设备文件）  具体表示是一种设备
+c  （char 字符设备文件） 具体表示是一种设备
+d  （目录）
+-  （普通文件） .txt .dat
+l  （链接文件）
+s  （套接字文件）
+p  （管道文件）
+</code></pre>
+<h5 id="【2】重启网卡"><a href="#【2】重启网卡" class="headerlink" title="【2】重启网卡"></a>【2】重启网卡</h5><pre><code>sudo /etc/init.d/networking restart
+</code></pre>
+<h5 id="【3】Linux内核配置编译"><a href="#【3】Linux内核配置编译" class="headerlink" title="【3】Linux内核配置编译"></a>【3】Linux内核配置编译</h5><p> 1）Makefile<br>    198 ARCH        ?= arm     默认X86<br>    199 CROSS_COMPILE   ?= arm-none-linux-gnueabi-    申明交叉编译工具链的前缀</p>
+<p> 2）导入默认配置<br>    确保Linux内核镜像可以运行在当前产品中，支持当前的SOC<br>    make  exynos_defconfig<br>          描述的是与SOC有关的代码对应的选项<br>          cp arch/arm/configs/exynos_defconfig .config</p>
+<p>  .config 配置文件通知Makefile在编译内核镜像的时候，用来确定编译哪些文件</p>
+<p>  由顶层目录下的Makefile，调用子目录的中的Makefile协同完成源码的编译</p>
+<p>  .config保存的都是选项，每一个选项都会对应源码中的一个文件或者多个文件</p>
+<p> 3）make menuconfig  图形界面的选配<br>    对上一步的完善，用户可以自定义选择选项，选项被选择，该选项所对应的文件被编译到内核镜像中‘<br>    选项未选中，该选项所对应的文件肯定不会被编译到内核镜像中</p>
+<p> 4）make uImage  编译内核镜像</p>
+<p> 5）make dtbs  编译设备树文件</p>
+<h5 id="【4】tftp服务器"><a href="#【4】tftp服务器" class="headerlink" title="【4】tftp服务器"></a>【4】tftp服务器</h5><p> tftp远程传输协议<br> 服务器端配置： sudo vi /etc/default/tftpd-hpa</p>
+<p>  3 TFTP_USERNAME=”tftp”<br>  4 TFTP_DIRECTORY=”/tftpboot”   传输目录<br>                                 sudo mkdir /tftpboot<br>                                 sudo chmod  777 /tftpboot<br>  5 TFTP_ADDRESS=”0.0.0.0:69”<br>  6 TFTP_OPTIONS=”-c -s -l”    </p>
+<p>  启动服务器：<br>  sudo service tftpd-hpa restart</p>
+<h5 id="【5】配置nfs服务器"><a href="#【5】配置nfs服务器" class="headerlink" title="【5】配置nfs服务器"></a>【5】配置nfs服务器</h5><p> 配置server端：</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> sudo vi &#x2F;etc&#x2F;exports</span><br><span class="line">	 </span><br><span class="line">&#x2F;source&#x2F;rootfs&#x2F; *(rw,sync,no_subtree_check,no_root_squash)</span><br><span class="line"></span><br><span class="line">&#x2F;source  共享目录</span><br><span class="line">sudo mkdir &#x2F;source</span><br><span class="line">sudo chmod 777 &#x2F;source</span><br></pre></td></tr></table></figure>
+
+<p>rootfs   开发板需要访问的文件系统</p>
+<p>启动nfs服务器：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;etc&#x2F;init.d&#x2F;nfs-kernel-server restart</span><br></pre></td></tr></table></figure>
+<h5 id="【6】bootloader"><a href="#【6】bootloader" class="headerlink" title="【6】bootloader"></a>【6】bootloader</h5><p> bootloader的操作的方式：自启动、交互</p>
+<p> setenv  设置新的环境变量<br> saveenv  保存设置的环境变量<br> printenv 显示保存的环境变量</p>
+<p> serverip  主机IP<br> ipaddr    目标机<br> bootcmd   bootcmd  自启动命令（当uboot自启动时，默认操作该命令后的所有指令）<br> tftp addr uImage/exynos4412-fs4412.dtb   传输指令<br> bootm  addr  启动地址上的镜像</p>
+<p> bootargs  uboot不执行该命令，uboot将该命令在启动内核之后，传递给内核，<br>           内核会读取检验该命令，进而完成对文件系统的访问</p>
+<h5 id="【7】网卡驱动"><a href="#【7】网卡驱动" class="headerlink" title="【7】网卡驱动"></a>【7】网卡驱动</h5><p> 1）设备树（网卡的信息）<br>    设备树功能：描述硬件信息，内核在启动时，会解析设备树文件，将设备树中保存的硬件信息读取，保存<br>    内核中的驱动可以通过读取的硬件信息，进而完成对硬件设备的控制<br>    Linux3.0提供设备树的机制（结合数据结构中的树为思想）<br>    设备树本质是文本文件，Linux内核中把该文件抽象为树型结构</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#123;</span><br><span class="line">	testnode1&#123;</span><br><span class="line">	   a &#x3D; x;</span><br><span class="line">	&#125;;</span><br><span class="line">	testnode2&#123;</span><br><span class="line">		testnode3&#123;</span><br><span class="line">		   b &#x3D; y;</span><br><span class="line">		&#125;;</span><br><span class="line">	</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p> 2）make menuconfig图形界面<br>    选配选项 [*]  </p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[*] Networking support  ---&gt;</span><br><span class="line">Networking options  ---&gt;	 网络配置 网络协议</span><br><span class="line">	&lt;*&gt; Packet socket</span><br><span class="line">	&lt;*&gt; Unix domain sockets </span><br><span class="line">	[*] TCP&#x2F;IP networking</span><br><span class="line">	[*]   IP: kernel level autoconfiguration</span><br><span class="line"></span><br><span class="line">   device Drivers  ---&gt;       设备驱动</span><br><span class="line">[*] Network device support  ---&gt;</span><br><span class="line">	[*]   Ethernet driver support   ---&gt;</span><br><span class="line">		&lt;*&gt;   DM9000 support</span><br><span class="line"></span><br><span class="line">File systems  ---&gt;          文件系统支持（支持nfs服务器的客户端）</span><br><span class="line">[*] Network File Systems   ---&gt;</span><br><span class="line">	&lt;*&gt;   NFS client support</span><br><span class="line">	[*]   NFS client support for NFS version 3 (NEW)</span><br><span class="line">	[*]   NFS client support for the NFSv3 ACL protocol extension (NEW)</span><br><span class="line">	[*]   Root file system on NFS (NEW)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嵌入式实训 Day2 u-boot的烧写及使用</title>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day2/</url>
+    <content><![CDATA[<h5 id="实验环境："><a href="#实验环境：" class="headerlink" title="实验环境："></a>实验环境：</h5><p>1、    ubuntu 12.04发行版<br>2、    u-boot-2010.03<br>3、    FS4412平台</p>
+<h5 id="【1】Linux系统移植"><a href="#【1】Linux系统移植" class="headerlink" title="【1】Linux系统移植"></a>【1】Linux系统移植</h5><p>引导启动界面 –&gt; Linux镜像 –&gt; 加载Linux文件系统</p>
+<p>引导程序：bootloder<br>uboot    Linux 3.14</p>
+<h5 id="【2】SD启动盘制作"><a href="#【2】SD启动盘制作" class="headerlink" title="【2】SD启动盘制作"></a>【2】SD启动盘制作</h5><p>　　a)    将 sdfuse_q拷贝到Linux家目录下<br>　　b)    将SD卡插入电脑并在ubuntu中识别<br>　　c)    进入sdfuse_q目录并执行如下操作将SD卡制作成uboot 2010启动盘</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo  ./mkuboot.sh  /dev/sdb</span><br></pre></td></tr></table></figure>
+<p>　　d)    在SD卡中创建目录sdupdate并把学生资料中的实验代码/第一天/镜像中的u-boot-fs4412.bin(uboot 2013)拷贝到这个目录下</p>
+<h5 id="【3】u-boot的烧写"><a href="#【3】u-boot的烧写" class="headerlink" title="【3】u-boot的烧写"></a>【3】u-boot的烧写</h5><p>a)    使用串口线连接板子与电脑，运行串口通信程序putty(实验代码/第一天/工具)<br><img src="/image/2018-7-3/01.png"><br>选择右上角的”Serial”，然后点击左下角的”Serial”<br><img src="/image/2018-7-3/02.png"><br>按照自己的主机的情况（设备管理器中）选择COM口，其他信息必须一直，然后点击open打开串口<br><img src="/image/2018-7-3/03.png"><br>b)    关闭开发板电源，将拨码开关SW1调至(1000)(SD启动模式)<br>c)    将刚才做好的SD启动盘插入开发板SD卡插槽<br>d)    重新打开开发板电源能够看到如下界面<br><img src="/image/2018-7-3/04.png"><br>在倒计时时按任意键让uboot停留在交互模式<br>e)    烧写<br>在终端上执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># sdfuse flashall</span></span><br></pre></td></tr></table></figure>
+<p>等待终端无输出是表示烧写结束<br>f)    关闭开发板电源，将拨码开关SW1调至0110(EMMC启动模式)后打开电源可以看到如下界面表示烧写成功<br><img src="/image/2018-7-3/05.png"><br>在倒计时时按任意键让uboot停留在交互模式</p>
+<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>　　整个嵌入式开发大体分为三层，自上而下依次为应用层、驱动层和硬件层，而我们主要做的是应用层。Linux系统的启动需要引导程序的引导，所以在移植系统之前需要对开发板烧写uboot引导程序。对开发板烧写系统与安装Windows系统类似，首先需要制作SD启动盘，在制作好SD启动盘后，将uboot烧写到flash中。这样，开发板在每次上电以后就会自行将uboot从flash中复制到DRAM中，并通过一系列命令引导Linux镜像启动。接下来就是通过tftp传输内核镜像，nfs远程访问文件系统，此为后话。<br><img src="/image/2018-7-3/06.png"></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>嵌入式实训 Day1 Linux基础篇</title>
     <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD%20Day1%20Linux%E5%9F%BA%E7%A1%80%E7%AF%87/</url>
     <content><![CDATA[<h5 id="【1】linux命令"><a href="#【1】linux命令" class="headerlink" title="【1】linux命令"></a>【1】linux命令</h5><p>   linux@ubuntu:~$  家目录   /home/linux<br>   linux@ubuntu:/$  根目录   </p>
@@ -957,17 +1029,17 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
   <entry>
     <title>NIOS II 定时器的使用</title>
     <url>/archives/2018/05/NIOS-II-%E5%AE%9A%E6%97%B6%E5%99%A8%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h5 id="初始化，即对定时器进行清零"><a href="#初始化，即对定时器进行清零" class="headerlink" title="初始化，即对定时器进行清零"></a>初始化，即对定时器进行清零</h5><p>清零的方式有两种，一种是用定时器清零，另外一种是使用库函数，主要是io.h这个库里面的。<br>这里主要讲一下使用库函数，主要原因是使用库函数使得程序的可读性更强。</p>
+    <content><![CDATA[<h5 id="初始化，即对定时器进行清零"><a href="#初始化，即对定时器进行清零" class="headerlink" title="初始化，即对定时器进行清零"></a>初始化，即对定时器进行清零</h5><p>清零的方式有两种，一种是用定时器清零，另外一种是使用库函数，主要是io.h这个库里面的。<br>这里主要讲一下使用库函数，因为使用库函数可以使得程序的可读性更强。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">IOWR_ALTERA_AVALON_TIMER_STATUS(TIMER1_BASE,0x00);  //清除timer1中断标志位</span><br></pre></td></tr></table></figure>
-<p>其中TIMER1_BASE是定时器1的基地址，在system.h这个头文件中。</p>
+<p>其中TIMER1_BASE是定时器1的基地址，在system.h头文件中。</p>
 <h5 id="设置定时周期"><a href="#设置定时周期" class="headerlink" title="设置定时周期"></a>设置定时周期</h5><p>同样建议使用库函数。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">IOWR_ALTERA_AVALON_TIMER_PERIODL(TIMER1_BASE,timer_prd[j]);      //低16位</span><br><span class="line">IOWR_ALTERA_AVALON_TIMER_PERIODH(TIMER1_BASE,timer_prd[j]&gt;&gt;16);  //高16位</span><br></pre></td></tr></table></figure>
-<p>其中XXX_PERIODL和XXX_PERIODH分别为定时器的周期的低十六位和高十六位。这里需要提醒大家的一点是，主要不要超出16位，否则会丢失高位。</p>
+<p>其中XXX_PERIODL和XXX_PERIODH分别为定时器的周期的低十六位和高十六位。这里需要提醒大家的一点是，不要超出16位，否则会丢失高位。</p>
 <h5 id="启动定时器"><a href="#启动定时器" class="headerlink" title="启动定时器"></a>启动定时器</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">IOWR_ALTERA_AVALON_TIMER_CONTROL(TIMER1_BASE,0X07);  //启动timer1 </span><br></pre></td></tr></table></figure>
-<p>这里0x07主要是对某一些特定的标志位进行操作，主要起启动定时器。</p>
+<p>这里0x07主要是对某一些特定的标志位进行操作，启动定时器。</p>
 <h5 id="注册定时器。"><a href="#注册定时器。" class="headerlink" title="注册定时器。"></a>注册定时器。</h5><p>这里的注册需要解释一下，这个可能和os有点联系，nios后台有个操作系统，当定时器中断产生以后，后台就会响应这个中断，也就是执行这个中断对应的中断函数。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">alt_irq_register(TIMER1_IRQ,NULL,ISR_timer1);   //注册timer1</span><br></pre></td></tr></table></figure>
-<p>这里的ISR_timer1就是定时器1对应的中断函数，ISR_timer1是这个中断函数对应的函数名称。（函数名实质就是一个指针，只不过这个指针是函数指针）。<br>我们可以中断函数中进行一些短时的操作，不宜进行复杂超过，主要是考虑到时间过长会引起定时器溢出。</p>
+<p>这里的ISR_timer1就是定时器1对应的中断函数，ISR_timer1是这个中断函数对应的函数名称。（函数名实质就是一个指针，只不过这个指针是函数指针）。<br>我们可在中断函数中进行一些短时的操作，不宜进行复杂长时操作，主要是考虑到时间过长会引起定时器溢出。</p>
 <h5 id="设置定时器中断函数"><a href="#设置定时器中断函数" class="headerlink" title="设置定时器中断函数"></a>设置定时器中断函数</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">static void ISR_timer1(void) </span><br><span class="line">&#123;</span><br><span class="line">	XXX;</span><br><span class="line">	XXXXX;</span><br><span class="line">	IOWR_ALTERA_AVALON_TIMER_STATUS(TIMER1_BASE,0x00);  //清除timer1中断标志位</span><br><span class="line">	IOWR_ALTERA_AVALON_TIMER_CONTROL(TIMER_BASE,0x05);  //启动定时器</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>在中断响应函数中，不要忘记在执行结束前，添加定时器清零以及启动定时器。便于定时器下一次响应，否则定时器就仅仅执行一次。</p>
 <h5 id="简单定时器中断示例："><a href="#简单定时器中断示例：" class="headerlink" title="简单定时器中断示例："></a>简单定时器中断示例：</h5><p><em>用定时器控制的流水灯</em></p>
