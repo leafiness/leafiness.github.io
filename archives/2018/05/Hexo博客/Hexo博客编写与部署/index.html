@@ -42,7 +42,7 @@
 <meta property="og:image" content="https://ljone.top/image/2018-5-21/05.jpg">
 <meta property="og:image" content="https://ljone.top/image/2018-5-21/06.jpg">
 <meta property="article:published_time" content="2018-05-21T09:55:00.000Z">
-<meta property="article:modified_time" content="2021-01-31T14:21:18.915Z">
+<meta property="article:modified_time" content="2022-02-04T06:06:00.900Z">
 <meta property="article:author" content="LJONE">
 <meta property="article:tag" content="Blog">
 <meta property="article:tag" content="Hexo">
@@ -157,7 +157,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -170,6 +170,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99"><span class="nav-text">一、博客编写</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E7%AB%AF"><span class="nav-text">二、部署到云端</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E3%80%81%E8%B4%A6%E5%8F%B7%E5%87%86%E5%A4%87"><span class="nav-text">1、账号准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E3%80%81%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE%E5%8F%8A%E9%83%A8%E7%BD%B2"><span class="nav-text">3、本地配置及部署</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -610,23 +611,22 @@ if(canvas.getContext){
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>通过前面<a href="https://ljone.top/2018/05/19/%E5%88%A9%E7%94%A8Hexo%E5%85%8D%E8%B4%B9%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B(1)/">《利用Hexo免费创建个人博客》</a>的步骤，已经完成了基础环境的搭建以及 Hexo 的安装，那么接下来就跟大家说一说怎样利用 Hexo 编写博客然后将其部署到云端。</p>
-<h4 id="一、博客编写"><a href="#一、博客编写" class="headerlink" title="一、博客编写"></a>一、博客编写</h4><p>在命令行输入：</p>
+        <p>通过前面<a href="https://ljone.top/archives/2018/05/Hexo%E5%8D%9A%E5%AE%A2/%E5%88%A9%E7%94%A8Hexo%E5%85%8D%E8%B4%B9%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">《利用Hexo免费创建个人博客》</a>的步骤，已经完成了基础环境的搭建以及 Hexo 的安装，那么接下来就跟大家说一说怎样利用 Hexo 编写博客然后将其部署到云端。</p>
+<h1 id="一、博客编写"><a href="#一、博客编写" class="headerlink" title="一、博客编写"></a>一、博客编写</h1><p>在命令行输入：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;file_name&quot;</span></span><br></pre></td></tr></table></figure>
 <p>打开 Hexo 目录下的 source 文件夹，所有的文章都会以md形式保存在 _post 文件夹中，刚刚新建的文件也在其中。<br>也可以直接在 _post 文件夹中新建md类型的文档，便可以生成新的文章。<br>新建的文章头需要添加一些yml信息，如下所示：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: hello-world         <span class="comment">#在此处添加文章标题</span></span><br><span class="line">date: 2018-05-21 17:55:53  <span class="comment">#在此处添加编辑文章时间</span></span><br><span class="line">categories: Exercise       <span class="comment">#在此处添加文章分类</span></span><br><span class="line">tags:                      <span class="comment">#在此处添加文章标签</span></span><br></pre></td></tr></table></figure>
 <p>在.md文件的开头添加上面代码，是为了让 Hexo 框架在生成网页的时候，设置相应的参数。</p>
-<p>如果你使用过<code>MarkDown </code>来写博客文章的话，接下来就简单多了，没使用过也没关系，推荐大家一个编辑工具<a target="_blank" rel="noopener" href="https://maxiang.io/">马克飞象</a>，具体语法推荐参考： <a target="_blank" rel="noopener" href="https://www.appinn.com/markdown/">https://www.appinn.com/markdown/</a> </p>
+<p>如果你使用过<code>MarkDown </code>来写博客文章的话，接下来就简单多了，没使用过也没关系，推荐大家一个编辑工具<a target="_blank" rel="noopener" href="http://maxiang.io/">马克飞象</a>，具体语法推荐参考： <a target="_blank" rel="noopener" href="https://www.appinn.com/markdown/">https://www.appinn.com/markdown/</a> </p>
 <p>在编辑器里面写好文章后，复制或另存为.md文件,将其存放在 _post 文件夹中。在 Hexo 文件夹中点击鼠标右键选择 Git Bash 再次输入以下内容便可重新在本地启动项目，在浏览器访问就可以看到之前添加的文章。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo sever  <span class="comment">#可简写为 hexo s</span></span><br></pre></td></tr></table></figure>
 <p>也可以输入下面的指令进行调试：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s --debug</span><br></pre></td></tr></table></figure>
-<h4 id="二、部署到云端"><a href="#二、部署到云端" class="headerlink" title="二、部署到云端"></a>二、部署到云端</h4><h5 id="1、账号准备"><a href="#1、账号准备" class="headerlink" title="1、账号准备"></a>1、账号准备</h5><p>发布到云端之前需要有一个 <a target="_blank" rel="noopener" href="https://github.com/">GitHub</a> 账号或者 <a target="_blank" rel="noopener" href="https://gitee.com/">Gitee</a>（码云）账号，没有的话到官网申请一个便是，二者并没有太大的区别。<br>主要区别在于 GitHub 服务器在国外因为众所周知的原因在国内访问速度相对较慢，而且不支持免费创建私人仓库，而码云原依托于开源中国访问速度快而且可以免费创建私人仓库，最重要的一点是它还支持中文（坏笑）。二者在使用上基本一致，到底使用哪一个，请自行斟酌。</p>
-<h5 id="2、创建仓库"><a href="#2、创建仓库" class="headerlink" title="2、创建仓库"></a>2、创建仓库</h5><p>编者在这以码云为例，注册好账号以后点击创建项目，新建一个项目如下图所示<br><img src="/image/2018-5-21/01.jpg"><br>填写与你账号名称相同的项目名，然后点击<code>创建</code>，然后会看到以下界面<br><img src="/image/2018-5-21/02.jpg"><br>接着点击上图中出现的 <code>克隆/下载</code>,选中 HTTPS 点击右侧的 <code>复制</code>按钮，将地址复制下来，后续会使用到。</p>
-<h5 id="3、本地配置及部署"><a href="#3、本地配置及部署" class="headerlink" title="3、本地配置及部署"></a>3、本地配置及部署</h5><p>配置项目根目录_config.yml 文件，修改<code>Deloyment</code>的值</p>
+<h1 id="二、部署到云端"><a href="#二、部署到云端" class="headerlink" title="二、部署到云端"></a>二、部署到云端</h1><h2 id="1、账号准备"><a href="#1、账号准备" class="headerlink" title="1、账号准备"></a>1、账号准备</h2><p>发布到云端之前需要有一个 <a target="_blank" rel="noopener" href="https://github.com/">GitHub</a> 账号或者 <a target="_blank" rel="noopener" href="https://gitee.com/">Gitee</a>（码云）账号，没有的话到官网申请一个便是，二者并没有太大的区别。<br>主要区别在于 GitHub 服务器在国外因为众所周知的原因在国内访问速度相对较慢，而且不支持免费创建私人仓库，而码云原依托于开源中国访问速度快而且可以免费创建私人仓库，最重要的一点是它还支持中文（坏笑）。二者在使用上基本一致，到底使用哪一个，请自行斟酌。<br>##2、创建仓库<br>编者在这以码云为例，注册好账号以后点击创建项目，新建一个项目如下图所示<br><img src="/image/2018-5-21/01.jpg"><br>填写与你账号名称相同的项目名，然后点击<code>创建</code>，然后会看到以下界面<br><img src="/image/2018-5-21/02.jpg"><br>接着点击上图中出现的 <code>克隆/下载</code>,选中 HTTPS 点击右侧的 <code>复制</code>按钮，将地址复制下来，后续会使用到。</p>
+<h2 id="3、本地配置及部署"><a href="#3、本地配置及部署" class="headerlink" title="3、本地配置及部署"></a>3、本地配置及部署</h2><p>配置项目根目录_config.yml 文件，修改<code>Deloyment</code>的值</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git   </span><br><span class="line">  repo:  <span class="comment">#此处改为之前复制的地址</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <p>注意： repo  后的地址是之前在码云上面创建项目后获取的地址</p>
-<p>尤其要注意的是<code>在每一个冒号的后面都必须要有一个空格</code>，此警告适用于此文件的每一处，一定要谨记！！！否则会出现一些莫名其妙的报错。<br>修改后如下图所示：<br><img src="/image/2018-5-21/03.jpg"><br>具体配置可参考<a target="_blank" rel="noopener" href="https://hexo.io/docs/configuration.html"> Hexo 官方文档</a>。</p>
+<p>尤其要注意的是<code>在每一个冒号的后面都必须要有一个空格</code>，此警告适用于此文件的每一处，一定要谨记！！！否则会出现一些莫名其妙的报错。<br>修改后如下图所示：<br><img src="/image/2018-5-21/03.jpg"><br>具体配置可参考 Hexo 官方文档<a target="_blank" rel="noopener" href="https://hexo.io/docs/">英文</a>/<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">中文</a>。</p>
 <p>修改完成后，使用git将项目中public 文件夹下的文件管理起来，并推送到码云上。<br>这里借用一个插件来帮助我们完成，在 Hexo 文件夹下安装 hexo-deployer-git。安装代码如下：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 <p>安装完成后，继续在命令行窗口执行以下命令：</p>
@@ -637,7 +637,6 @@ if(canvas.getContext){
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;you@example.com&quot;</span>  <span class="comment">#你的邮箱</span></span><br><span class="line">git config --global user.name <span class="string">&quot;Your Name&quot;</span>         <span class="comment">#你的姓名</span></span><br></pre></td></tr></table></figure>
 <p>然后在弹出的对话框中填写自己的Gitee或GitHub账号和密码即可<br><img src="/image/2018-5-21/08.jpg"><br>在首次执行 <code>deploy</code>时会弹出一个对话框，输入你码云对应的账号和密码即可。<br>部署好后，登录码云会看到之前创建的项目中出现了本地 Public 文件夹中的内容，这时表明部署成功。</p>
 <h5 id="4、启动-Pages-功能"><a href="#4、启动-Pages-功能" class="headerlink" title="4、启动 Pages 功能"></a>4、启动 Pages 功能</h5><p>接下来点击<code>服务</code><br><img src="/image/2018-5-21/04.jpg"><br>然后再点击<code>Gitee Pages</code><br><img src="/image/2018-5-21/05.jpg"><br>接着点击<code>启动服务</code>，便会看到以下画面：<br><img src="/image/2018-5-21/06.jpg"><br>到此就可以通过图中红圈部分的地址访问博客的主页了，效果和在本地启动时一样。以后只要将写好的文章放入Hexo项目的source 目录下的_posts 文件夹中，再按照之前步骤就可以更新博客了，行动起来吧！</p>
-<p>后续还会有进阶内容如：更换主题、绑定独立域名等<br>敬请期待！</p>
 
     </div>
 
