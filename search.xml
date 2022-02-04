@@ -13,8 +13,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Qt框架下C++调用MATLAB程序</title>
-    <url>/archives/2022/01/Qt%E6%A1%86%E6%9E%B6%E4%B8%8BC-%E8%B0%83%E7%94%A8MATLAB%E7%A8%8B%E5%BA%8F/</url>
+    <title>Qt 框架下 C++ 调用 MATLAB 程序</title>
+    <url>/archives/2022/01/Qt%E6%A1%86%E6%9E%B6%E4%B8%8BCpp%E8%B0%83%E7%94%A8MATLAB%E7%A8%8B%E5%BA%8F/</url>
     <content><![CDATA[<p>最近 Qt 项目中需要使用相对复杂的算法，因自身功力尚浅暂时无法使用 C/C++ 实现复杂算法，经过查找发现 Qt 可以通过某些途径实现 MATLAB 算法的调用，对于我这种算法小白十分友好，遂将 Qt 与 MATLAB 混合编程方法做一些简单记录。说是 QT 与 MATLAB 的混合编程，其实质仍是 C++ 对 MATLAB 程序的调用。</p>
 <h1 id="1、C-调用-MATLAB-的几种方法"><a href="#1、C-调用-MATLAB-的几种方法" class="headerlink" title="1、C++ 调用 MATLAB 的几种方法"></a>1、C++ 调用 MATLAB 的几种方法</h1><p>在 Qt 框架下有多种 C++ 调用 MATLAB 程序的方法，下面进行简单介绍。</p>
 <p>（1）调用 MATLAB 独立引擎</p>
@@ -95,7 +95,7 @@
   </entry>
   <entry>
     <title>C++ 连接 MySQL 数据库</title>
-    <url>/archives/2021/11/C-%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <url>/archives/2021/11/Cpp%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
     <content><![CDATA[<h1 id="1、环境准备"><a href="#1、环境准备" class="headerlink" title="1、环境准备"></a>1、环境准备</h1><p><strong>环境：</strong>VS2019、MySQL8.0.26 x86_64</p>
 <p>通过 MySQL 官方 API 连接数据库。</p>
 <h1 id="2、添加-MySQL-连接器头文件"><a href="#2、添加-MySQL-连接器头文件" class="headerlink" title="2、添加 MySQL 连接器头文件"></a>2、添加 MySQL 连接器头文件</h1><p>新建 C++ 项目，将项目平台改为 <strong>x64</strong></p>
