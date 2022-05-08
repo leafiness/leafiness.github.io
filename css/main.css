@@ -1063,6 +1063,7 @@ pre code {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 5;
 }
 @media (max-width: 413px) {
   .post-body .tabs ul.nav-tabs,
@@ -2142,7 +2143,7 @@ pre code {
   font-size: 0.875em;
   font-weight: bold;
   line-height: 1;
-  margin: -20px auto 15px;
+  margin: -15px auto 15px;
   text-align: center;
 }
 .post-body iframe,
@@ -3138,13 +3139,16 @@ body {
   background-attachment:fixed;
   background-size:cover;
 }
-*/
+
+// 背景图片
 body {
-  background-image: url("/image/site/bg1.jpg");
+  background-image: url(/image/site/bg1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  // background-position: center;
   background-size: cover;
 }
+*/
 .main-inner {
   opacity: 0.95;
 }

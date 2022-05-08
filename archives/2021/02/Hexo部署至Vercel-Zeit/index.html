@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 5.4.0">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/image/site/favicon.ico">
@@ -19,14 +18,15 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-flash.css">
   <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"ljone.top","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":false,"post_body":false,"coll_header":"fadeInUp","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。">
+<script class="next-config" data-name="main" type="application/json">{"hostname":"ljone.top","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.11.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":false,"post_body":false,"coll_header":"fadeInUp","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo 部署至 Vercel(Zeit)">
 <meta property="og:url" content="https://ljone.top/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/index.html">
@@ -44,7 +44,7 @@
 <meta property="og:image" content="https://ljone.top/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-8.png">
 <meta property="og:image" content="https://ljone.top/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-9.png">
 <meta property="article:published_time" content="2021-02-03T15:20:00.000Z">
-<meta property="article:modified_time" content="2022-02-04T01:27:44.048Z">
+<meta property="article:modified_time" content="2022-05-08T09:26:30.239Z">
 <meta property="article:author" content="LJONE">
 <meta property="article:tag" content="Blog">
 <meta name="twitter:card" content="summary">
@@ -66,6 +66,7 @@
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
   <script async src="https://hm.baidu.com/hm.js?648a8a451a56412566bccb3f6b874d32"></script>
+
 
 
 
@@ -108,13 +109,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
-        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">6</span></a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">21</span></a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">20</span></a></li>
-        <li class="menu-item menu-item-stars"><a href="/stars/" rel="section"><i class="fas fa-star fa-fw"></i>收藏</a></li>
-        <li class="menu-item menu-item-more"><a href="/more/" rel="section"><i class="fa fa-list-ul fa-fw"></i>更多</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">6</span></a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">21</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">20</span></a></li><li class="menu-item menu-item-stars"><a href="/stars/" rel="section"><i class="fas fa-star fa-fw"></i>收藏</a></li><li class="menu-item menu-item-more"><a href="/more/" rel="section"><i class="fa fa-list-ul fa-fw"></i>更多</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -177,10 +172,8 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <a href="/">
-      <img class="site-author-image" itemprop="image" alt="LJONE"
-        src="/image/site/avatar.jpg">
-    </a>
+    <img class="site-author-image" itemprop="image" alt="LJONE"
+      src="/image/site/avatar.jpg">
   <p class="site-author-name" itemprop="name">LJONE</p>
   <div class="site-description" itemprop="description">There is no royal road to learning.</div>
 </div>
@@ -221,7 +214,7 @@
       <div class="links-of-blogroll-title" style="font-size:16px">
         <!-- modify icon to fire by szw -->
         <i class="fa fa-history fa-" aria-hidden="true"></i>
-        最新文章
+        ��������
       </div>
       <ul class="links-of-blogroll-list" style="font-size:14px">
         
@@ -556,11 +549,16 @@ if(canvas.getContext){
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/image/site/avatar.jpg">
       <meta itemprop="name" content="LJONE">
-      <meta itemprop="description" content="There is no royal road to learning.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="西瓜丢了芝麻">
+      <meta itemprop="description" content="There is no royal road to learning.">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Hexo 部署至 Vercel(Zeit) | 西瓜丢了芝麻">
+      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -648,7 +646,7 @@ if(canvas.getContext){
 </blockquote>
 <p>添加完成后，稍等片刻便会在自定义域名下方显示通过的提示，有时解析正常 仍然显示 <code>Invalid Configuration</code>，只要可以通过自定义域名访问博客便可忽略。</p>
 <p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-9.png"></p>
-<p>到这里，整个部署过程就结束了，通过此方式百度便可进行爬虫，接下来就该去到百度提交站点地图等待收录了。</p>
+<p>到这里，整个部署过程就结束了。</p>
 <hr>
 <p>参考：<br>1、<a target="_blank" rel="noopener" href="http://hongwan.xyz/netlify%E5%92%8Ccloudflare%E4%B8%8Ezeit%E6%90%AD%E9%85%8Djsdelivr%E7%BB%99Hexo%E5%8D%9A%E5%AE%A2cdn%E5%8A%A0%E9%80%9F%E5%AF%B9%E6%AF%94.html">netlify和cloudflare与zeit搭配jsdelivr给Hexo博客cdn加速对比</a><br>2、<a target="_blank" rel="noopener" href="https://zpjiang.me/2020/01/15/let-baidu-index-github-page">解决百度爬虫无法爬取 Github Pages 个人博客的问题</a><br>3、<a target="_blank" rel="noopener" href="https://snow.js.org/hexo-vercel/">Hexo：将你的博客部署到 Vercel</a>（主题不错）</p>
 
@@ -658,24 +656,6 @@ if(canvas.getContext){
     
     
       
-  <div class="popular-posts-header">相关文章</div>
-  <ul class="popular-posts">
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\archives\2021\02\Markdown使用记录\" rel="bookmark">Markdown 使用</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\archives\2020\03\Hexo博客\Next 优化与使用技巧\" rel="bookmark">Next 优化与使用技巧</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\archives\2020\03\Hexo博客\Hexo-Admin后台管理\" rel="bookmark">Hexo-Admin 后台管理</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\archives\2018\05\Hexo博客\Hexo博客编写与部署\" rel="bookmark">Hexo博客编写与部署</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\archives\2018\05\Hexo博客\利用Hexo免费创建个人博客\" rel="bookmark">利用Hexo免费创建个人博客</a></div>
-    </li>
-  </ul>
 
 
     <footer class="post-footer">

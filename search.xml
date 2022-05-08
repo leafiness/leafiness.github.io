@@ -361,7 +361,7 @@
 </blockquote>
 <p>添加完成后，稍等片刻便会在自定义域名下方显示通过的提示，有时解析正常 仍然显示 <code>Invalid Configuration</code>，只要可以通过自定义域名访问博客便可忽略。</p>
 <p><img src="/image/2021-02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/image-9.png"></p>
-<p>到这里，整个部署过程就结束了，通过此方式百度便可进行爬虫，接下来就该去到百度提交站点地图等待收录了。</p>
+<p>到这里，整个部署过程就结束了。</p>
 <hr>
 <p>参考：<br>1、<a href="http://hongwan.xyz/netlify%E5%92%8Ccloudflare%E4%B8%8Ezeit%E6%90%AD%E9%85%8Djsdelivr%E7%BB%99Hexo%E5%8D%9A%E5%AE%A2cdn%E5%8A%A0%E9%80%9F%E5%AF%B9%E6%AF%94.html">netlify和cloudflare与zeit搭配jsdelivr给Hexo博客cdn加速对比</a><br>2、<a href="https://zpjiang.me/2020/01/15/let-baidu-index-github-page">解决百度爬虫无法爬取 Github Pages 个人博客的问题</a><br>3、<a href="https://snow.js.org/hexo-vercel/">Hexo：将你的博客部署到 Vercel</a>（主题不错）</p>
 ]]></content>
