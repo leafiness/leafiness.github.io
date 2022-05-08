@@ -294,21 +294,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Deepin + Python 编译环境搭建</title>
-    <url>/archives/2020/04/Deepin-Python%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<h5 id="一、Linux使用"><a href="#一、Linux使用" class="headerlink" title="一、Linux使用"></a>一、Linux使用</h5><p>1、安装软件：sudo apt-get install 软件名  <br>2、卸载软件：sudo apt autoremove 软件名        同时删除无用依赖<br>3、启动器重启：sudo service lightdm restart<br>4、dpkg：<br> &emsp;&emsp;&emsp;&emsp;-i：安装软件包；  <br> &emsp;&emsp;&emsp;&emsp;-r：删除软件包；<br> &emsp;&emsp;&emsp;&emsp;-P：删除软件包的同时删除其配置文件；<br> &emsp;&emsp;&emsp;&emsp;-L：显示于软件包关联的文件；<br> &emsp;&emsp;&emsp;&emsp;-l：显示已安装软件包列表；<br> &emsp;&emsp;&emsp;&emsp;–unpack：解开软件包；<br> &emsp;&emsp;&emsp;&emsp;-c：显示软件包内文件列表；<br> &emsp;&emsp;&emsp;&emsp;–confiugre：配置软件包。<br>5、sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade -y<br>6、<a href="https://www.cnblogs.com/xuxinstyle/p/9609551.html">linux常用命令（50个）</a><br>7、<a href="https://qv2ray.github.io/">VPN工具：Qv2ray</a></p>
-<h5 id="二、Python开发环境搭建"><a href="#二、Python开发环境搭建" class="headerlink" title="二、Python开发环境搭建"></a>二、Python开发环境搭建</h5><p>1、<a href="https://jingyan.baidu.com/article/ff42efa97dc89c809f22023f.html">Deepin V20 升级python版本</a><br>2、<a href="https://blog.csdn.net/zhangziju/article/details/80398908">Deepin之anaconda和pycharm的安装</a><br>3、<a href="https://blog.csdn.net/wanttifa/article/details/83995460">Deepin(linux)下安装anaconda3</a><br>4、<a href="https://blog.csdn.net/Just_youHG/article/details/104686642">解决激活anaconda Linux终端出现”(base)”问题</a></p>
-]]></content>
-      <categories>
-        <category>Deepin</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Python</tag>
-        <tag>Deepin</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo 部署至 Vercel(Zeit)</title>
     <url>/archives/2021/02/Hexo%E9%83%A8%E7%BD%B2%E8%87%B3Vercel-Zeit/</url>
     <content><![CDATA[<p>近日由于更换电脑便把博客迁移到了新电脑，同时想将博客提交到百度进行收录。由于不可知的原因 2015 年 GitHub 禁止了百度的爬虫，搜了搜没找到什么好方案，发现大多都是 GitHub 和 Coding 双部署。新版Coding与腾讯云融合可以实现自动部署、自定义域名和 CDN 加速，但由于没有进行域名备案，Coding 会将资源部署在国外再由CDN加速回国，这样速度反而更慢了（域名备案除外）。同时，由于 Coding 部署利用了腾讯的 OSS 和 CDN 资源需要收费，而我作为新版 Coding 的新用户不能向老用户一样白嫖，这显然不符合我白嫖走天下的理念。经过一番寻找最终找到了部署至 Vercel 的方案。</p>
@@ -356,6 +341,21 @@
       </categories>
       <tags>
         <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Deepin + Python 编译环境搭建</title>
+    <url>/archives/2020/04/Deepin-Python%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<h5 id="一、Linux使用"><a href="#一、Linux使用" class="headerlink" title="一、Linux使用"></a>一、Linux使用</h5><p>1、安装软件：sudo apt-get install 软件名  <br>2、卸载软件：sudo apt autoremove 软件名        同时删除无用依赖<br>3、启动器重启：sudo service lightdm restart<br>4、dpkg：<br> &emsp;&emsp;&emsp;&emsp;-i：安装软件包；  <br> &emsp;&emsp;&emsp;&emsp;-r：删除软件包；<br> &emsp;&emsp;&emsp;&emsp;-P：删除软件包的同时删除其配置文件；<br> &emsp;&emsp;&emsp;&emsp;-L：显示于软件包关联的文件；<br> &emsp;&emsp;&emsp;&emsp;-l：显示已安装软件包列表；<br> &emsp;&emsp;&emsp;&emsp;–unpack：解开软件包；<br> &emsp;&emsp;&emsp;&emsp;-c：显示软件包内文件列表；<br> &emsp;&emsp;&emsp;&emsp;–confiugre：配置软件包。<br>5、sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade -y<br>6、<a href="https://www.cnblogs.com/xuxinstyle/p/9609551.html">linux常用命令（50个）</a><br>7、<a href="https://qv2ray.github.io/">VPN工具：Qv2ray</a></p>
+<h5 id="二、Python开发环境搭建"><a href="#二、Python开发环境搭建" class="headerlink" title="二、Python开发环境搭建"></a>二、Python开发环境搭建</h5><p>1、<a href="https://jingyan.baidu.com/article/ff42efa97dc89c809f22023f.html">Deepin V20 升级python版本</a><br>2、<a href="https://blog.csdn.net/zhangziju/article/details/80398908">Deepin之anaconda和pycharm的安装</a><br>3、<a href="https://blog.csdn.net/wanttifa/article/details/83995460">Deepin(linux)下安装anaconda3</a><br>4、<a href="https://blog.csdn.net/Just_youHG/article/details/104686642">解决激活anaconda Linux终端出现”(base)”问题</a></p>
+]]></content>
+      <categories>
+        <category>Deepin</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Python</tag>
+        <tag>Deepin</tag>
       </tags>
   </entry>
   <entry>
@@ -742,114 +742,6 @@
       </tags>
   </entry>
   <entry>
-    <title>NIOS II中PIO有关寄存器</title>
-    <url>/archives/2018/05/NIOS-II%E4%B8%ADPIO%E6%9C%89%E5%85%B3%E5%AF%84%E5%AD%98%E5%99%A8/</url>
-    <content><![CDATA[<h5 id="寄存器映射"><a href="#寄存器映射" class="headerlink" title="寄存器映射"></a>寄存器映射</h5><p>Avalon-MM主外设，例如CPU，通过4个32位寄存器控制并与PIO核通信，假定PIO核的I/O端口被配置为n位宽度。如下图：</p>
-<p> <img src="/image/2018-5-25/01.png" alt="PIO核的寄存器映射"><br>(1) 该寄存器是否存在取决于硬件配置，如果寄存器不存在，读寄存器返回一个未定义的值，写寄存器无影响。<br>(2) 写任何值到edgecapture，会清0所有位。</p>
-<h5 id="数据寄存器"><a href="#数据寄存器" class="headerlink" title="数据寄存器"></a>数据寄存器</h5><p>读从Data寄存器返回的呈现在输入端口的值。如果PIO核硬件被配置为output-only（只输出）模式，读data寄存器将返回一个未定义的值。<br>写data寄存器将存储值到寄存器中以驱动输出端口。如果PIO核硬件被配置为input-only（只输入）模式，写data寄存器无影响。如果PIO核硬件被配置为双向模式，则仅当在  direction（方向）寄存器中相应的位被置1（输出）时，被寄存的值才会出现在输出端口上。</p>
-<h5 id="方向寄存器"><a href="#方向寄存器" class="headerlink" title="方向寄存器"></a>方向寄存器</h5><p>direction（方向）寄存器控制每个PIO端口的数据方向，假定端口是双向的，当位n在方向寄存器中被置1时，端口n在data（数据）寄存器的相应位驱动输出值。<br>仅当PIO核硬件被配置为双向模式时，direction寄存器才存在。模式（输入、输出或双向）在系统创建时指定，并且在运行时不能修改。在输入或输出模式中，direction寄存器不存在，在这种情况下，读direction返回一个未定义的值，写direction无影响。<br>       在复位后，方向寄存器的所有位都是0，所以所有双向I/O端口都被配置为输入。如果那些PIO端口被连接到FPGA器件的引脚，则这些引脚保持高阻状态。在双向模式，为了改变PIO端口的方向，要重新编程direction寄存器。</p>
-<h5 id="中断屏蔽寄存器"><a href="#中断屏蔽寄存器" class="headerlink" title="中断屏蔽寄存器"></a>中断屏蔽寄存器</h5><p>设置interruptmask Register（中断屏蔽寄存器）中的位为1允许相应PIO输入端口中断。中断行为取决于PIO核的硬件配置。见“中断行为”。<br>       interruptmask寄存器仅当硬件被配置为能产生IRQ时才存在。如果PIO核不能产生IRQ，读interruptmask返回一个未定义的值，写interruptmask无影响。<br>       在复位后，所有interruptmask寄存器的位都是0，所以所有的PIO端口中断都被禁用。</p>
-<h5 id="边沿捕获寄存器"><a href="#边沿捕获寄存器" class="headerlink" title="边沿捕获寄存器"></a>边沿捕获寄存器</h5><p>如果edgecapture（边沿捕获）寄存器中的位n被设置位1，在输入端口n上的边沿将会被探测到。Avalon-MM主外设能够读edgecapture寄存器以确定是否有一个边沿出现在任何PIO输入端口。写任何值到edgecapture将清除寄存器中的所有位。<br>要探测的边沿的类型在系统创建时就已经选定在硬件中。edgecapture寄存器只能在硬件被配置位捕获边沿时存在。如果PIO核没有被配置成捕获边沿，读edgecapture将返回一个未定义的值，写edgecapture无影响。</p>
-<h5 id="输出置位和输出清零寄存器"><a href="#输出置位和输出清零寄存器" class="headerlink" title="输出置位和输出清零寄存器"></a>输出置位和输出清零寄存器</h5><p>你可以使用输出置位和输出清零（outset和outclear）寄存器置1或清0指定的输出端口的位。例如，要设置输出端口的第六位，可以写0x40（0100 0000）到outset寄存器。写0x08（0000 1000）到outclear寄存器可清0输出端口的第3位。<br>这些寄存器只有在选择Enable individual bit set/clear output register寄存器为开启时才可用。</p>
-<h5 id="中断行为"><a href="#中断行为" class="headerlink" title="中断行为"></a>中断行为</h5><p>PIO核输出一个能够连接到任意在系统中的主外设的单个IRQ信号。主外设既能够读dagta寄存器，也能够edgecapture寄存器以确定那一个输入端口引发了中断。<br>当硬件被配置为电平敏感中断时，当data和interruptmask寄存器中相应的位是1时，IRQ被确定。当硬件被配置为边沿敏感中断时，当edgecapture和interruptmask寄存器中相应的位是1时，IRQ被确定。IRQ保持确定直到禁用interruptmask中相应的位或者写edgecapture相应的位以明确地确认为止。</p>
-<p>参考：<br>Chentuo’s<a href="http://www.cnblogs.com/chentuo/articles/1427283.html">《PIO Core》</a></p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>NIOS-II</tag>
-        <tag>寄存器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sunrise</title>
-    <url>/archives/2018/05/Sunrise/</url>
-    <content><![CDATA[<p><img src="/image/2018-05/welcome.jpg">  </p>
-<blockquote class="blockquote-center">
-<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
-
-</blockquote>
-
-<p><img src="/image/2018-05/00.gif">  </p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Win10+Ubuntu 双系统安装教程</title>
-    <url>/archives/2018/05/Win10-Ubuntu%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>最近上课要用Linux，准备从头记录一次Ubuntu的安装过程。如果有刚学的可以看看..同时接受大佬建议和指出错误…</p>
-<h3 id="一-安装ubuntu之前"><a href="#一-安装ubuntu之前" class="headerlink" title="一.安装ubuntu之前"></a>一.安装ubuntu之前</h3><p>1.你需要下载UtralISO<br><img src="/image/2018-5-20/01.jpg"><br>下载试用版即可<br>2.下载Ubuntu桌面版，推荐下载此18.04LTS版本，能从新的上手就尽量从新的上手使用。<br><img src="/image/2018-5-20/02.jpg"><br>下载ubuntu-18.04-desktop-amd64.iso版本。<br>下面的ubuntu-18.04-live-server-amd64.iso是服务器版本的。<br>等待下载完成之后，你会看到如下一个文件。<br><img src="/image/2018-5-20/03.jpg"></p>
-<h3 id="二．通过UtralISO制作启动盘"><a href="#二．通过UtralISO制作启动盘" class="headerlink" title="二．通过UtralISO制作启动盘"></a>二．通过UtralISO制作启动盘</h3><p>1.打开UtralISO点击试用即可。<br>在UtralISO主界面中点击文件—打开—选择你之前下载的ubuntu镜像文件。选中红框区域。<br><img src="/image/2018-5-20/04.jpg"><br>点击启动—写入硬盘映像<br>默认即可，无需设置<br><img src="/image/2018-5-20/05.jpg"><br>点击写入，等待写入完成。</p>
-<h3 id="三．分区"><a href="#三．分区" class="headerlink" title="三．分区"></a>三．分区</h3><p>假设你的电脑和我一样是windows10那么可以打开磁盘管理<br><img src="/image/2018-5-20/06.jpg"><br>从你的机械硬盘或者固态硬盘中分配一块区域（最好大于40G）出来。让这块区域显示为未分配状态即可。具体ubuntu系统分区会在安装ubuntu系统的时候在这块windows10未分配区域操作。所以你在windows里面是无法访问你的ubuntu系统磁盘的。</p>
-<h3 id="四．安装Ubuntu"><a href="#四．安装Ubuntu" class="headerlink" title="四．安装Ubuntu"></a>四．安装Ubuntu</h3><p>1.重启电脑进入BIOS我的电脑是F2进入<br>2.把你的U盘设置成第一启动盘<br>3.移动到sava and restar回车点击YES<br>4.等待自动重启<br>5.在选项里面选择Install Ubuntu<br>6.进入安装引导界面：<br><img src="/image/2018-5-20/07.jpg"><br>选择中文吧，虽然选择英文比较好,但是初期使用还是使用中文吧…<br>2.选择安装方式：<br><img src="/image/2018-5-20/08.jpg"><br>这个应该很好看懂…装双系统的话就选择其他选项<br>3.分区（最重要的一步）在ubuntu安装界面中，有一个磁盘管理的界面<br>选择你之前在windows下未分配的磁盘分区<br>点击左下角的+号<br>先创建主分区 /分区<br>我的是创建20G 主分区 空间起始位置 Ext4日志文件系统 /<br><img src="/image/2018-5-20/09.jpg"><br>创建swap分区 8000M 主分区 空间起始位置 用于交换空间 ok<br>创建boot分区 2048M 逻辑分区 空间起始位置 Ext4日志文件 系统挂载点 /boot<br>创建home分区 未分配的区域全部分区至home分区 逻辑分区 空间起始位置 Ext4日志文件 系统挂载点 /home<br>接下来就简单了，安装即可 设置用户名密码登陆系统<br><img src="/image/2018-5-20/10.jpg"></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>动态规划—背包问题（Python）</title>
-    <url>/archives/2020/03/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%88Python%EF%BC%89/</url>
-    <content><![CDATA[<h4 id="一、什么是动态规划（Dynamic-Programming，DP）"><a href="#一、什么是动态规划（Dynamic-Programming，DP）" class="headerlink" title="一、什么是动态规划（Dynamic Programming，DP）"></a>一、什么是动态规划（Dynamic Programming，DP）</h4><ul>
-<li>1.动态规划是通过组合子问题的解来解决原问题</li>
-<li>2.动态规划应用于子问题重叠的情况，即不同的子问题具有公共的子子问题</li>
-<li>3.动态规划算法对每个子子问题只求解一次</li>
-<li>4.动态规划通常用来求解最优化问题<br>注：每个子问题必须是离散的，没有依赖关系，比如要解决<code>子问题1</code> 必须通过解决<code>子问题2</code> 才可以解决。</li>
-</ul>
-<h4 id="二、背包问题"><a href="#二、背包问题" class="headerlink" title="二、背包问题"></a>二、背包问题</h4><p>&emsp;&emsp;问题描述：将四个不同重量不同价值的物品放入一个背包，使得背包中的物品价值总和最大。例如，</p>
-<table>
-<thead>
-<tr>
-<th align="center">物品</th>
-<th align="center">重量</th>
-<th align="center">价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">音响</td>
-<td align="center">4</td>
-<td align="center">3000</td>
-</tr>
-<tr>
-<td align="center">电脑</td>
-<td align="center">3</td>
-<td align="center">2000</td>
-</tr>
-<tr>
-<td align="center">吉他</td>
-<td align="center">1</td>
-<td align="center">1500</td>
-</tr>
-<tr>
-<td align="center">手机</td>
-<td align="center">1</td>
-<td align="center">2000</td>
-</tr>
-<tr>
-<td align="center">将以上物品怎样放入一个载重为4的背包可以获得最大价值，求最优解。</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody></table>
-<h4 id="三、DP算法思路"><a href="#三、DP算法思路" class="headerlink" title="三、DP算法思路"></a>三、DP算法思路</h4><h5 id="1、传统思路"><a href="#1、传统思路" class="headerlink" title="1、传统思路"></a>1、传统思路</h5><p>&emsp;&emsp;传统思路是将不同物品进行排列组合放入背包，通过比较全部的组合形式以获得最优解，而这种算法是时间复杂度是指数级别，后果就是当子问题越多时计算量将会急剧增长。</p>
-<h5 id="2、DP算法思路"><a href="#2、DP算法思路" class="headerlink" title="2、DP算法思路"></a>2、DP算法思路</h5><p>&emsp;&emsp;DP算法是将主问题分解成若干小问题，自下而上求解子问题。<br>在这里通过将背包容量分割以及不同物品组成网格，每一行物品将对应的网格填充并比较上一行的价值大小。如下：<br><img src="/image/2020-3-27/image-0.png"><br>具体思路看参考链接。</p>
-<h4 id="四、代码例程"><a href="#四、代码例程" class="headerlink" title="四、代码例程"></a>四、代码例程</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这里使用了图解中的吉他，音箱，电脑，手机做的测试，数据保持一致</span></span><br><span class="line">w = [<span class="number">0</span>, <span class="number">1</span>, <span class="number">4</span>, <span class="number">3</span>, <span class="number">1</span>]   <span class="comment">#n个物体的重量(w[0]无用)</span></span><br><span class="line">p = [<span class="number">0</span>, <span class="number">1500</span>, <span class="number">3000</span>, <span class="number">2000</span>, <span class="number">2000</span>]   <span class="comment">#n个物体的价值(p[0]无用)</span></span><br><span class="line">n = <span class="built_in">len</span>(w) - <span class="number">1</span>   <span class="comment">#计算n的个数</span></span><br><span class="line">m = <span class="number">4</span>   <span class="comment">#背包的载重量</span></span><br><span class="line"></span><br><span class="line">x = []   <span class="comment">#装入背包的物体，元素为True时，对应物体被装入(x[0]无用)</span></span><br><span class="line">v = <span class="number">0</span></span><br><span class="line"><span class="comment">#optp[i][j]表示在前i个物体中，能够装入载重量为j的背包中的物体的最大价值</span></span><br><span class="line">optp = [[<span class="number">0</span> <span class="keyword">for</span> col <span class="keyword">in</span> <span class="built_in">range</span>(m + <span class="number">1</span>)] <span class="keyword">for</span> raw <span class="keyword">in</span> <span class="built_in">range</span>(n + <span class="number">1</span>)]</span><br><span class="line"><span class="comment">#optp 相当于做了一个n*m的全零矩阵的赶脚，n行为物件，m列为自背包载重量</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">knapsack_dynamic</span>(<span class="params">w, p, n, m, x</span>):</span></span><br><span class="line">    <span class="comment">#计算optp[i][j]</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, n + <span class="number">1</span>):       <span class="comment"># 物品一件件来</span></span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, m + <span class="number">1</span>):   <span class="comment"># j为子背包的载重量，寻找能够承载物品的子背包</span></span><br><span class="line">            <span class="keyword">if</span> (j &gt;= w[i]):         <span class="comment"># 当物品的重量小于背包能够承受的载重量的时候，才考虑能不能放进去</span></span><br><span class="line">                optp[i][j] = <span class="built_in">max</span>(optp[i - <span class="number">1</span>][j], optp[i - <span class="number">1</span>][j - w[i]] + p[i])    <span class="comment"># optp[i - 1][j]是上一个单元的值， optp[i - 1][j - w[i]]为剩余空间的价值</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                optp[i][j] = optp[i - <span class="number">1</span>][j]</span><br><span class="line">    </span><br><span class="line">    <span class="comment">#递推装入背包的物体,寻找跳变的地方，从最后结果开始逆推</span></span><br><span class="line">    j = m</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n, <span class="number">0</span>, -<span class="number">1</span>):</span><br><span class="line">        <span class="keyword">if</span> optp[i][j] &gt; optp[i - <span class="number">1</span>][j]:</span><br><span class="line">            x.append(i)</span><br><span class="line">            j = j - w[i]  </span><br><span class="line">    </span><br><span class="line">    <span class="comment">#返回最大价值，即表格中最后一行最后一列的值</span></span><br><span class="line">    v = optp[n][m]</span><br><span class="line">    <span class="keyword">return</span> v</span><br><span class="line"> </span><br><span class="line"><span class="built_in">print</span> <span class="string">&#x27;最大值为：&#x27;</span> + <span class="built_in">str</span>(knapsack_dynamic(w, p, n, m, x))</span><br><span class="line"><span class="built_in">print</span> <span class="string">&#x27;物品的索引：&#x27;</span>,x</span><br><span class="line"></span><br><span class="line"><span class="comment">#最大值为：4000</span></span><br><span class="line"><span class="comment">#物品的索引： [4, 3]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><p><a href="https://blog.csdn.net/MrLevo520/article/details/75676160">动态规划(DP)的整理-Python描述</a></p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>Dynamic Programming</tag>
-        <tag>Data Structure</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Qt 框架下 C++ 调用 MATLAB 程序</title>
     <url>/archives/2022/01/Qt%E6%A1%86%E6%9E%B6%E4%B8%8BCpp%E8%B0%83%E7%94%A8MATLAB%E7%A8%8B%E5%BA%8F/</url>
     <content><![CDATA[<p>最近 Qt 项目中需要使用相对复杂的算法，因自身功力尚浅暂时无法使用 C/C++ 实现复杂算法，经过查找发现 Qt 可以通过某些途径实现 MATLAB 算法的调用，对于我这种算法小白十分友好，遂将 Qt 与 MATLAB 混合编程方法做一些简单记录。说是 QT 与 MATLAB 的混合编程，其实质仍是 C++ 对 MATLAB 程序的调用。</p>
@@ -927,6 +819,114 @@
       </tags>
   </entry>
   <entry>
+    <title>NIOS II中PIO有关寄存器</title>
+    <url>/archives/2018/05/NIOS-II%E4%B8%ADPIO%E6%9C%89%E5%85%B3%E5%AF%84%E5%AD%98%E5%99%A8/</url>
+    <content><![CDATA[<h5 id="寄存器映射"><a href="#寄存器映射" class="headerlink" title="寄存器映射"></a>寄存器映射</h5><p>Avalon-MM主外设，例如CPU，通过4个32位寄存器控制并与PIO核通信，假定PIO核的I/O端口被配置为n位宽度。如下图：</p>
+<p> <img src="/image/2018-5-25/01.png" alt="PIO核的寄存器映射"><br>(1) 该寄存器是否存在取决于硬件配置，如果寄存器不存在，读寄存器返回一个未定义的值，写寄存器无影响。<br>(2) 写任何值到edgecapture，会清0所有位。</p>
+<h5 id="数据寄存器"><a href="#数据寄存器" class="headerlink" title="数据寄存器"></a>数据寄存器</h5><p>读从Data寄存器返回的呈现在输入端口的值。如果PIO核硬件被配置为output-only（只输出）模式，读data寄存器将返回一个未定义的值。<br>写data寄存器将存储值到寄存器中以驱动输出端口。如果PIO核硬件被配置为input-only（只输入）模式，写data寄存器无影响。如果PIO核硬件被配置为双向模式，则仅当在  direction（方向）寄存器中相应的位被置1（输出）时，被寄存的值才会出现在输出端口上。</p>
+<h5 id="方向寄存器"><a href="#方向寄存器" class="headerlink" title="方向寄存器"></a>方向寄存器</h5><p>direction（方向）寄存器控制每个PIO端口的数据方向，假定端口是双向的，当位n在方向寄存器中被置1时，端口n在data（数据）寄存器的相应位驱动输出值。<br>仅当PIO核硬件被配置为双向模式时，direction寄存器才存在。模式（输入、输出或双向）在系统创建时指定，并且在运行时不能修改。在输入或输出模式中，direction寄存器不存在，在这种情况下，读direction返回一个未定义的值，写direction无影响。<br>       在复位后，方向寄存器的所有位都是0，所以所有双向I/O端口都被配置为输入。如果那些PIO端口被连接到FPGA器件的引脚，则这些引脚保持高阻状态。在双向模式，为了改变PIO端口的方向，要重新编程direction寄存器。</p>
+<h5 id="中断屏蔽寄存器"><a href="#中断屏蔽寄存器" class="headerlink" title="中断屏蔽寄存器"></a>中断屏蔽寄存器</h5><p>设置interruptmask Register（中断屏蔽寄存器）中的位为1允许相应PIO输入端口中断。中断行为取决于PIO核的硬件配置。见“中断行为”。<br>       interruptmask寄存器仅当硬件被配置为能产生IRQ时才存在。如果PIO核不能产生IRQ，读interruptmask返回一个未定义的值，写interruptmask无影响。<br>       在复位后，所有interruptmask寄存器的位都是0，所以所有的PIO端口中断都被禁用。</p>
+<h5 id="边沿捕获寄存器"><a href="#边沿捕获寄存器" class="headerlink" title="边沿捕获寄存器"></a>边沿捕获寄存器</h5><p>如果edgecapture（边沿捕获）寄存器中的位n被设置位1，在输入端口n上的边沿将会被探测到。Avalon-MM主外设能够读edgecapture寄存器以确定是否有一个边沿出现在任何PIO输入端口。写任何值到edgecapture将清除寄存器中的所有位。<br>要探测的边沿的类型在系统创建时就已经选定在硬件中。edgecapture寄存器只能在硬件被配置位捕获边沿时存在。如果PIO核没有被配置成捕获边沿，读edgecapture将返回一个未定义的值，写edgecapture无影响。</p>
+<h5 id="输出置位和输出清零寄存器"><a href="#输出置位和输出清零寄存器" class="headerlink" title="输出置位和输出清零寄存器"></a>输出置位和输出清零寄存器</h5><p>你可以使用输出置位和输出清零（outset和outclear）寄存器置1或清0指定的输出端口的位。例如，要设置输出端口的第六位，可以写0x40（0100 0000）到outset寄存器。写0x08（0000 1000）到outclear寄存器可清0输出端口的第3位。<br>这些寄存器只有在选择Enable individual bit set/clear output register寄存器为开启时才可用。</p>
+<h5 id="中断行为"><a href="#中断行为" class="headerlink" title="中断行为"></a>中断行为</h5><p>PIO核输出一个能够连接到任意在系统中的主外设的单个IRQ信号。主外设既能够读dagta寄存器，也能够edgecapture寄存器以确定那一个输入端口引发了中断。<br>当硬件被配置为电平敏感中断时，当data和interruptmask寄存器中相应的位是1时，IRQ被确定。当硬件被配置为边沿敏感中断时，当edgecapture和interruptmask寄存器中相应的位是1时，IRQ被确定。IRQ保持确定直到禁用interruptmask中相应的位或者写edgecapture相应的位以明确地确认为止。</p>
+<p>参考：<br>Chentuo’s<a href="http://www.cnblogs.com/chentuo/articles/1427283.html">《PIO Core》</a></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>NIOS-II</tag>
+        <tag>寄存器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Win10+Ubuntu 双系统安装教程</title>
+    <url>/archives/2018/05/Win10-Ubuntu%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>最近上课要用Linux，准备从头记录一次Ubuntu的安装过程。如果有刚学的可以看看..同时接受大佬建议和指出错误…</p>
+<h3 id="一-安装ubuntu之前"><a href="#一-安装ubuntu之前" class="headerlink" title="一.安装ubuntu之前"></a>一.安装ubuntu之前</h3><p>1.你需要下载UtralISO<br><img src="/image/2018-5-20/01.jpg"><br>下载试用版即可<br>2.下载Ubuntu桌面版，推荐下载此18.04LTS版本，能从新的上手就尽量从新的上手使用。<br><img src="/image/2018-5-20/02.jpg"><br>下载ubuntu-18.04-desktop-amd64.iso版本。<br>下面的ubuntu-18.04-live-server-amd64.iso是服务器版本的。<br>等待下载完成之后，你会看到如下一个文件。<br><img src="/image/2018-5-20/03.jpg"></p>
+<h3 id="二．通过UtralISO制作启动盘"><a href="#二．通过UtralISO制作启动盘" class="headerlink" title="二．通过UtralISO制作启动盘"></a>二．通过UtralISO制作启动盘</h3><p>1.打开UtralISO点击试用即可。<br>在UtralISO主界面中点击文件—打开—选择你之前下载的ubuntu镜像文件。选中红框区域。<br><img src="/image/2018-5-20/04.jpg"><br>点击启动—写入硬盘映像<br>默认即可，无需设置<br><img src="/image/2018-5-20/05.jpg"><br>点击写入，等待写入完成。</p>
+<h3 id="三．分区"><a href="#三．分区" class="headerlink" title="三．分区"></a>三．分区</h3><p>假设你的电脑和我一样是windows10那么可以打开磁盘管理<br><img src="/image/2018-5-20/06.jpg"><br>从你的机械硬盘或者固态硬盘中分配一块区域（最好大于40G）出来。让这块区域显示为未分配状态即可。具体ubuntu系统分区会在安装ubuntu系统的时候在这块windows10未分配区域操作。所以你在windows里面是无法访问你的ubuntu系统磁盘的。</p>
+<h3 id="四．安装Ubuntu"><a href="#四．安装Ubuntu" class="headerlink" title="四．安装Ubuntu"></a>四．安装Ubuntu</h3><p>1.重启电脑进入BIOS我的电脑是F2进入<br>2.把你的U盘设置成第一启动盘<br>3.移动到sava and restar回车点击YES<br>4.等待自动重启<br>5.在选项里面选择Install Ubuntu<br>6.进入安装引导界面：<br><img src="/image/2018-5-20/07.jpg"><br>选择中文吧，虽然选择英文比较好,但是初期使用还是使用中文吧…<br>2.选择安装方式：<br><img src="/image/2018-5-20/08.jpg"><br>这个应该很好看懂…装双系统的话就选择其他选项<br>3.分区（最重要的一步）在ubuntu安装界面中，有一个磁盘管理的界面<br>选择你之前在windows下未分配的磁盘分区<br>点击左下角的+号<br>先创建主分区 /分区<br>我的是创建20G 主分区 空间起始位置 Ext4日志文件系统 /<br><img src="/image/2018-5-20/09.jpg"><br>创建swap分区 8000M 主分区 空间起始位置 用于交换空间 ok<br>创建boot分区 2048M 逻辑分区 空间起始位置 Ext4日志文件 系统挂载点 /boot<br>创建home分区 未分配的区域全部分区至home分区 逻辑分区 空间起始位置 Ext4日志文件 系统挂载点 /home<br>接下来就简单了，安装即可 设置用户名密码登陆系统<br><img src="/image/2018-5-20/10.jpg"></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sunrise</title>
+    <url>/archives/2018/05/Sunrise/</url>
+    <content><![CDATA[<p><img src="/image/2018-05/welcome.jpg">  </p>
+<blockquote class="blockquote-center">
+<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
+
+</blockquote>
+
+<p><img src="/image/2018-05/00.gif">  </p>
+]]></content>
+  </entry>
+  <entry>
+    <title>动态规划—背包问题（Python）</title>
+    <url>/archives/2020/03/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%88Python%EF%BC%89/</url>
+    <content><![CDATA[<h4 id="一、什么是动态规划（Dynamic-Programming，DP）"><a href="#一、什么是动态规划（Dynamic-Programming，DP）" class="headerlink" title="一、什么是动态规划（Dynamic Programming，DP）"></a>一、什么是动态规划（Dynamic Programming，DP）</h4><ul>
+<li>1.动态规划是通过组合子问题的解来解决原问题</li>
+<li>2.动态规划应用于子问题重叠的情况，即不同的子问题具有公共的子子问题</li>
+<li>3.动态规划算法对每个子子问题只求解一次</li>
+<li>4.动态规划通常用来求解最优化问题<br>注：每个子问题必须是离散的，没有依赖关系，比如要解决<code>子问题1</code> 必须通过解决<code>子问题2</code> 才可以解决。</li>
+</ul>
+<h4 id="二、背包问题"><a href="#二、背包问题" class="headerlink" title="二、背包问题"></a>二、背包问题</h4><p>&emsp;&emsp;问题描述：将四个不同重量不同价值的物品放入一个背包，使得背包中的物品价值总和最大。例如，</p>
+<table>
+<thead>
+<tr>
+<th align="center">物品</th>
+<th align="center">重量</th>
+<th align="center">价值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">音响</td>
+<td align="center">4</td>
+<td align="center">3000</td>
+</tr>
+<tr>
+<td align="center">电脑</td>
+<td align="center">3</td>
+<td align="center">2000</td>
+</tr>
+<tr>
+<td align="center">吉他</td>
+<td align="center">1</td>
+<td align="center">1500</td>
+</tr>
+<tr>
+<td align="center">手机</td>
+<td align="center">1</td>
+<td align="center">2000</td>
+</tr>
+<tr>
+<td align="center">将以上物品怎样放入一个载重为4的背包可以获得最大价值，求最优解。</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h4 id="三、DP算法思路"><a href="#三、DP算法思路" class="headerlink" title="三、DP算法思路"></a>三、DP算法思路</h4><h5 id="1、传统思路"><a href="#1、传统思路" class="headerlink" title="1、传统思路"></a>1、传统思路</h5><p>&emsp;&emsp;传统思路是将不同物品进行排列组合放入背包，通过比较全部的组合形式以获得最优解，而这种算法是时间复杂度是指数级别，后果就是当子问题越多时计算量将会急剧增长。</p>
+<h5 id="2、DP算法思路"><a href="#2、DP算法思路" class="headerlink" title="2、DP算法思路"></a>2、DP算法思路</h5><p>&emsp;&emsp;DP算法是将主问题分解成若干小问题，自下而上求解子问题。<br>在这里通过将背包容量分割以及不同物品组成网格，每一行物品将对应的网格填充并比较上一行的价值大小。如下：<br><img src="/image/2020-3-27/image-0.png"><br>具体思路看参考链接。</p>
+<h4 id="四、代码例程"><a href="#四、代码例程" class="headerlink" title="四、代码例程"></a>四、代码例程</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这里使用了图解中的吉他，音箱，电脑，手机做的测试，数据保持一致</span></span><br><span class="line">w = [<span class="number">0</span>, <span class="number">1</span>, <span class="number">4</span>, <span class="number">3</span>, <span class="number">1</span>]   <span class="comment">#n个物体的重量(w[0]无用)</span></span><br><span class="line">p = [<span class="number">0</span>, <span class="number">1500</span>, <span class="number">3000</span>, <span class="number">2000</span>, <span class="number">2000</span>]   <span class="comment">#n个物体的价值(p[0]无用)</span></span><br><span class="line">n = <span class="built_in">len</span>(w) - <span class="number">1</span>   <span class="comment">#计算n的个数</span></span><br><span class="line">m = <span class="number">4</span>   <span class="comment">#背包的载重量</span></span><br><span class="line"></span><br><span class="line">x = []   <span class="comment">#装入背包的物体，元素为True时，对应物体被装入(x[0]无用)</span></span><br><span class="line">v = <span class="number">0</span></span><br><span class="line"><span class="comment">#optp[i][j]表示在前i个物体中，能够装入载重量为j的背包中的物体的最大价值</span></span><br><span class="line">optp = [[<span class="number">0</span> <span class="keyword">for</span> col <span class="keyword">in</span> <span class="built_in">range</span>(m + <span class="number">1</span>)] <span class="keyword">for</span> raw <span class="keyword">in</span> <span class="built_in">range</span>(n + <span class="number">1</span>)]</span><br><span class="line"><span class="comment">#optp 相当于做了一个n*m的全零矩阵的赶脚，n行为物件，m列为自背包载重量</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">knapsack_dynamic</span>(<span class="params">w, p, n, m, x</span>):</span></span><br><span class="line">    <span class="comment">#计算optp[i][j]</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, n + <span class="number">1</span>):       <span class="comment"># 物品一件件来</span></span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, m + <span class="number">1</span>):   <span class="comment"># j为子背包的载重量，寻找能够承载物品的子背包</span></span><br><span class="line">            <span class="keyword">if</span> (j &gt;= w[i]):         <span class="comment"># 当物品的重量小于背包能够承受的载重量的时候，才考虑能不能放进去</span></span><br><span class="line">                optp[i][j] = <span class="built_in">max</span>(optp[i - <span class="number">1</span>][j], optp[i - <span class="number">1</span>][j - w[i]] + p[i])    <span class="comment"># optp[i - 1][j]是上一个单元的值， optp[i - 1][j - w[i]]为剩余空间的价值</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                optp[i][j] = optp[i - <span class="number">1</span>][j]</span><br><span class="line">    </span><br><span class="line">    <span class="comment">#递推装入背包的物体,寻找跳变的地方，从最后结果开始逆推</span></span><br><span class="line">    j = m</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n, <span class="number">0</span>, -<span class="number">1</span>):</span><br><span class="line">        <span class="keyword">if</span> optp[i][j] &gt; optp[i - <span class="number">1</span>][j]:</span><br><span class="line">            x.append(i)</span><br><span class="line">            j = j - w[i]  </span><br><span class="line">    </span><br><span class="line">    <span class="comment">#返回最大价值，即表格中最后一行最后一列的值</span></span><br><span class="line">    v = optp[n][m]</span><br><span class="line">    <span class="keyword">return</span> v</span><br><span class="line"> </span><br><span class="line"><span class="built_in">print</span> <span class="string">&#x27;最大值为：&#x27;</span> + <span class="built_in">str</span>(knapsack_dynamic(w, p, n, m, x))</span><br><span class="line"><span class="built_in">print</span> <span class="string">&#x27;物品的索引：&#x27;</span>,x</span><br><span class="line"></span><br><span class="line"><span class="comment">#最大值为：4000</span></span><br><span class="line"><span class="comment">#物品的索引： [4, 3]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><p><a href="https://blog.csdn.net/MrLevo520/article/details/75676160">动态规划(DP)的整理-Python描述</a></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Dynamic Programming</tag>
+        <tag>Data Structure</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo-Admin 后台管理</title>
     <url>/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Hexo-Admin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/</url>
     <content><![CDATA[<h4 id="1-安装-hexo-admin-插件"><a href="#1-安装-hexo-admin-插件" class="headerlink" title="1. 安装 hexo-admin 插件"></a>1. 安装 hexo-admin 插件</h4><p>首先，在创建Blog的根目录下安装插件，打开Git Bash输入如下命令。</p>
@@ -953,6 +953,28 @@
         <tag>Blog</tag>
         <tag>Hexo</tag>
         <tag>hexo-admin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嵌入式实训 Day2 u-boot的烧写及使用</title>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day2/</url>
+    <content><![CDATA[<h5 id="实验环境："><a href="#实验环境：" class="headerlink" title="实验环境："></a>实验环境：</h5><p>1、    ubuntu 12.04发行版<br>2、    u-boot-2010.03<br>3、    FS4412平台</p>
+<h5 id="【1】Linux系统移植"><a href="#【1】Linux系统移植" class="headerlink" title="【1】Linux系统移植"></a>【1】Linux系统移植</h5><p>引导启动界面 –&gt; Linux镜像 –&gt; 加载Linux文件系统</p>
+<p>引导程序：bootloder<br>uboot    Linux 3.14</p>
+<h5 id="【2】SD启动盘制作"><a href="#【2】SD启动盘制作" class="headerlink" title="【2】SD启动盘制作"></a>【2】SD启动盘制作</h5><p>　　a)    将 sdfuse_q拷贝到Linux家目录下<br>　　b)    将SD卡插入电脑并在ubuntu中识别<br>　　c)    进入sdfuse_q目录并执行如下操作将SD卡制作成uboot 2010启动盘</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo  ./mkuboot.sh  /dev/sdb</span><br></pre></td></tr></table></figure>
+<p>　　d)    在SD卡中创建目录sdupdate并把学生资料中的实验代码/第一天/镜像中的u-boot-fs4412.bin(uboot 2013)拷贝到这个目录下</p>
+<h5 id="【3】u-boot的烧写"><a href="#【3】u-boot的烧写" class="headerlink" title="【3】u-boot的烧写"></a>【3】u-boot的烧写</h5><p>a)    使用串口线连接板子与电脑，运行串口通信程序putty(实验代码/第一天/工具)<br><img src="/image/2018-7-3/01.png"><br>选择右上角的”Serial”，然后点击左下角的”Serial”<br><img src="/image/2018-7-3/02.png"><br>按照自己的主机的情况（设备管理器中）选择COM口，其他信息必须一直，然后点击open打开串口<br><img src="/image/2018-7-3/03.png"><br>b)    关闭开发板电源，将拨码开关SW1调至(1000)(SD启动模式)<br>c)    将刚才做好的SD启动盘插入开发板SD卡插槽<br>d)    重新打开开发板电源能够看到如下界面<br><img src="/image/2018-7-3/04.png"><br>在倒计时时按任意键让uboot停留在交互模式<br>e)    烧写<br>在终端上执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># sdfuse flashall</span></span><br></pre></td></tr></table></figure>
+<p>等待终端无输出是表示烧写结束<br>f)    关闭开发板电源，将拨码开关SW1调至0110(EMMC启动模式)后打开电源可以看到如下界面表示烧写成功<br><img src="/image/2018-7-3/05.png"><br>在倒计时时按任意键让uboot停留在交互模式</p>
+<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>　　整个嵌入式开发大体分为三层，自上而下依次为应用层、驱动层和硬件层，而我们主要做的是应用层。Linux系统的启动需要引导程序的引导，所以在移植系统之前需要对开发板烧写uboot引导程序。对开发板烧写系统与安装Windows系统类似，首先需要制作SD启动盘，在制作好SD启动盘后，将uboot烧写到flash中。这样，开发板在每次上电以后就会自行将uboot从flash中复制到DRAM中，并通过一系列命令引导Linux镜像启动。接下来就是通过tftp传输内核镜像，nfs远程访问文件系统，此为后话。<br><img src="/image/2018-7-3/06.png"></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
       </tags>
   </entry>
   <entry>
@@ -994,28 +1016,6 @@
       </tags>
   </entry>
   <entry>
-    <title>嵌入式实训 Day2 u-boot的烧写及使用</title>
-    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day2/</url>
-    <content><![CDATA[<h5 id="实验环境："><a href="#实验环境：" class="headerlink" title="实验环境："></a>实验环境：</h5><p>1、    ubuntu 12.04发行版<br>2、    u-boot-2010.03<br>3、    FS4412平台</p>
-<h5 id="【1】Linux系统移植"><a href="#【1】Linux系统移植" class="headerlink" title="【1】Linux系统移植"></a>【1】Linux系统移植</h5><p>引导启动界面 –&gt; Linux镜像 –&gt; 加载Linux文件系统</p>
-<p>引导程序：bootloder<br>uboot    Linux 3.14</p>
-<h5 id="【2】SD启动盘制作"><a href="#【2】SD启动盘制作" class="headerlink" title="【2】SD启动盘制作"></a>【2】SD启动盘制作</h5><p>　　a)    将 sdfuse_q拷贝到Linux家目录下<br>　　b)    将SD卡插入电脑并在ubuntu中识别<br>　　c)    进入sdfuse_q目录并执行如下操作将SD卡制作成uboot 2010启动盘</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo  ./mkuboot.sh  /dev/sdb</span><br></pre></td></tr></table></figure>
-<p>　　d)    在SD卡中创建目录sdupdate并把学生资料中的实验代码/第一天/镜像中的u-boot-fs4412.bin(uboot 2013)拷贝到这个目录下</p>
-<h5 id="【3】u-boot的烧写"><a href="#【3】u-boot的烧写" class="headerlink" title="【3】u-boot的烧写"></a>【3】u-boot的烧写</h5><p>a)    使用串口线连接板子与电脑，运行串口通信程序putty(实验代码/第一天/工具)<br><img src="/image/2018-7-3/01.png"><br>选择右上角的”Serial”，然后点击左下角的”Serial”<br><img src="/image/2018-7-3/02.png"><br>按照自己的主机的情况（设备管理器中）选择COM口，其他信息必须一直，然后点击open打开串口<br><img src="/image/2018-7-3/03.png"><br>b)    关闭开发板电源，将拨码开关SW1调至(1000)(SD启动模式)<br>c)    将刚才做好的SD启动盘插入开发板SD卡插槽<br>d)    重新打开开发板电源能够看到如下界面<br><img src="/image/2018-7-3/04.png"><br>在倒计时时按任意键让uboot停留在交互模式<br>e)    烧写<br>在终端上执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># sdfuse flashall</span></span><br></pre></td></tr></table></figure>
-<p>等待终端无输出是表示烧写结束<br>f)    关闭开发板电源，将拨码开关SW1调至0110(EMMC启动模式)后打开电源可以看到如下界面表示烧写成功<br><img src="/image/2018-7-3/05.png"><br>在倒计时时按任意键让uboot停留在交互模式</p>
-<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>　　整个嵌入式开发大体分为三层，自上而下依次为应用层、驱动层和硬件层，而我们主要做的是应用层。Linux系统的启动需要引导程序的引导，所以在移植系统之前需要对开发板烧写uboot引导程序。对开发板烧写系统与安装Windows系统类似，首先需要制作SD启动盘，在制作好SD启动盘后，将uboot烧写到flash中。这样，开发板在每次上电以后就会自行将uboot从flash中复制到DRAM中，并通过一系列命令引导Linux镜像启动。接下来就是通过tftp传输内核镜像，nfs远程访问文件系统，此为后话。<br><img src="/image/2018-7-3/06.png"></p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>嵌入式</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>利用Hexo免费创建个人博客</title>
     <url>/archives/2018/05/Hexo%E5%8D%9A%E5%AE%A2/%E5%88%A9%E7%94%A8Hexo%E5%85%8D%E8%B4%B9%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>相信很多朋友正在为了不知道怎么创建私人博客而苦恼、不知所措，那么读完这篇文章你会发现新天地。本篇文章将带领你基于码云利用HEXO创建个人博客，让我们一起来学习吧！<br><img src="/image/2018-5-19/05.gif"></p>
@@ -1052,35 +1052,6 @@
       <tags>
         <tag>Blog</tag>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>嵌入式实训 Day1 Linux基础篇</title>
-    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD%20Day1%20Linux%E5%9F%BA%E7%A1%80%E7%AF%87/</url>
-    <content><![CDATA[<h5 id="【1】linux命令"><a href="#【1】linux命令" class="headerlink" title="【1】linux命令"></a>【1】linux命令</h5><p>   linux@ubuntu:~$  家目录   /home/linux<br>   linux@ubuntu:/$  根目录   </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ctrl+alt+t		<span class="comment">#打开终端</span></span><br><span class="line"><span class="built_in">cd</span>			<span class="comment">#切换到家目录</span></span><br><span class="line"><span class="built_in">cd</span> /			<span class="comment">#切换到根目录（系统文件）</span></span><br><span class="line"><span class="built_in">cd</span> ..			<span class="comment">#切换到上一级</span></span><br><span class="line"><span class="built_in">cd</span> -			<span class="comment">#返回上一级</span></span><br><span class="line">ls  			<span class="comment">#查看当前目录下的所有文件目录  （-list）</span></span><br></pre></td></tr></table></figure>
-
-<p>   目录：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir + 目录名  					<span class="comment">#创建目录	</span></span><br><span class="line">rmdir + 目录名 （只能删除空目录）			<span class="comment">#删除目录	</span></span><br><span class="line">touch + 文件名 （普通文本，C源码）			<span class="comment">#创建新文件  </span></span><br><span class="line">rm + 文件名 					<span class="comment">#删除文件	</span></span><br><span class="line">cp + 被复制 + 新文件名/目录名（拷贝到此目录）	<span class="comment">#复制文件	</span></span><br><span class="line">mv + 被剪切 + 新文件名/目录名（剪切到此目录）	<span class="comment">#剪切		</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h5 id="【2】vim编辑器"><a href="#【2】vim编辑器" class="headerlink" title="【2】vim编辑器"></a>【2】vim编辑器</h5><p>vim编辑器模式：<br>    1.输入模式<br>    2.底行模式<br>在底行模式下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift + : wq		#保存退出</span><br><span class="line">	  q!		#不保存退出</span><br><span class="line">	  w		#只保存</span><br><span class="line">	  行号 		#光标跳转到某一行</span><br><span class="line">	  &#x2F; + 关键字 #查找关键字  N</span><br><span class="line">yy 	#复制一行</span><br><span class="line">dd	#剪切一行</span><br><span class="line">p  	#粘贴</span><br></pre></td></tr></table></figure>
-
-<p>底行模式 ——&gt; 输入模式  i<br>输入模式 ——&gt; 底行模式  Esc</p>
-<h5 id="【3】gcc编译器"><a href="#【3】gcc编译器" class="headerlink" title="【3】gcc编译器"></a>【3】gcc编译器</h5><pre><code>gcc + xxx.c   #生成a.out(elf格式)
-执行 ./a.out 
-自定义生成的文件名：  gcc  xxx.c  -o（生成新文件） xxx
-gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
-</code></pre>
-<p>gcc编译流程： 预处理、编译、汇编、链接<br>预处理：xxx.c —&gt; xxx.i(预处理文件)<br>编译：    xxx.i —&gt; xxx.s(汇编文件)<br>汇编：    xxx.s —&gt; xxx.o(可重定向文件、执行文件的依赖文件)<br>链接：    xxx.o —&gt; xxx(可执行文件,elf格式)</p>
-<p>单步编译处理：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">预处理:  gcc -E xxx.c -o xxx.i</span><br><span class="line">编译：	gcc -S xxx.c -o xxx.s</span><br><span class="line">汇编：	gcc -c xxx.s -o xxx.o</span><br><span class="line">链接：	gcc xxx.o -o xxx</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>嵌入式</tag>
       </tags>
   </entry>
   <entry>
@@ -1125,6 +1096,35 @@ p  （管道文件）
  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#123;</span><br><span class="line">	testnode1&#123;</span><br><span class="line">	   a &#x3D; x;</span><br><span class="line">	&#125;;</span><br><span class="line">	testnode2&#123;</span><br><span class="line">		testnode3&#123;</span><br><span class="line">		   b &#x3D; y;</span><br><span class="line">		&#125;;</span><br><span class="line">	</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <p> 2）make menuconfig图形界面<br>    选配选项 [*]  </p>
  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[*] Networking support  ---&gt;</span><br><span class="line">Networking options  ---&gt;	 网络配置 网络协议</span><br><span class="line">	&lt;*&gt; Packet socket</span><br><span class="line">	&lt;*&gt; Unix domain sockets </span><br><span class="line">	[*] TCP&#x2F;IP networking</span><br><span class="line">	[*]   IP: kernel level autoconfiguration</span><br><span class="line"></span><br><span class="line">   device Drivers  ---&gt;       设备驱动</span><br><span class="line">[*] Network device support  ---&gt;</span><br><span class="line">	[*]   Ethernet driver support   ---&gt;</span><br><span class="line">		&lt;*&gt;   DM9000 support</span><br><span class="line"></span><br><span class="line">File systems  ---&gt;          文件系统支持（支持nfs服务器的客户端）</span><br><span class="line">[*] Network File Systems   ---&gt;</span><br><span class="line">	&lt;*&gt;   NFS client support</span><br><span class="line">	[*]   NFS client support for NFS version 3 (NEW)</span><br><span class="line">	[*]   NFS client support for the NFSv3 ACL protocol extension (NEW)</span><br><span class="line">	[*]   Root file system on NFS (NEW)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嵌入式实训 Day1 Linux基础篇</title>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD%20Day1%20Linux%E5%9F%BA%E7%A1%80%E7%AF%87/</url>
+    <content><![CDATA[<h5 id="【1】linux命令"><a href="#【1】linux命令" class="headerlink" title="【1】linux命令"></a>【1】linux命令</h5><p>   linux@ubuntu:~$  家目录   /home/linux<br>   linux@ubuntu:/$  根目录   </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ctrl+alt+t		<span class="comment">#打开终端</span></span><br><span class="line"><span class="built_in">cd</span>			<span class="comment">#切换到家目录</span></span><br><span class="line"><span class="built_in">cd</span> /			<span class="comment">#切换到根目录（系统文件）</span></span><br><span class="line"><span class="built_in">cd</span> ..			<span class="comment">#切换到上一级</span></span><br><span class="line"><span class="built_in">cd</span> -			<span class="comment">#返回上一级</span></span><br><span class="line">ls  			<span class="comment">#查看当前目录下的所有文件目录  （-list）</span></span><br></pre></td></tr></table></figure>
+
+<p>   目录：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir + 目录名  					<span class="comment">#创建目录	</span></span><br><span class="line">rmdir + 目录名 （只能删除空目录）			<span class="comment">#删除目录	</span></span><br><span class="line">touch + 文件名 （普通文本，C源码）			<span class="comment">#创建新文件  </span></span><br><span class="line">rm + 文件名 					<span class="comment">#删除文件	</span></span><br><span class="line">cp + 被复制 + 新文件名/目录名（拷贝到此目录）	<span class="comment">#复制文件	</span></span><br><span class="line">mv + 被剪切 + 新文件名/目录名（剪切到此目录）	<span class="comment">#剪切		</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h5 id="【2】vim编辑器"><a href="#【2】vim编辑器" class="headerlink" title="【2】vim编辑器"></a>【2】vim编辑器</h5><p>vim编辑器模式：<br>    1.输入模式<br>    2.底行模式<br>在底行模式下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift + : wq		#保存退出</span><br><span class="line">	  q!		#不保存退出</span><br><span class="line">	  w		#只保存</span><br><span class="line">	  行号 		#光标跳转到某一行</span><br><span class="line">	  &#x2F; + 关键字 #查找关键字  N</span><br><span class="line">yy 	#复制一行</span><br><span class="line">dd	#剪切一行</span><br><span class="line">p  	#粘贴</span><br></pre></td></tr></table></figure>
+
+<p>底行模式 ——&gt; 输入模式  i<br>输入模式 ——&gt; 底行模式  Esc</p>
+<h5 id="【3】gcc编译器"><a href="#【3】gcc编译器" class="headerlink" title="【3】gcc编译器"></a>【3】gcc编译器</h5><pre><code>gcc + xxx.c   #生成a.out(elf格式)
+执行 ./a.out 
+自定义生成的文件名：  gcc  xxx.c  -o（生成新文件） xxx
+gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
+</code></pre>
+<p>gcc编译流程： 预处理、编译、汇编、链接<br>预处理：xxx.c —&gt; xxx.i(预处理文件)<br>编译：    xxx.i —&gt; xxx.s(汇编文件)<br>汇编：    xxx.s —&gt; xxx.o(可重定向文件、执行文件的依赖文件)<br>链接：    xxx.o —&gt; xxx(可执行文件,elf格式)</p>
+<p>单步编译处理：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">预处理:  gcc -E xxx.c -o xxx.i</span><br><span class="line">编译：	gcc -S xxx.c -o xxx.s</span><br><span class="line">汇编：	gcc -c xxx.s -o xxx.o</span><br><span class="line">链接：	gcc xxx.o -o xxx</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>学习</category>
       </categories>
