@@ -359,49 +359,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown 使用</title>
-    <url>/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<h2 id="1、代码增减标识"><a href="#1、代码增减标识" class="headerlink" title="1、代码增减标识"></a>1、代码增减标识</h2><p>代码块中有代码增减替换时，着色标识，格式如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```diff</span><br><span class="line">+ 增加</span><br><span class="line">- 删减</span><br><span class="line">``&#x27;</span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ 增加</span></span><br><span class="line"><span class="deletion">- 删减</span></span><br></pre></td></tr></table></figure>
-<h2 id="2、代码块折叠"><a href="#2、代码块折叠" class="headerlink" title="2、代码块折叠"></a>2、代码块折叠</h2><p>当文章中添加代码过长时，会对文章的阅读和显示造成不好的体验，折叠代码块是一种很好的解决方式<br>书写格式：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">summary</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line">	详细内容</span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>原理：采用 HTML5 中的新标签，因此这不能算是对 Next 主题的美化。<br><code>summary</code> 标签作为 <code>details</code> 元素的标题，<code>details</code> 元素用于描述有关文档或文档片段的详细信息。<br>与 <code>details</code> 一起使用,标题是可见的，当用户点击标题时会显示出详细信息。</p>
-<p>缺点：兼容性不好，只有 Chrome 以及 Safari 6 支持 <code>summary</code> 标签。</p>
-<p>效果如下：</p>
-<details>
-  <summary>点击显/隐代码</summary>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">&lt;div class=&quot;site-author site-overview-item animated&quot; itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;</span><br><span class="line">  &#123;%- if theme.avatar.url %&#125;</span><br><span class="line"><span class="addition">+    &lt;a href=&quot;/&quot;&gt;</span></span><br><span class="line">      &lt;img class=&quot;site-author-image&quot; itemprop=&quot;image&quot; alt=&quot;&#123;&#123; author &#125;&#125;&quot;</span><br><span class="line">        src=&quot;&#123;&#123; url_for(theme.avatar.url or theme.images + &#x27;/avatar.gif&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line"><span class="addition">+    &lt;/a&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line">  &lt;p class=&quot;site-author-name&quot; itemprop=&quot;name&quot;&gt;&#123;&#123; author &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;div class=&quot;site-description&quot; itemprop=&quot;description&quot;&gt;&#123;&#123; description &#125;&#125;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-</details>
-
-<h2 id="3、区块"><a href="#3、区块" class="headerlink" title="3、区块"></a>3、区块</h2><p>效果：</p>
-<blockquote>
-<p>区块引用<br>菜鸟教程<br>学的不仅是技术更是梦想</p>
-</blockquote>
-<p>参考：<a href="https://www.runoob.com/markdown/md-block.html">Markdown区块语法</a></p>
-<hr>
-<h2 id="4、字体大小、颜色、居中"><a href="#4、字体大小、颜色、居中" class="headerlink" title="4、字体大小、颜色、居中"></a>4、字体大小、颜色、居中</h2><p>格式：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font face=&quot;黑体&quot;&gt;我是黑体&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;</span><br><span class="line">&lt;center&gt;需要居中的字体&lt;/center&gt;</span><br><span class="line">&lt;center&gt;&lt;font color=red size=7 face=&quot;微软雅黑&quot;&gt;我是居中的7号红色微软雅黑&lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-<p>Size：规定文本的尺寸大小。值：从 1 到 7 的数字。</p>
-<p>效果：</p>
-<ul>
-<li><font face="黑体">我是黑体字</font></li>
-<li><font face="微软雅黑">我是微软雅黑</font></li>
-<li><font face="STCAIYUN">我是华文彩云</font></li>
-<li><center><font color=red size=7 face="微软雅黑">我是居中的7号红色微软雅黑</font></center></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Markdown</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown 数学公式语法(转载)</title>
     <url>/archives/2020/04/Markdown-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E8%AF%AD%E6%B3%95(%E8%BD%AC%E8%BD%BD)/</url>
     <content><![CDATA[<h4 id="上标、下标与组合"><a href="#上标、下标与组合" class="headerlink" title="上标、下标与组合"></a>上标、下标与组合</h4><ol>
@@ -694,6 +651,49 @@
       </tags>
   </entry>
   <entry>
+    <title>Markdown 使用</title>
+    <url>/archives/2021/02/Markdown%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h2 id="1、代码增减标识"><a href="#1、代码增减标识" class="headerlink" title="1、代码增减标识"></a>1、代码增减标识</h2><p>代码块中有代码增减替换时，着色标识，格式如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```diff</span><br><span class="line">+ 增加</span><br><span class="line">- 删减</span><br><span class="line">``&#x27;</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ 增加</span></span><br><span class="line"><span class="deletion">- 删减</span></span><br></pre></td></tr></table></figure>
+<h2 id="2、代码块折叠"><a href="#2、代码块折叠" class="headerlink" title="2、代码块折叠"></a>2、代码块折叠</h2><p>当文章中添加代码过长时，会对文章的阅读和显示造成不好的体验，折叠代码块是一种很好的解决方式<br>书写格式：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">summary</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line">	详细内容</span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>原理：采用 HTML5 中的新标签，因此这不能算是对 Next 主题的美化。<br><code>summary</code> 标签作为 <code>details</code> 元素的标题，<code>details</code> 元素用于描述有关文档或文档片段的详细信息。<br>与 <code>details</code> 一起使用,标题是可见的，当用户点击标题时会显示出详细信息。</p>
+<p>缺点：兼容性不好，只有 Chrome 以及 Safari 6 支持 <code>summary</code> 标签。</p>
+<p>效果如下：</p>
+<details>
+  <summary>点击显/隐代码</summary>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">&lt;div class=&quot;site-author site-overview-item animated&quot; itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;</span><br><span class="line">  &#123;%- if theme.avatar.url %&#125;</span><br><span class="line"><span class="addition">+    &lt;a href=&quot;/&quot;&gt;</span></span><br><span class="line">      &lt;img class=&quot;site-author-image&quot; itemprop=&quot;image&quot; alt=&quot;&#123;&#123; author &#125;&#125;&quot;</span><br><span class="line">        src=&quot;&#123;&#123; url_for(theme.avatar.url or theme.images + &#x27;/avatar.gif&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line"><span class="addition">+    &lt;/a&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line">  &lt;p class=&quot;site-author-name&quot; itemprop=&quot;name&quot;&gt;&#123;&#123; author &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;div class=&quot;site-description&quot; itemprop=&quot;description&quot;&gt;&#123;&#123; description &#125;&#125;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</details>
+
+<h2 id="3、区块"><a href="#3、区块" class="headerlink" title="3、区块"></a>3、区块</h2><p>效果：</p>
+<blockquote>
+<p>区块引用<br>菜鸟教程<br>学的不仅是技术更是梦想</p>
+</blockquote>
+<p>参考：<a href="https://www.runoob.com/markdown/md-block.html">Markdown区块语法</a></p>
+<hr>
+<h2 id="4、字体大小、颜色、居中"><a href="#4、字体大小、颜色、居中" class="headerlink" title="4、字体大小、颜色、居中"></a>4、字体大小、颜色、居中</h2><p>格式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font face=&quot;黑体&quot;&gt;我是黑体&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;</span><br><span class="line">&lt;center&gt;需要居中的字体&lt;/center&gt;</span><br><span class="line">&lt;center&gt;&lt;font color=red size=7 face=&quot;微软雅黑&quot;&gt;我是居中的7号红色微软雅黑&lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+<p>Size：规定文本的尺寸大小。值：从 1 到 7 的数字。</p>
+<p>效果：</p>
+<ul>
+<li><font face="黑体">我是黑体字</font></li>
+<li><font face="微软雅黑">我是微软雅黑</font></li>
+<li><font face="STCAIYUN">我是华文彩云</font></li>
+<li><center><font color=red size=7 face="微软雅黑">我是居中的7号红色微软雅黑</font></center></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MyTest</title>
     <url>/archives/2018/05/MyTest/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -761,18 +761,6 @@
         <tag>NIOS-II</tag>
         <tag>寄存器</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Sunrise</title>
-    <url>/archives/2018/05/Sunrise/</url>
-    <content><![CDATA[<p><img src="/image/2018-05/welcome.jpg">  </p>
-<blockquote class="blockquote-center">
-<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
-
-</blockquote>
-
-<p><img src="/image/2018-05/00.gif">  </p>
-]]></content>
   </entry>
   <entry>
     <title>Qt 框架下 C++ 调用 MATLAB 程序</title>
@@ -852,6 +840,18 @@
       </tags>
   </entry>
   <entry>
+    <title>Sunrise</title>
+    <url>/archives/2018/05/Sunrise/</url>
+    <content><![CDATA[<p><img src="/image/2018-05/welcome.jpg">  </p>
+<blockquote class="blockquote-center">
+<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
+
+</blockquote>
+
+<p><img src="/image/2018-05/00.gif">  </p>
+]]></content>
+  </entry>
+  <entry>
     <title>Win10+Ubuntu 双系统安装教程</title>
     <url>/archives/2018/05/Win10-Ubuntu%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>最近上课要用Linux，准备从头记录一次Ubuntu的安装过程。如果有刚学的可以看看..同时接受大佬建议和指出错误…</p>
@@ -924,57 +924,6 @@
         <tag>Python</tag>
         <tag>Dynamic Programming</tag>
         <tag>Data Structure</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>嵌入式实训 Day2 u-boot的烧写及使用</title>
-    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day2/</url>
-    <content><![CDATA[<h5 id="实验环境："><a href="#实验环境：" class="headerlink" title="实验环境："></a>实验环境：</h5><p>1、    ubuntu 12.04发行版<br>2、    u-boot-2010.03<br>3、    FS4412平台</p>
-<h5 id="【1】Linux系统移植"><a href="#【1】Linux系统移植" class="headerlink" title="【1】Linux系统移植"></a>【1】Linux系统移植</h5><p>引导启动界面 –&gt; Linux镜像 –&gt; 加载Linux文件系统</p>
-<p>引导程序：bootloder<br>uboot    Linux 3.14</p>
-<h5 id="【2】SD启动盘制作"><a href="#【2】SD启动盘制作" class="headerlink" title="【2】SD启动盘制作"></a>【2】SD启动盘制作</h5><p>　　a)    将 sdfuse_q拷贝到Linux家目录下<br>　　b)    将SD卡插入电脑并在ubuntu中识别<br>　　c)    进入sdfuse_q目录并执行如下操作将SD卡制作成uboot 2010启动盘</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo  ./mkuboot.sh  /dev/sdb</span><br></pre></td></tr></table></figure>
-<p>　　d)    在SD卡中创建目录sdupdate并把学生资料中的实验代码/第一天/镜像中的u-boot-fs4412.bin(uboot 2013)拷贝到这个目录下</p>
-<h5 id="【3】u-boot的烧写"><a href="#【3】u-boot的烧写" class="headerlink" title="【3】u-boot的烧写"></a>【3】u-boot的烧写</h5><p>a)    使用串口线连接板子与电脑，运行串口通信程序putty(实验代码/第一天/工具)<br><img src="/image/2018-7-3/01.png"><br>选择右上角的”Serial”，然后点击左下角的”Serial”<br><img src="/image/2018-7-3/02.png"><br>按照自己的主机的情况（设备管理器中）选择COM口，其他信息必须一直，然后点击open打开串口<br><img src="/image/2018-7-3/03.png"><br>b)    关闭开发板电源，将拨码开关SW1调至(1000)(SD启动模式)<br>c)    将刚才做好的SD启动盘插入开发板SD卡插槽<br>d)    重新打开开发板电源能够看到如下界面<br><img src="/image/2018-7-3/04.png"><br>在倒计时时按任意键让uboot停留在交互模式<br>e)    烧写<br>在终端上执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># sdfuse flashall</span></span><br></pre></td></tr></table></figure>
-<p>等待终端无输出是表示烧写结束<br>f)    关闭开发板电源，将拨码开关SW1调至0110(EMMC启动模式)后打开电源可以看到如下界面表示烧写成功<br><img src="/image/2018-7-3/05.png"><br>在倒计时时按任意键让uboot停留在交互模式</p>
-<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>　　整个嵌入式开发大体分为三层，自上而下依次为应用层、驱动层和硬件层，而我们主要做的是应用层。Linux系统的启动需要引导程序的引导，所以在移植系统之前需要对开发板烧写uboot引导程序。对开发板烧写系统与安装Windows系统类似，首先需要制作SD启动盘，在制作好SD启动盘后，将uboot烧写到flash中。这样，开发板在每次上电以后就会自行将uboot从flash中复制到DRAM中，并通过一系列命令引导Linux镜像启动。接下来就是通过tftp传输内核镜像，nfs远程访问文件系统，此为后话。<br><img src="/image/2018-7-3/06.png"></p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>嵌入式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo-Admin 后台管理</title>
-    <url>/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Hexo-Admin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/</url>
-    <content><![CDATA[<h4 id="1-安装-hexo-admin-插件"><a href="#1-安装-hexo-admin-插件" class="headerlink" title="1. 安装 hexo-admin 插件"></a>1. 安装 hexo-admin 插件</h4><p>首先，在创建Blog的根目录下安装插件，打开Git Bash输入如下命令。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<p>安装过程中可能会有许多错误提示，绝大多数情况下没有影响可以忽略。<br>输入命令，启动服务器。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>在浏览器中打开localhost:4000/admin/即可编辑文章内容,界面如下。<br><img src="/image/2020-3-20/image-1.png"></p>
-<h4 id="2-安全与配置"><a href="#2-安全与配置" class="headerlink" title="2. 安全与配置"></a>2. 安全与配置</h4><p>此时，访问后台不需要账号密码即可进入，为安全起见设置账号密码。<br>在主页面上方选在 “ Setting ”，然后点击“ Setup authentification here ”。<br><img src="/image/2020-3-20/image-2.png"><br>填写username,password,seret等信息，获得password_hash。</p>
-<p><img src="/image/2020-3-20/image-3.png"><br>将页面下方获取的内容复制。<br><img src="/image/2020-3-20/image-4.png"><br>粘贴到 _config.yml 文件中。注意此文件非主题中的配置文件，目录结构如下。</p>
-<p><img src="/image/2020-3-20/image-5.png"></p>
-<h4 id="3-文章编写"><a href="#3-文章编写" class="headerlink" title="3. 文章编写"></a>3. 文章编写</h4><p>在 admin 主页面 “Posts” 下方点击 New Post 输入文章名称即可进入编辑界面。<br><img src="/image/2020-3-20/image-12.png"><br><img src="/image/2020-3-20/image-13.png"><br>点击右上角的 齿轮 标识可以设置文章的 Date、Author、Tags、Categories等信息。<br><img src="/image/2020-3-20/image-14.png"><br>此插件支持图片的直接粘贴，并可以将图片保存到指定位置。<br>在 Setting 中最下方有 “Image Pasting Settings” 设置项。<br><img src="/image/2020-3-20/image-15.png"><br><strong>Image directory</strong>： 图片存放位置<br><strong>Image filename prefix</strong>：图片保存名称格式<br>将复制的图片粘贴在文档中即可，可以看到插件已自动按照MD语法将图片添加到文章中，并按照设置好的路径和命名方式保存。<br><img src="/image/2020-3-20/image-16.png"><br><img src="/image/2020-3-20/image-17.png"><br>编辑时，文章作为草稿保存在 _drafts 文件夹中。<br><img src="/image/2020-3-20/image-18.png"><br>文章编写完成后，点击右上角  ‘Publish’ ，文章会被转存到 _posts 文件夹中。<br>此后进行下一步操作。</p>
-<h4 id="4-文章-Deploy"><a href="#4-文章-Deploy" class="headerlink" title="4. 文章 Deploy"></a>4. 文章 Deploy</h4><p>如要 Deploy ，需要在标题 2 中的 _config.yml 文件同级目录下编写一个脚本。<br>脚本名为“ hexo-deploy，文件内容如下：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
-<p>配置 _config.yml 文件，在 admin 处添加</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deployCommand:<span class="string">&#x27;hexo-deploy.bat&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>操作完成后点击Deploy，即可将文章部署到 GitHub 上。</p>
-<hr>
-<h5 id="Hexo-Admin地址"><a href="#Hexo-Admin地址" class="headerlink" title="Hexo-Admin地址"></a><a href="https://github.com/jaredly/hexo-admin">Hexo-Admin地址</a></h5>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-        <tag>Hexo</tag>
-        <tag>hexo-admin</tag>
       </tags>
   </entry>
   <entry>
@@ -1146,6 +1095,35 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo-Admin 后台管理</title>
+    <url>/archives/2020/03/Hexo%E5%8D%9A%E5%AE%A2/Hexo-Admin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h4 id="1-安装-hexo-admin-插件"><a href="#1-安装-hexo-admin-插件" class="headerlink" title="1. 安装 hexo-admin 插件"></a>1. 安装 hexo-admin 插件</h4><p>首先，在创建Blog的根目录下安装插件，打开Git Bash输入如下命令。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<p>安装过程中可能会有许多错误提示，绝大多数情况下没有影响可以忽略。<br>输入命令，启动服务器。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>在浏览器中打开localhost:4000/admin/即可编辑文章内容,界面如下。<br><img src="/image/2020-3-20/image-1.png"></p>
+<h4 id="2-安全与配置"><a href="#2-安全与配置" class="headerlink" title="2. 安全与配置"></a>2. 安全与配置</h4><p>此时，访问后台不需要账号密码即可进入，为安全起见设置账号密码。<br>在主页面上方选在 “ Setting ”，然后点击“ Setup authentification here ”。<br><img src="/image/2020-3-20/image-2.png"><br>填写username,password,seret等信息，获得password_hash。</p>
+<p><img src="/image/2020-3-20/image-3.png"><br>将页面下方获取的内容复制。<br><img src="/image/2020-3-20/image-4.png"><br>粘贴到 _config.yml 文件中。注意此文件非主题中的配置文件，目录结构如下。</p>
+<p><img src="/image/2020-3-20/image-5.png"></p>
+<h4 id="3-文章编写"><a href="#3-文章编写" class="headerlink" title="3. 文章编写"></a>3. 文章编写</h4><p>在 admin 主页面 “Posts” 下方点击 New Post 输入文章名称即可进入编辑界面。<br><img src="/image/2020-3-20/image-12.png"><br><img src="/image/2020-3-20/image-13.png"><br>点击右上角的 齿轮 标识可以设置文章的 Date、Author、Tags、Categories等信息。<br><img src="/image/2020-3-20/image-14.png"><br>此插件支持图片的直接粘贴，并可以将图片保存到指定位置。<br>在 Setting 中最下方有 “Image Pasting Settings” 设置项。<br><img src="/image/2020-3-20/image-15.png"><br><strong>Image directory</strong>： 图片存放位置<br><strong>Image filename prefix</strong>：图片保存名称格式<br>将复制的图片粘贴在文档中即可，可以看到插件已自动按照MD语法将图片添加到文章中，并按照设置好的路径和命名方式保存。<br><img src="/image/2020-3-20/image-16.png"><br><img src="/image/2020-3-20/image-17.png"><br>编辑时，文章作为草稿保存在 _drafts 文件夹中。<br><img src="/image/2020-3-20/image-18.png"><br>文章编写完成后，点击右上角  ‘Publish’ ，文章会被转存到 _posts 文件夹中。<br>此后进行下一步操作。</p>
+<h4 id="4-文章-Deploy"><a href="#4-文章-Deploy" class="headerlink" title="4. 文章 Deploy"></a>4. 文章 Deploy</h4><p>如要 Deploy ，需要在标题 2 中的 _config.yml 文件同级目录下编写一个脚本。<br>脚本名为“ hexo-deploy，文件内容如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+<p>配置 _config.yml 文件，在 admin 处添加</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deployCommand:<span class="string">&#x27;hexo-deploy.bat&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>操作完成后点击Deploy，即可将文章部署到 GitHub 上。</p>
+<hr>
+<h5 id="Hexo-Admin地址"><a href="#Hexo-Admin地址" class="headerlink" title="Hexo-Admin地址"></a><a href="https://github.com/jaredly/hexo-admin">Hexo-Admin地址</a></h5>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+        <tag>Hexo</tag>
+        <tag>hexo-admin</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>嵌入式实训 Day3 Linux内核编译与服务器配置</title>
     <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day3/</url>
     <content><![CDATA[<h5 id="【1】uboot烧写原理"><a href="#【1】uboot烧写原理" class="headerlink" title="【1】uboot烧写原理"></a>【1】uboot烧写原理</h5><p> SD卡制作启动盘：<br>     cd  sdfuse_q<br>     ./mkuboot.sh /dev/sdb    SD卡的设备文件名    /dev 保存设备节点（文件名）<br>     ./sd_fusing_exynos4x12.sh /dev/sdb u-boot-fs4412.bin</p>
@@ -1213,7 +1191,7 @@ p  （管道文件）
 <p>然后你会看到如下画面<br><img src="/image/2018-5-19/07.jpg"><br>稍等片刻，等待安装完成。如果出现 WARN ，不用担心，一般不会影响使用。然后再依次输入：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
 <p>如果看到如图所示内容说明安装成功。<br><img src="/image/2018-5-19/08.jpg"></p>
-<div class="note warning"><h4 id="Hexo-运行错误"><a href="#Hexo-运行错误" class="headerlink" title="Hexo 运行错误"></a>Hexo 运行错误</h4><p>如下图，运行Hexo报错hexo : 无法加载文件hexo.ps1，因为在此系统上禁止运行脚本<br>针对windows系统，设置-&gt;隐私和安全性-&gt;开发者选项-&gt;允许本地PowerShell脚本在为签名的情况下运行。</p>
+<div class="note warning"><h4 id="Hexo-运行错误"><a href="#Hexo-运行错误" class="headerlink" title="Hexo 运行错误"></a>Hexo 运行错误</h4><p>如下图，运行Hexo报错hexo : 无法加载文件hexo.ps1，因为在此系统上禁止运行脚本<br>解决方法：针对windows系统，设置-&gt;隐私和安全性-&gt;开发者选项-&gt;允许本地PowerShell脚本在为签名的情况下运行。</p>
 </div>
 
 <p><img src="/image/2018-5-19/image-20230820150114136.png" alt="image-20230820150114136"></p>
@@ -1259,6 +1237,28 @@ gcc -o2 -Wall xxx.c -o xxx   #打开全部警告
 <p>gcc编译流程： 预处理、编译、汇编、链接<br>预处理：xxx.c —&gt; xxx.i(预处理文件)<br>编译：    xxx.i —&gt; xxx.s(汇编文件)<br>汇编：    xxx.s —&gt; xxx.o(可重定向文件、执行文件的依赖文件)<br>链接：    xxx.o —&gt; xxx(可执行文件,elf格式)</p>
 <p>单步编译处理：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">预处理:  gcc -E xxx.c -o xxx.i</span><br><span class="line">编译：	gcc -S xxx.c -o xxx.s</span><br><span class="line">汇编：	gcc -c xxx.s -o xxx.o</span><br><span class="line">链接：	gcc xxx.o -o xxx</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>嵌入式实训 Day2 u-boot的烧写及使用</title>
+    <url>/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day2/</url>
+    <content><![CDATA[<h5 id="实验环境："><a href="#实验环境：" class="headerlink" title="实验环境："></a>实验环境：</h5><p>1、    ubuntu 12.04发行版<br>2、    u-boot-2010.03<br>3、    FS4412平台</p>
+<h5 id="【1】Linux系统移植"><a href="#【1】Linux系统移植" class="headerlink" title="【1】Linux系统移植"></a>【1】Linux系统移植</h5><p>引导启动界面 –&gt; Linux镜像 –&gt; 加载Linux文件系统</p>
+<p>引导程序：bootloder<br>uboot    Linux 3.14</p>
+<h5 id="【2】SD启动盘制作"><a href="#【2】SD启动盘制作" class="headerlink" title="【2】SD启动盘制作"></a>【2】SD启动盘制作</h5><p>　　a)    将 sdfuse_q拷贝到Linux家目录下<br>　　b)    将SD卡插入电脑并在ubuntu中识别<br>　　c)    进入sdfuse_q目录并执行如下操作将SD卡制作成uboot 2010启动盘</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo  ./mkuboot.sh  /dev/sdb</span><br></pre></td></tr></table></figure>
+<p>　　d)    在SD卡中创建目录sdupdate并把学生资料中的实验代码/第一天/镜像中的u-boot-fs4412.bin(uboot 2013)拷贝到这个目录下</p>
+<h5 id="【3】u-boot的烧写"><a href="#【3】u-boot的烧写" class="headerlink" title="【3】u-boot的烧写"></a>【3】u-boot的烧写</h5><p>a)    使用串口线连接板子与电脑，运行串口通信程序putty(实验代码/第一天/工具)<br><img src="/image/2018-7-3/01.png"><br>选择右上角的”Serial”，然后点击左下角的”Serial”<br><img src="/image/2018-7-3/02.png"><br>按照自己的主机的情况（设备管理器中）选择COM口，其他信息必须一直，然后点击open打开串口<br><img src="/image/2018-7-3/03.png"><br>b)    关闭开发板电源，将拨码开关SW1调至(1000)(SD启动模式)<br>c)    将刚才做好的SD启动盘插入开发板SD卡插槽<br>d)    重新打开开发板电源能够看到如下界面<br><img src="/image/2018-7-3/04.png"><br>在倒计时时按任意键让uboot停留在交互模式<br>e)    烧写<br>在终端上执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># sdfuse flashall</span></span><br></pre></td></tr></table></figure>
+<p>等待终端无输出是表示烧写结束<br>f)    关闭开发板电源，将拨码开关SW1调至0110(EMMC启动模式)后打开电源可以看到如下界面表示烧写成功<br><img src="/image/2018-7-3/05.png"><br>在倒计时时按任意键让uboot停留在交互模式</p>
+<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>　　整个嵌入式开发大体分为三层，自上而下依次为应用层、驱动层和硬件层，而我们主要做的是应用层。Linux系统的启动需要引导程序的引导，所以在移植系统之前需要对开发板烧写uboot引导程序。对开发板烧写系统与安装Windows系统类似，首先需要制作SD启动盘，在制作好SD启动盘后，将uboot烧写到flash中。这样，开发板在每次上电以后就会自行将uboot从flash中复制到DRAM中，并通过一系列命令引导Linux镜像启动。接下来就是通过tftp传输内核镜像，nfs远程访问文件系统，此为后话。<br><img src="/image/2018-7-3/06.png"></p>
+]]></content>
       <categories>
         <category>学习</category>
       </categories>
