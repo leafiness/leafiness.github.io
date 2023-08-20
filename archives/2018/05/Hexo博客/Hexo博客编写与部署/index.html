@@ -26,12 +26,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"ljone.top","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.11.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":false,"post_body":false,"coll_header":"fadeInUp","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="通过前面《利用Hexo免费创建个人博客》的步骤，已经完成了基础环境的搭建以及 Hexo 的安装，那么接下来就跟大家说一说怎样利用 Hexo 编写博客然后将其部署到云端。  一、博客编写 在命令行输入：  1   hexo new &quot;file_name&quot;   打开 Hexo 目录下的 source 文件夹，所有的文章都会以md形式保存在 _post 文件夹中，刚刚新建的文件也在其中。 也可以直接在">
+    <meta name="description" content="通过前面《利用Hexo免费创建个人博客》的步骤，已经完成了基础环境的搭建以及 Hexo 的安装，那么接下来就跟大家说一说怎样利用 Hexo 编写博客然后将其部署到云端。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo博客编写与部署">
 <meta property="og:url" content="https://ljone.top/archives/2018/05/Hexo%E5%8D%9A%E5%AE%A2/Hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E4%B8%8E%E9%83%A8%E7%BD%B2/index.html">
 <meta property="og:site_name" content="西瓜丢了芝麻">
-<meta property="og:description" content="通过前面《利用Hexo免费创建个人博客》的步骤，已经完成了基础环境的搭建以及 Hexo 的安装，那么接下来就跟大家说一说怎样利用 Hexo 编写博客然后将其部署到云端。  一、博客编写 在命令行输入：  1   hexo new &quot;file_name&quot;   打开 Hexo 目录下的 source 文件夹，所有的文章都会以md形式保存在 _post 文件夹中，刚刚新建的文件也在其中。 也可以直接在">
+<meta property="og:description" content="通过前面《利用Hexo免费创建个人博客》的步骤，已经完成了基础环境的搭建以及 Hexo 的安装，那么接下来就跟大家说一说怎样利用 Hexo 编写博客然后将其部署到云端。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://ljone.top/image/2018-5-21/01.jpg">
 <meta property="og:image" content="https://ljone.top/image/2018-5-21/02.jpg">
@@ -591,7 +591,7 @@ if(canvas.getContext){
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1.8k</span>
+      <span>2k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -613,7 +613,7 @@ if(canvas.getContext){
 <h1 id="一、博客编写"><a href="#一、博客编写" class="headerlink" title="一、博客编写"></a>一、博客编写</h1><p>在命令行输入：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;file_name&quot;</span></span><br></pre></td></tr></table></figure>
 <p>打开 Hexo 目录下的 source 文件夹，所有的文章都会以md形式保存在 _post 文件夹中，刚刚新建的文件也在其中。<br>也可以直接在 _post 文件夹中新建md类型的文档，便可以生成新的文章。<br>新建的文章头需要添加一些yml信息，如下所示：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: hello-world         <span class="comment">#在此处添加文章标题</span></span><br><span class="line">date: 2018-05-21 17:55:53  <span class="comment">#在此处添加编辑文章时间</span></span><br><span class="line">categories: Exercise       <span class="comment">#在此处添加文章分类</span></span><br><span class="line">tags:                      <span class="comment">#在此处添加文章标签</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: hello-world         <span class="comment">#在此处添加文章标题</span></span><br><span class="line"><span class="built_in">date</span>: 2018-05-21 17:55:53  <span class="comment">#在此处添加编辑文章时间</span></span><br><span class="line">categories: Exercise       <span class="comment">#在此处添加文章分类</span></span><br><span class="line">tags:                      <span class="comment">#在此处添加文章标签</span></span><br></pre></td></tr></table></figure>
 <p>在.md文件的开头添加上面代码，是为了让 Hexo 框架在生成网页的时候，设置相应的参数。</p>
 <p>如果你使用过<code>MarkDown </code>来写博客文章的话，接下来就简单多了，没使用过也没关系，推荐大家一个编辑工具<a target="_blank" rel="noopener" href="http://maxiang.io/">马克飞象</a>，具体语法推荐参考： <a target="_blank" rel="noopener" href="https://www.appinn.com/markdown/">https://www.appinn.com/markdown/</a> </p>
 <p>在编辑器里面写好文章后，复制或另存为.md文件,将其存放在 _post 文件夹中。在 Hexo 文件夹中点击鼠标右键选择 Git Bash 再次输入以下内容便可重新在本地启动项目，在浏览器访问就可以看到之前添加的文章。</p>

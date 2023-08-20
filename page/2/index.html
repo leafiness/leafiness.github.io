@@ -577,14 +577,14 @@ if(canvas.getContext){
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.6k</span>
+      <span>3k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
+      <span>3 分钟</span>
     </span>
 </div>
 
@@ -595,23 +595,7 @@ if(canvas.getContext){
     
     
     <div class="post-body" itemprop="articleBody">
-          【1】uboot烧写原理
- SD卡制作启动盘：
-cd sdfuse_q
-./mkuboot.sh /dev/sdb SD卡的设备文件名 /dev 保存设备节点（文件名）
-./sd_fusing_exynos4x12.sh /dev/sdb u-boot-fs4412.bin
-
-1
-2
-3
-
-
-echo "$2 fusing..."
-dd iflag=dsync oflag=dsync if=$2 of=$1 seek=1 && \
-echo "$2 image has been fused successfully."   
-
-
-if(inputfile)–输入文件—u-boot-fs4412
+          <h5 id="【1】uboot烧写原理"><a href="#【1】uboot烧写原理" class="headerlink" title="【1】uboot烧写原理"></a>【1】uboot烧写原理</h5><p> SD卡制作启动盘：<br>     cd  sdfuse_q<br>     ./mkuboot.sh /dev/sdb    SD卡的设备文件名    /dev 保存设备节点（文件名）<br>     ./sd_fusing_exynos4x12.sh /dev/sdb u-boot-fs4412.bin</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day3/#more" rel="contents">
@@ -693,7 +677,7 @@ if(inputfile)–输入文件—u-boot-fs4412
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>910</span>
+      <span>992</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -711,29 +695,8 @@ if(inputfile)–输入文件—u-boot-fs4412
     
     
     <div class="post-body" itemprop="articleBody">
-          实验环境：
-1、 ubuntu 12.04发行版
-2、 u-boot-2010.03
-3、 FS4412平台
-
-【1】Linux系统移植
-引导启动界面 –> Linux镜像 –> 加载Linux文件系统
-
-引导程序：bootloder
-uboot Linux 3.14
-
-【2】SD启动盘制作
-a) 将 sdfuse_q拷贝到Linux家目录下
-b) 将SD卡插入电脑并在ubuntu中识别
-c) 进入sdfuse_q目录并执行如下操作将SD卡制作成uboot 2010启动盘
-
-1
-
-
-$ sudo  ./mkuboot.sh  /dev/sdb
-
-
-d) 在SD卡中创建目录sdupdate并把学
+          <h5 id="实验环境："><a href="#实验环境：" class="headerlink" title="实验环境："></a>实验环境：</h5><p>1、    ubuntu 12.04发行版<br>2、    u-boot-2010.03<br>3、    FS4412平台</p>
+<h5 id="【1】Linux系统移植"><a href="#【1】Linux系统移植" class="headerlink" title="【1】Linux系统移植"></a>【1】Linux系统移植</h5><p>引导启动界面 –&gt; Linux镜像 –&gt; 加载Linux文件系
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/Day2/#more" rel="contents">
@@ -815,7 +778,7 @@ d) 在SD卡中创建目录sdupdate并把学
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>757</span>
+      <span>956</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -833,40 +796,8 @@ d) 在SD卡中创建目录sdupdate并把学
     
     
     <div class="post-body" itemprop="articleBody">
-          【1】linux命令
- linux@ubuntu:~$ 家目录 /home/linux
-linux@ubuntu:/$ 根目录 
-
-1
-2
-3
-4
-5
-6
-
-
-ctrl+alt+t		#打开终端
-cd			#切换到家目录
-cd /			#切换到根目录（系统文件）
-cd ..			#切换到上一级
-cd -			#返回上一级
-ls  			#查看当前目录下的所有文件目录  （-list）
-
-
- 目录：
-
-1
-2
-3
-4
-5
-6
-7
-
-
-mkdir + 目录名  					#创建目录	
-rmdir + 目录名 （只能删除空目录）			#删除目录	
-touch + 文件名 （普通文本，C源码）			#
+          <h5 id="【1】linux命令"><a href="#【1】linux命令" class="headerlink" title="【1】linux命令"></a>【1】linux命令</h5><p>   linux@ubuntu:~$  家目录   /home/linux<br>   linux@ubuntu:/$  根目录   </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/2018/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E8%AE%AD%20Day1%20Linux%E5%9F%BA%E7%A1%80%E7%AF%87/#more" rel="contents">
@@ -948,7 +879,7 @@ touch + 文件名 （普通文本，C源码）			#
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.3k</span>
+      <span>2.5k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -966,26 +897,8 @@ touch + 文件名 （普通文本，C源码）			#
     
     
     <div class="post-body" itemprop="articleBody">
-          初始化，即对定时器进行清零
-清零的方式有两种，一种是用定时器清零，另外一种是使用库函数，主要是io.h这个库里面的。
-这里主要讲一下使用库函数，因为使用库函数可以使得程序的可读性更强。
-
-1
-
-
-IOWR_ALTERA_AVALON_TIMER_STATUS(TIMER1_BASE,0x00);  //清除timer1中断标志位
-
-
-其中TIMER1_BASE是定时器1的基地址，在system.h头文件中。
-
-设置定时周期
-同样建议使用库函数。
-
-1
-2
-
-
-IOWR_ALTERA_AVALON_TIMER_PERIODL(TIMER1_BASE,timer_prd[j]);      //低
+          <h5 id="初始化，即对定时器进行清零"><a href="#初始化，即对定时器进行清零" class="headerlink" title="初始化，即对定时器进行清零"></a>初始化，即对定时器进行清零</h5><p>清零的方式有两种，一种是用定时器清零，另外一种是使用库函数，主要是io.h这个库里面的。<br>这里主要讲一下使用库函数，因为使用库函数可以使得程序的可读性更强。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/2018/05/NIOS-II-%E5%AE%9A%E6%97%B6%E5%99%A8%E7%9A%84%E4%BD%BF%E7%94%A8/#more" rel="contents">
@@ -1067,14 +980,14 @@ IOWR_ALTERA_AVALON_TIMER_PERIODL(TIMER1_BASE,timer_prd[j]);      //低
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1.6k</span>
+      <span>1.7k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -1085,16 +998,9 @@ IOWR_ALTERA_AVALON_TIMER_PERIODL(TIMER1_BASE,timer_prd[j]);      //低
     
     
     <div class="post-body" itemprop="articleBody">
-          寄存器映射
-Avalon-MM主外设，例如CPU，通过4个32位寄存器控制并与PIO核通信，假定PIO核的I/O端口被配置为n位宽度。如下图：
+          <h5 id="寄存器映射"><a href="#寄存器映射" class="headerlink" title="寄存器映射"></a>寄存器映射</h5><p>Avalon-MM主外设，例如CPU，通过4个32位寄存器控制并与PIO核通信，假定PIO核的I/O端口被配置为n位宽度。如下图：</p>
+<p> <img src="/image/2018-5-25/01.png" alt="PIO核的寄存器映射"><br>(1) 该寄存器是否存在取决于硬件配置，如果寄存器不存在，读寄存器返回一个未定义的值，写寄存器无影响。<br>(2) 写任何值到edgecapture，会清0所有位。</p>
 
- 
-(1) 该寄存器是否存在取决于硬件配置，如果寄存器不存在，读寄存器返回一个未定义的值，写寄存器无影响。
-(2) 写任何值到edgecapture，会清0所有位。
-
-数据寄存器
-读从Data寄存器返回的呈现在输入端口的值。如果PIO核硬件被配置为output-only（只输出）模式，读data寄存器将返回一个未定义的值。
-写data寄存器将存储值到寄存器中以驱动输出端口。如果PIO核硬件被配置为input-only（只输入）模式，写data寄存器无
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/2018/05/NIOS-II%E4%B8%ADPIO%E6%9C%89%E5%85%B3%E5%AF%84%E5%AD%98%E5%99%A8/#more" rel="contents">
@@ -1176,7 +1082,7 @@ Avalon-MM主外设，例如CPU，通过4个32位寄存器控制并与PIO核通�
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1.8k</span>
+      <span>2k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -1194,28 +1100,8 @@ Avalon-MM主外设，例如CPU，通过4个32位寄存器控制并与PIO核通�
     
     
     <div class="post-body" itemprop="articleBody">
-          通过前面《利用Hexo免费创建个人博客》的步骤，已经完成了基础环境的搭建以及 Hexo 的安装，那么接下来就跟大家说一说怎样利用 Hexo 编写博客然后将其部署到云端。
-
-一、博客编写
-在命令行输入：
-
-1
-
-
-hexo new "file_name"
-
-
-打开 Hexo 目录下的 source 文件夹，所有的文章都会以md形式保存在 _post 文件夹中，刚刚新建的文件也在其中。
-也可以直接在 _post 文件夹中新建md类型的文档，便可以生成新的文章。
-新建的文章头需要添加一些yml信息，如下所示：
-
-1
-2
-3
-4
-
-
-title: hello-world         #在此处添加文
+          <p>通过前面<a href="https://ljone.top/archives/2018/05/Hexo%E5%8D%9A%E5%AE%A2/%E5%88%A9%E7%94%A8Hexo%E5%85%8D%E8%B4%B9%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">《利用Hexo免费创建个人博客》</a>的步骤，已经完成了基础环境的搭建以及 Hexo 的安装，那么接下来就跟大家说一说怎样利用 Hexo 编写博客然后将其部署到云端。</p>
+<h1 id="一、博客编写"
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/2018/05/Hexo%E5%8D%9A%E5%AE%A2/Hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E4%B8%8E%E9%83%A8%E7%BD%B2/#more" rel="contents">
@@ -1297,7 +1183,7 @@ title: hello-world         #在此处添加文
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>937</span>
+      <span>963</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -1315,22 +1201,8 @@ title: hello-world         #在此处添加文
     
     
     <div class="post-body" itemprop="articleBody">
-          最近上课要用Linux，准备从头记录一次Ubuntu的安装过程。如果有刚学的可以看看..同时接受大佬建议和指出错误…
-
-一.安装ubuntu之前
-1.你需要下载UtralISO
-
-下载试用版即可
-2.下载Ubuntu桌面版，推荐下载此18.04LTS版本，能从新的上手就尽量从新的上手使用。
-
-下载ubuntu-18.04-desktop-amd64.iso版本。
-下面的ubuntu-18.04-live-server-amd64.iso是服务器版本的。
-等待下载完成之后，你会看到如下一个文件。
-
-
-二．通过UtralISO制作启动盘
-1.打开UtralISO点击试用即可。
-在UtralISO主
+          <p>最近上课要用Linux，准备从头记录一次Ubuntu的安装过程。如果有刚学的可以看看..同时接受大佬建议和指出错误…</p>
+<h3 id="一-安装ubuntu之前"><a href="#一-安装ubuntu之前" class="headerlink" title="一.安装ubuntu之前"></a>一.安装ubuntu之前</h3><p>1.你需要下载UtralISO<br><img src="/image/2018-5-20/01.jpg"><br>下载试用版即可<br>2.下载Ubuntu桌面版，推荐下载此18.04LTS版本，能从新的上手就尽量从新的上手使用。<br
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/2018/05/Win10-Ubuntu%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/#more" rel="contents">
@@ -1412,7 +1284,7 @@ title: hello-world         #在此处添加文
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.2k</span>
+      <span>2.1k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -1504,7 +1376,7 @@ title: hello-world         #在此处添加文
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>18</span>
+      <span>22</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -1522,8 +1394,14 @@ title: hello-world         #在此处添加文
     
     
     <div class="post-body" itemprop="articleBody">
-          欢迎来到我的博客
-这是我的第一条博客！
+          <p><img src="/image/2018-05/welcome.jpg">  </p>
+<blockquote class="blockquote-center">
+<p>欢迎来到我的博客<br>这是我的第一条博客！</p>
+
+</blockquote>
+
+<p><img src="/image/2018-05/00.gif">  </p>
+
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/2018/05/Sunrise/#more" rel="contents">
@@ -1596,7 +1474,7 @@ title: hello-world         #在此处添加文
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>266</span>
+      <span>306</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
